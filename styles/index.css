@@ -4,7 +4,7 @@
   --purple: #01a5f7;
   --grape: #543a76;
   --dark: #343a40;
-  --white: #fff
+  --white: #fff;
 }
 
 /*MAIN*/
@@ -21,8 +21,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
-  background-color: #ececec;
+  font-family: "Roboto", sans-serif;
+  background-color: #ececec9e;
 }
 
 .wrapper {
@@ -38,7 +38,7 @@ h2 {
 /* HEADER */
 
 header {
-  background-color: var(--grape);
+  background-color: var(--blue);
   color: white;
   position: sticky;
   top: 0;
@@ -51,7 +51,7 @@ header {
   height: 80px;
 }
 
-.nav__list{
+.nav__list {
   display: flex;
   align-items: center;
   list-style: none;
@@ -64,7 +64,8 @@ header {
 .curriculum {
   padding: 0;
   border: 2px solid white;
-  height: 46px;
+  /* background-color: var(--light); */
+  height: 40px;
   width: 175px;
   border-radius: 25px;
   margin-left: 20px;
@@ -72,12 +73,13 @@ header {
 }
 
 .curriculum:hover {
-  background-color: white;
-  transition: .3s;
+  background-color: var(--light);
+  border: none;
+  transition: 0.3s;
 }
 
 .curriculum:hover a {
-  color: var(--grape);
+  color: white;
 }
 
 .curriculum a {
@@ -96,9 +98,9 @@ header {
 /* HERO */
 
 .hero {
-  height: 400px;
+  height: 560px;
   color: white;
-  background-image: url(../assets/hero_2.png);
+  background-image: url(../assets/hero5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -107,19 +109,22 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 0 0 0 20px;
   height: 100%;
-  background-color: #000000a8; 
+  background-color: #000000a8;
 }
 
 .hero__title {
   text-transform: uppercase;
-  font-size: 3.5rem;
-  padding-bottom: 15px;
+  font-size: 5rem;
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .hero__description {
-  font-size: 2rem
+  font-size: 2.5rem;
+  width: 500px;
 }
 
 /* HABILITIES */
@@ -128,14 +133,14 @@ header {
 }
 
 .habilities__title {
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 
 .habilities__list li {
   width: 300px;
   display: flex;
   align-items: center;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 .hability__logo {
@@ -149,7 +154,8 @@ header {
   height: 100%;
 }
 
-.hability__logo .css, .hability__logo .node {
+.hability__logo .css,
+.hability__logo .node {
   width: 70px;
   margin: 0 auto;
   display: block;
@@ -179,7 +185,6 @@ header {
 .projects__title {
   text-align: center;
   font-size: 3rem;
-
 }
 
 .project__item-container {
@@ -193,7 +198,6 @@ header {
 
 .project__image {
   width: 500px;
-
 }
 
 .project__description h4 {
@@ -207,21 +211,21 @@ header {
 }
 
 .project__description a {
-    margin: 30px auto 0;
-    display: block;
-    width: 150px;
-    border: 2px solid var(--grape);
-    border-radius: 8px;
-    color: var(--grape);
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: 600;
+  margin: 30px auto 0;
+  display: block;
+  width: 150px;
+  border: 2px solid var(--light);
+  border-radius: 8px;
+  color: var(--light);
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .project__description a:hover {
-  background-color: var(--grape);
-  transition: .3s;
+  background-color: var(--light);
+  transition: 0.3s;
   color: white;
 }
 
@@ -231,6 +235,7 @@ footer {
   background-color: var(--dark);
   padding: 30px 0;
   color: white;
+  font-weight: 100;
 }
 
 .contact__container {
@@ -238,8 +243,8 @@ footer {
   justify-content: space-between;
 }
 
-.contact__container div {
-  width: 45%;
+.contact__social {
+  width: 75%;
 }
 
 .contact__social ul {
@@ -264,13 +269,19 @@ footer {
 
 .contact__social-item:hover a i {
   font-size: 4rem;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.contact__social p{
+.contact__social p {
   margin-bottom: 20px;
 }
 
+.contact__email {
+  width: 25%;
+}
+
 .contact__email h4 {
-  font-size: 2rem;
+  margin-top: 5px;
+  font-size: 1.7rem;
+  font-weight: 400;
 }
