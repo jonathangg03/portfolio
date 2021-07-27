@@ -1,0 +1,279 @@
+:root {
+  --light: #fb7b3a;
+  --blue: #01a5f7;
+  --purple: #01a5f7;
+  --grape: #543a76;
+  --dark: #343a40;
+  --white: #fff
+}
+
+/*MAIN*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ececec;
+}
+
+.wrapper {
+  padding: 0 80px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+/* HEADER */
+
+header {
+  background-color: var(--grape);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav__list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__list-item {
+  padding: 0 10px;
+}
+
+.curriculum {
+  padding: 0;
+  border: 2px solid white;
+  height: 46px;
+  width: 175px;
+  border-radius: 25px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.curriculum:hover {
+  background-color: white;
+  transition: .3s;
+}
+
+.curriculum:hover a {
+  color: var(--grape);
+}
+
+.curriculum a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.nav__list-item-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+  height: 400px;
+  color: white;
+  background-image: url(../assets/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -175px;
+}
+
+.hero .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #000000a8; 
+}
+
+.hero__title {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  padding-bottom: 15px;
+}
+
+.hero__description {
+  font-size: 2rem
+}
+
+/* HABILITIES */
+.habilities {
+  margin: 30px 0;
+}
+
+.habilities__title {
+  padding-bottom: 30px;
+}
+
+.habilities__list li {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.hability__logo {
+  width: 80px;
+  height: 75px;
+  margin-right: 25px;
+}
+
+.hability__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.hability__logo .css, .hability__logo .node {
+  width: 70px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hability__logo .webpack {
+  height: 80px;
+  margin-top: -4px;
+}
+
+.hability__logo .bootstrap {
+  height: 65px;
+  margin-top: 4px;
+}
+
+.hability__title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* PROJECTS */
+
+.projects {
+  padding: 30px 0;
+  /* background-color: var(--grape); */
+}
+
+.projects__title {
+  text-align: center;
+  font-size: 3rem;
+  /* color: white; */
+
+}
+
+.project__item-container {
+  background-color: white;
+  padding: 40px;
+  width: 1000px;
+  display: flex;
+  margin: 0 auto 35px;
+  border-radius: 30px;
+}
+
+.project__image {
+  width: 500px;
+
+}
+
+.project__description h4 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.project__description {
+  padding-left: 50px;
+}
+
+.project__description a {
+    margin: 30px auto 0;
+    display: block;
+    width: 150px;
+    border: 2px solid var(--grape);
+    border-radius: 8px;
+    color: var(--grape);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project__description a:hover {
+  background-color: var(--grape);
+  transition: .3s;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--dark);
+  padding: 30px 0;
+  color: white;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__container div {
+  width: 45%;
+}
+
+.contact__social ul {
+  list-style: none;
+  display: flex;
+}
+
+.contact__social-item {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.contact__social-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact__social-item a i {
+  font-size: 30px;
+}
+
+.contact__social-item:hover a i {
+  font-size: 4rem;
+  transition: .3s;
+}
+
+.contact__social p{
+  margin-bottom: 20px;
+}
+
+.contact__email h4 {
+  font-size: 2rem;
+}
