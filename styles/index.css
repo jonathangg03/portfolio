@@ -40,15 +40,19 @@ h2 {
 header {
   background-color: var(--blue);
   color: white;
-  position: sticky;
   top: 0;
 }
 
 .header-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 80px;
+}
+
+nav {
+  position: fixed;
+  right: -465px;
 }
 
 .nav__list {
