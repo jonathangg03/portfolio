@@ -59,18 +59,24 @@ header {
 
 .nav__list-item {
   padding: 0 10px;
+  transition: 0.3s;
+  font-size: 1.6rem;
 }
 
-.curriculum {
+.nav__list-item:hover {
+  font-size: 2.1rem;
+}
+
+/* .curriculum {
   padding: 0;
   border: 2px solid white;
-  /* background-color: var(--light); */
+  background-color: var(--light);
   height: 40px;
   width: 175px;
   border-radius: 25px;
   margin-left: 20px;
   font-weight: 600;
-}
+} */
 
 .curriculum:hover {
   background-color: var(--light);
@@ -100,9 +106,8 @@ header {
 .hero {
   height: 560px;
   color: white;
-  background-image: url(../assets/hero5.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: var(--blue);
+  border: 1px solid black;
 }
 
 .hero .wrapper {
@@ -111,7 +116,6 @@ header {
   justify-content: center;
   padding: 0 0 0 20px;
   height: 100%;
-  background-color: #000000a8;
 }
 
 .hero__title {
