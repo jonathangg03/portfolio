@@ -1,0 +1,26 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__activator {
+  display: none;
+}
+
+nav {
+  position: initial;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list-item {
+  border: none;
+  padding-right: 10px;
+}
+
+.hero {
+  padding: 50px 70px;
+}

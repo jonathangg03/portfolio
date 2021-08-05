@@ -50,7 +50,7 @@ header {
   height: 80px;
 }
 
-.header__activator {
+.nav__activator {
   width: 70px;
   height: 70px;
   background-color: #343a40a8;
@@ -76,7 +76,6 @@ nav {
 }
 
 .nav__list {
-  /* display: flex; */
   align-items: center;
   list-style: none;
 }
