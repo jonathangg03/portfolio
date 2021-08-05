@@ -392,6 +392,7 @@ footer {
 
 .contact__social-item a i {
   font-size: 30px;
+  transition: 0.3s;
 }
 
 .contact__social-item:hover a i {
