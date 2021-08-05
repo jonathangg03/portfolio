@@ -343,6 +343,15 @@ nav {
   color: white;
 }
 
+.visit__GH {
+  text-align: center;
+}
+
+.visit__GH a {
+  color: var(--blue);
+  font-size: 1.8rem;
+}
+
 /* FOOTER */
 
 footer {
