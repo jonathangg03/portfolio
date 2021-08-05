@@ -33,7 +33,7 @@
         <div class="wrapper">
           <div class="header-wrapper">
             <h3>Jonathan García</h3>
-            <nav>
+            <nav id="nav">
               <ul class="nav__list">
                 <li class="nav__list-item">
                   <a class="nav__list-item-link" href="#hero">Inicio</a>
@@ -56,16 +56,22 @@
             </nav>
           </div>
         </div>
+        <div class="header__activator" id="header__activator">
+          <i class="fas fa-angle-left" id="activator__icon"></i>
+        </div>
       </header>
       <div class="hero" id="hero">
         <div class="wrapper">
-          <img src="" alt="" />
+          <div class="hero__photo-container">
+            <img src="./assets/me.jpg" alt="" />
+          </div>
           <h1 class="hero__title">Jonathan García Gonzalez</h1>
           <p class="hero__description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
-            molestias distinctio suscipit adipisci ipsam quis temporibus ut nam
-            ipsum voluptatem optio hic, ex fugit obcaecati libero saepe
-            voluptatibus, facilis amet!
+            Desarrollador Frontend Jr. especializado en JavaScript,
+            especificamente con React. Conocimiento en backend con Node.js para
+            la creación de API REST. Gran pasión por la programación y la
+            tecnología en general, y con muchas ganas de aportar todo mi
+            conocimiento.
           </p>
         </div>
       </div>
@@ -251,6 +257,16 @@
           </div>
         </div>
       </footer> -->
+      <script>
+        const $activator = document.getElementById("header__activator");
+        const $nav = document.getElementById("nav");
+        const $icon = document.getElementById("activator__icon");
+
+        $activator.addEventListener("click", () => {
+          $nav.classList.toggle("show__nav");
+          $icon.classList.toggle("fa-angle-right");
+        });
+      </script>
     </div>
   </body>
 </html>
