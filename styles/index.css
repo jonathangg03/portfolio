@@ -84,11 +84,9 @@ nav {
   background-color: var(--dark);
   transition: 0.3s;
   font-size: 1.6rem;
-  border: 1px solid white;
-  border-right: none;
   margin: 5px 0;
-  padding: 10px;
-  padding-right: 30px;
+  /* padding: 10px;
+  padding-right: 30px; */
 }
 
 .nav__list-item:hover {
@@ -127,6 +125,12 @@ nav {
 .nav__list-item-link {
   color: white;
   text-decoration: none;
+  display: block;
+  width: 100%;
+  border: 1px solid white;
+  border-right: none;
+  padding: 10px;
+  padding-right: 30px;
 }
 
 /* HERO */
@@ -182,20 +186,29 @@ nav {
 }
 
 .habilities__title {
-  padding-bottom: 0;
+  padding-bottom: 15px;
 }
 
-.habilities__list li {
-  width: 300px;
+.habilities__list {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.habilities__list-item {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 40px auto;
+  width: 280px;
+  height: 170px;
+  background-color: white;
+  margin: 10px auto;
+  border: 1px solid #0000001c;
 }
 
 .hability__logo {
   width: 80px;
   height: 75px;
-  margin-right: 25px;
 }
 
 .hability__logo img {
@@ -222,6 +235,7 @@ nav {
 
 .hability__title {
   font-weight: 600;
+  padding-top: 10px;
   font-size: 2rem;
 }
 

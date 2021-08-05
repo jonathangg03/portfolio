@@ -16,11 +16,21 @@ nav {
   justify-content: space-between;
 }
 
-.nav__list-item {
+.nav__list-item-link {
   border: none;
   padding-right: 10px;
 }
 
 .hero {
   padding: 50px 70px;
+}
+
+.habilities__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.habilities__list-item {
+  margin: 10px;
 }
