@@ -61,7 +61,7 @@ header {
   font-size: 4.5rem;
   border-radius: 50%;
   right: 10px;
-  bottom: 10px;
+  bottom: 20px;
   z-index: 3;
 }
 
@@ -206,6 +206,25 @@ nav {
   background-color: white;
   margin: 10px auto;
   border: 1px solid #0000001c;
+  position: relative;
+}
+
+.habilities__list-item:hover .hability__description {
+  opacity: 1;
+}
+
+.hability__description {
+  background-color: #000000c4;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .hability__logo {
@@ -267,6 +286,8 @@ nav {
 }
 
 .project__item-container:hover .project__description {
+  right: 0;
+  opacity: 1;
   display: flex;
 }
 
@@ -276,10 +297,9 @@ nav {
 }
 
 .project__description {
-  transition: 1s;
-  /* padding-left: 50px; */
-  background-color: #0000009e;
-  /* display: flex; */
+  display: flex;
+  transition: 0.8s;
+  background-color: #000000c4;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -288,7 +308,9 @@ nav {
   height: 100%;
   color: white;
   position: absolute;
-  display: none;
+  right: -1400px;
+  opacity: 0;
+  /* display: none; */
 }
 
 .project__description p {
@@ -316,7 +338,7 @@ nav {
 }
 
 .project__description a:hover {
-  background-color: var(--light);
+  background-color: var(--blue);
   transition: 0.3s;
   color: white;
 }
