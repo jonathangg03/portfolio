@@ -34,3 +34,7 @@ nav {
 .habilities__list-item {
   margin: 10px;
 }
+
+.project__description {
+  padding: 0 30px;
+}
