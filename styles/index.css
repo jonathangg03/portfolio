@@ -331,23 +331,27 @@ footer {
 }
 
 .contact__container {
-  display: flex;
+  width: 98%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
 .contact__social {
-  width: 75%;
+  text-align: center;
+  width: 100%;
 }
 
 .contact__social ul {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 .contact__social-item {
-  margin-right: 20px;
+  margin: 10px;
   width: 40px;
   height: 40px;
+  text-align: center;
 }
 
 .contact__social-item a {
@@ -369,7 +373,7 @@ footer {
 }
 
 .contact__email {
-  width: 25%;
+  text-align: center;
 }
 
 .contact__email h4 {

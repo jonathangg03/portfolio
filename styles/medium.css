@@ -38,3 +38,23 @@ nav {
 .project__description {
   padding: 0 30px;
 }
+
+.contact__container {
+  display: flex;
+}
+
+.contact__social ul {
+  list-style: none;
+  display: flex;
+  justify-content: initial;
+}
+
+.contact__social {
+  text-align: initial;
+}
+
+.contact__social-item {
+  margin: 0;
+  margin-right: 20px;
+  text-align: initial;
+}
