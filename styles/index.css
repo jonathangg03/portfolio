@@ -87,6 +87,7 @@ nav {
   transition: 0.3s;
   font-size: 1.6rem;
   margin: 5px 0;
+  border-radius: 10px 0 0 10px;
   /* padding: 10px;
   padding-right: 30px; */
 }
@@ -133,6 +134,7 @@ nav {
   border-right: none;
   padding: 10px;
   padding-right: 30px;
+  border-radius: 10px 0 0 10px;
 }
 
 /* HERO */
