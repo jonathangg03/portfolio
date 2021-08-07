@@ -7,6 +7,11 @@
   display: none;
 }
 
+header {
+  position: sticky;
+  z-index: 5;
+}
+
 nav {
   position: initial;
 }
