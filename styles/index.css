@@ -50,6 +50,15 @@ header {
   height: 80px;
 }
 
+.header__title {
+  font-family: "Arimo", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
+
 .nav__activator {
   width: 70px;
   height: 70px;
@@ -157,14 +166,8 @@ nav {
   top: 0;
 }
 
-.hero__title {
-  text-align: center;
-  font-size: 4rem;
-  display: block;
-  margin: 20px 0;
-}
-
 .hero__description {
+  margin: 20px 0;
   font-size: 1.8rem;
 }
 

@@ -8,10 +8,15 @@
       href="/your-path-to-fontawesome/css/fontawesome.css"
       rel="stylesheet"
     />
+    <link  rel="icon" href="./assets/icon.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,600;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/index.css" />
@@ -32,7 +37,7 @@
       <header>
         <div class="wrapper">
           <div class="header-wrapper">
-            <h3>Jonathan García</h3>
+            <a href="/" class="header__title">Jonathan García González</a href="/">
             <nav id="nav">
               <ul class="nav__list">
                 <li class="nav__list-item">
@@ -70,7 +75,6 @@
           <div class="hero__photo-container">
             <img src="./assets/me.jpg" alt="Jonathan García" loading="lazy" />
           </div>
-          <h1 class="hero__title">Jonathan García González</h1>
           <p class="hero__description">
             Desarrollador Frontend Junior, con conocimiento en backend con
             Node.js y Express para la creación de API REST. Gran pasión por la
@@ -282,7 +286,8 @@
                 Una aplicación que consiste en una ventana de log in en la cual
                 se implemente estrategias de ingreso local, con Google, con
                 Twitter y con Facebook, y en la cual, una vez ingresamos, podrá
-                ver su nombre, apellidos y correo.
+                ver su nombre, apellidos y correo. Toda la aplicación corre en
+                Heroku.
               </p>
               <a
                 href="https://authenticate-app-frontend.herokuapp.com/"
