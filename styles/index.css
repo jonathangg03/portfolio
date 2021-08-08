@@ -1,6 +1,6 @@
 :root {
   --light: #fb7b3a;
-  --blue: #01a5f7;
+  --blue: #00bdd6;
   --purple: #01a5f7;
   --grape: #543a76;
   --dark: #343a40;
@@ -88,24 +88,11 @@ nav {
   font-size: 1.6rem;
   margin: 5px 0;
   border-radius: 10px 0 0 10px;
-  /* padding: 10px;
-  padding-right: 30px; */
 }
 
 .nav__list-item:hover {
   font-size: 2.1rem;
 }
-
-/* .curriculum {
-  padding: 0;
-  border: 2px solid white;
-  background-color: var(--light);
-  height: 40px;
-  width: 175px;
-  border-radius: 25px;
-  margin-left: 20px;
-  font-weight: 600;
-} */
 
 .curriculum:hover {
   background-color: var(--light);
@@ -142,7 +129,6 @@ nav {
 .hero {
   color: white;
   background-color: var(--blue);
-  /* border: 1px solid black; */
   padding: 30px 0;
 }
 
@@ -151,7 +137,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 0 0 0 20px; */
   height: 100%;
 }
 
@@ -172,7 +157,6 @@ nav {
 .hero__title {
   text-transform: uppercase;
   text-align: center;
-  /* font-size: 5rem; */
   font-size: 4rem;
   display: block;
   margin: 20px 0;
@@ -180,8 +164,6 @@ nav {
 
 .hero__description {
   font-size: 2rem;
-  /* font-size: 2.5rem; */
-  /* width: 900px; */
 }
 
 /* HABILITIES */
@@ -266,7 +248,6 @@ nav {
 
 .projects {
   padding: 30px 0;
-  /* border: 1px solid black; */
 }
 
 .projects__title {
@@ -277,7 +258,6 @@ nav {
 .project__item-container {
   background-color: white;
   position: relative;
-  /* padding: 40px; */
   width: 98%;
   height: 300px;
   max-width: 400px;
@@ -309,7 +289,7 @@ nav {
 }
 
 .project__description {
-  background-color: #01a5f7c7;
+  background-color: #00bdd6c7;
   transition: 0.6s;
   width: 100%;
   height: 100%;
