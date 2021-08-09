@@ -50,6 +50,15 @@ header {
   height: 80px;
 }
 
+.header__title {
+  font-family: "Arimo", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 .nav__activator {
   width: 70px;
   height: 70px;
@@ -130,6 +139,9 @@ nav {
   color: white;
   background-color: var(--blue);
   padding: 30px 0;
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
 
 .hero .wrapper {
@@ -154,16 +166,9 @@ nav {
   top: 0;
 }
 
-.hero__title {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 4rem;
-  display: block;
-  margin: 20px 0;
-}
-
 .hero__description {
-  font-size: 2rem;
+  margin: 20px 0;
+  font-size: 1.8rem;
 }
 
 /* HABILITIES */
@@ -186,11 +191,14 @@ nav {
   justify-content: center;
   align-items: center;
   width: 280px;
-  height: 170px;
+  height: 180px;
   background-color: white;
-  margin: 10px auto;
-  border: 1px solid #0000001c;
+  margin: 15px auto;
+  /* border: 1px solid #0000001c; */
   position: relative;
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
 
 .habilities__list-item:hover .hability__description {
@@ -256,17 +264,17 @@ nav {
 }
 
 .project__item-container {
-  background-color: white;
   position: relative;
-  width: 98%;
+  width: 95%;
   height: 300px;
   max-width: 400px;
   flex-direction: column;
   display: flex;
   margin: 0 auto 35px;
-  border: 1px solid #0000001c;
-
   overflow: hidden;
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
 
 .project__item-container:hover .project__description {
