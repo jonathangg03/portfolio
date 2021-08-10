@@ -305,30 +305,30 @@
           <a href="https://github.com/jonathangg03" target="_blank">GitHub</a>
         </p>
       </section>
-      <section class="form" class="projects__title">
-        <h2>Formulario de contacto</h2>
-        <form action="https://formspree.io/f/mdoywqpd" method="POST" id="form">
-          <label>
-            <p>Nombre completo</p>
-            <input type="text" required placeholder="Nombre" name="name">
-          </label>
-          <label>
-            <p>Nombre de la empresa</p>
-            <input type="text" required placeholder="Empresa" name="company">
-          </label>
-          <label>
-            <p>Mensaje</p>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          </label>
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
-      <footer id="contact">
+      <footer>
         <div class="wrapper">
           <div class="contact__container">
+            <section class="form" id="contact">
+              <h2>Formulario de contacto</h2>
+              <form action="https://formspree.io/f/mdoywqpd" method="POST" id="form" class="form__item">
+                <label>
+                  <p>Nombre completo</p>
+                  <input type="text" required placeholder="Nombre" name="name">
+                </label>
+                <label>
+                  <p>Nombre de la empresa</p>
+                  <input type="text" required placeholder="Empresa" name="company">
+                </label>
+                <label>
+                  <p>Mensaje</p>
+                  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+              </form>
+            </section>
             <div class="contact__social">
               <p>
-                Sí quieres contactarme, puedes hacerlo mediante las siguientes
+               Tambien puedes contactarme mediante las siguientes
                 plataformas:
               </p>
               <ul>
@@ -364,11 +364,13 @@
                     ></a>
                   </div>
                 </li>
+                <li class="contact__social-item">
+                  <div>
+                    <a href="https://www.linkedin.com/in/jonathan-david-garc%C3%ADa-gonz%C3%A1lez-9529a3219/" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </li>
               </ul>
-            </div>
-            <div class="contact__email">
-              <p>O envíame un email a:</p>
-              <h4>jona97g03@gmail.com</h4>
             </div>
           </div>
         </div>
