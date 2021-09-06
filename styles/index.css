@@ -333,6 +333,11 @@ nav {
   padding: 10px;
   transition: 0.6s;
 }
+.project__description-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
 .project__description p {
   margin: 10px;
@@ -342,18 +347,17 @@ nav {
 .project__description h4 {
   text-align: center;
   font-size: 2.2rem;
-  padding: 15px 0;
 }
 
 .project__description a {
-  margin: 20px auto;
+  margin: 5px 0px;
   display: block;
-  width: 150px;
+  width: 48%;
   border: 2px solid white;
   border-radius: 8px;
   color: white;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 0px;
   text-decoration: none;
   font-weight: 600;
 }
