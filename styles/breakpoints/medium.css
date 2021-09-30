@@ -1,0 +1,47 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__activator {
+  display: none;
+}
+
+header {
+  position: sticky;
+  z-index: 5;
+}
+
+nav {
+  position: initial;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list-item-link {
+  border: none;
+  padding-right: 10px;
+}
+
+.hero {
+  padding: 50px 70px;
+}
+
+.habilities__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.habilities__list-item {
+  margin: 10px;
+}
+
+.project__description-buttons {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=medium.css.map */

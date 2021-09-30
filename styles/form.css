@@ -1,0 +1,63 @@
+.form {
+  padding: 10px;
+  background-color: #222;
+  padding: 20px 0;
+  color: white;
+}
+
+.form__item {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form__item input {
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  margin: 5px 0 15px;
+}
+
+.form__item textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 2px solid transparent;
+}
+
+.form__item input,
+.form__item textarea {
+  font-family: "Raleway", sans-serif;
+  background-color: #2e2f2f;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border: 2px solid #00bdd6;
+}
+
+.form__item button {
+  background-color: transparent;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 15px auto;
+  padding: 10px 40px;
+  font-size: 1.7rem;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: 600;
+  display: block;
+  transition: 0.3s;
+}
+
+.form__item button:hover {
+  background-color: #00bdd6;
+  border: 2px solid transparent;
+}
+
+/*# sourceMappingURL=form.css.map */
