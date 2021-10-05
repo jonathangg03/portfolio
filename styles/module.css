@@ -80,7 +80,7 @@ h2 {
 .nav__activator {
   width: 70px;
   height: 70px;
-  background-color: #00bdd69e;
+  background-color: #fb7b3a9e;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -304,8 +304,7 @@ h2 {
 }
 
 .form {
-  padding: 10px;
-  padding: 20px 0;
+  padding: 25px;
   color: white;
 }
 
@@ -367,7 +366,7 @@ textarea:focus-visible {
 
 footer {
   background-color: #222;
-  padding: 30px 0;
+  padding: 25px;
   color: white;
   font-weight: 100;
 }
@@ -412,6 +411,7 @@ footer {
 .contact__social-item:hover a i {
   font-size: 4rem;
   transition: 0.3s;
+  color: #fb7b3a;
 }
 
 .contact__social p {
