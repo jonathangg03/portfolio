@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @include lightShadow();
+  @include darkShadow();
 
   &__photo-container {
     width: 160px;

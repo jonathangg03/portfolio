@@ -45,14 +45,8 @@
 }
 
 /*HABILITIES*/
-.habilities__list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.habilities__list-item {
-  margin: 10px;
+.habilities ul {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*PROJECT*/
