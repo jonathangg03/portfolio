@@ -31,43 +31,39 @@
   </head>
   <body>
     <div class="container" id="main">
-      <header>
-        <div class="wrapper">
-          <div class="header-wrapper">
-            <a href="/" class="header__title">JONATHAN GARCÍA GONZÁLEZ</a href="/">
-            <nav id="nav">
-              <ul class="nav__list">
-                <li class="nav__list-item">
-                  <a class="nav__list-item-link" href="#main">Inicio</a>
-                </li>
-                <li class="nav__list-item">
-                  <a class="nav__list-item-link" href="#habilities"
-                    >Habilidades</a
-                  >
-                </li>
-                <li class="nav__list-item">
-                  <a class="nav__list-item-link" href="#projects">Proyectos</a>
-                </li>
-                <li class="nav__list-item">
-                  <a class="nav__list-item-link" href="#contact">Contacto</a>
-                </li>
-                <li class="nav__list-item">
-                  <a
-                    class="nav__list-item-link"
-                    href="./assets/curriculum.pdf"
-                    target="_blank"
-                    >Curriculum</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div class="nav__activator" id="nav__activator">
-          <i class="fas fa-angle-left" id="activator__icon"></i>
-        </div>
+      <header class="header">
+          <a href="/" class="header__title">JONATHAN GARCÍA GONZÁLEZ</a href="/">
+          <nav id="nav" class='header__nav'>
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a class="nav-list__item-link" href="#main">Inicio</a>
+              </li>
+              <li class="nav-list__item">
+                <a class="nav-list__item-link" href="#habilities"
+                  >Habilidades</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a class="nav-list__item-link" href="#projects">Proyectos</a>
+              </li>
+              <li class="nav-list__item">
+                <a class="nav-list__item-link" href="#contact">Contacto</a>
+              </li>
+              <li class="nav-list__item">
+                <a
+                  class="nav-list__item-link"
+                  href="./assets/curriculum.pdf"
+                  target="_blank"
+                  >Curriculum</a
+                >
+              </li>
+            </ul>
+          </nav>
       </header>
-      <div class="hero" id="hero">
+      <div class="nav__activator" id="nav__activator">
+        <i class="fas fa-angle-left" id="activator__icon"></i>
+      </div>
+      <!-- <div class="hero" id="hero">
         <div class="wrapper">
           <div class="hero__photo-container">
             <img src="./assets/me.jpg" class="hero__photo" />
@@ -410,7 +406,7 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer> -->
       </div>
       <script>
         const $activator = document.getElementById("nav__activator");

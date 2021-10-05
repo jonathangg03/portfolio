@@ -1,10 +1,4 @@
-$light: #fb7b3a;
-$blue: #00bdd6;
-$purple: #01a5f7;
-$grape: #543a76;
-$dark: #2e2f2f;
-$white: #fff;
-$font: 'Raleway', sans-serif;
+@import 'variables.scss';
 
 * {
   margin: 0;
@@ -31,6 +25,6 @@ h2 {
   font-weight: 100;
 }
 
-.wrapper {
-  padding: 0 20px;
-}
+// .wrapper {
+//   padding: 0 20px;
+// }

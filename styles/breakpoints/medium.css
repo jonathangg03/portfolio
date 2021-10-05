@@ -1,29 +1,29 @@
-.header-wrapper {
-  display: flex;
+.header {
   justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.header__title {
+  font-size: 2.3rem;
+}
+.header__nav {
+  position: initial;
 }
 
 .nav__activator {
   display: none;
 }
 
-header {
-  position: sticky;
-  z-index: 5;
-}
-
-nav {
-  position: initial;
-}
-
-.nav__list {
+.nav-list {
   display: flex;
   justify-content: space-between;
 }
-
-.nav__list-item-link {
+.nav-list__item-link {
   border: none;
   padding-right: 10px;
+}
+.nav-list__item {
+  background-color: #222;
 }
 
 .hero {
