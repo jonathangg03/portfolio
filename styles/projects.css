@@ -17,7 +17,7 @@
   background-color: #343a4024;
 }
 .projects ::-webkit-scrollbar-thumb {
-  background-color: #343a40;
+  background-color: #2e2f2f;
   border-radius: 5px;
 }
 
@@ -134,7 +134,7 @@
 
 .visit__GH {
   text-align: center;
-  color: #343a40;
+  color: #2e2f2f;
 }
 
 .visit__GH a {

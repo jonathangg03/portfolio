@@ -1,9 +1,10 @@
 $light: #e2e2e2;
 $dark-strong: #222;
-$dark: #343a40;
+$dark: #2e2f2f;
 $font: 'Raleway', sans-serif;
 $gray-borders: #ffffff1f;
 $selection: #fb7b3a;
+$inputs: #2e2f2f;
 
 @mixin darkShadow() {
   -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);

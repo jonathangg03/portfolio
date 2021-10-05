@@ -1,6 +1,6 @@
 .habilities {
   padding: 25px;
-  color: #343a40;
+  color: #2e2f2f;
 }
 .habilities .habilities__title {
   padding-bottom: 25px;
@@ -14,7 +14,7 @@
 }
 .habilities li {
   color: white;
-  background-color: #343a40;
+  background-color: #2e2f2f;
   padding: 20px;
   line-height: 2.7rem;
   font-size: 1.7rem;
