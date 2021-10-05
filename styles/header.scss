@@ -2,10 +2,12 @@
 
 .header {
   padding: 15px;
+  height: 80px;
   text-align: center;
   color: white;
   background-color: $dark-strong;
-
+  position: relative;
+  @include darkShadow();
   &__title {
     font-family: $font;
     color: white;

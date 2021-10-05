@@ -13,7 +13,7 @@ body {
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
   color: white;
-  background-color: #343a40;
+  background-color: #e2e2e2;
 }
 
 h2 {
@@ -25,9 +25,14 @@ h2 {
 
 .header {
   padding: 15px;
+  height: 80px;
   text-align: center;
   color: white;
   background-color: #222;
+  position: relative;
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
 .header__title {
   font-family: "Raleway", sans-serif;
@@ -93,39 +98,34 @@ h2 {
 
 .hero {
   color: white;
-  background-color: #222;
+  background-color: #343a40;
   padding: 30px 0;
-  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-}
-
-.hero .wrapper {
+  text-align: center;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
-
 .hero__photo-container {
   width: 160px;
   height: 160px;
-  border: 8px solid white;
+  border: 3px solid white;
   overflow: hidden;
   border-radius: 50%;
 }
-
-.hero__photo {
+.hero__description {
+  margin: 20px 0 0;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.hero img {
   object-fit: cover;
   width: 100%;
   top: 0;
-}
-
-.hero__description {
-  margin: 40px 0 20px;
-  font-size: 1.8rem;
-  line-height: 3rem;
 }
 
 .habilities {

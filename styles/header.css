@@ -1,8 +1,13 @@
 .header {
   padding: 15px;
+  height: 80px;
   text-align: center;
   color: white;
   background-color: #222;
+  position: relative;
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
 .header__title {
   font-family: "Raleway", sans-serif;
