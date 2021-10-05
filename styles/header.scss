@@ -13,6 +13,7 @@
     font-size: 3rem;
     font-weight: 100;
     text-align: center;
+    line-height: 4.3rem;
   }
 
   &__nav {
@@ -25,19 +26,19 @@
 }
 
 .nav-list {
-  align-items: center;
   list-style: none;
+  text-align: left;
+  width: 129px;
   &__item {
-    background-color: $dark;
+    background-color: $dark-strong;
     transition: 0.3s;
     font-size: 1.6rem;
     margin: 5px 0;
-    border-radius: 10px 0 0 10px;
-    text-align: center;
   }
 
   &__item:hover {
-    font-size: 2.1rem;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
   }
 
   &__item-link {
@@ -45,17 +46,12 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    border: 1px solid white;
+    border: 1px solid #ffffff1f;
     border-right: none;
     padding: 10px;
     padding-right: 30px;
-    border-radius: 10px 0 0 10px;
   }
 }
-
-// .header-wrapper {
-//   height: 80px;
-// }
 
 .nav__activator {
   width: 70px;
@@ -75,27 +71,3 @@
 .show__nav {
   right: 0;
 }
-
-// .nav__list-item {
-// }
-
-// .curriculum:hover {
-//   background-color: $light;
-//   border: none;
-//   transition: 0.3s;
-// }
-
-// .curriculum:hover a {
-//   color: white;
-// }
-
-// .curriculum a {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 100%;
-//   width: 100%;
-// }
-
-// .nav__list-item-link {
-// }

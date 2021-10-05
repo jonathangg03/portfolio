@@ -1,35 +1,49 @@
+/*HEADER*/
 .header {
   justify-content: space-between;
   align-items: center;
   display: flex;
+  position: sticky;
+  z-index: 5;
 }
 .header__title {
   font-size: 2.3rem;
+  line-height: initial;
 }
 .header__nav {
   position: initial;
+}
+
+/*NAV*/
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: initial;
+}
+.nav-list__item {
+  background-color: #222;
+}
+.nav-list__item-link {
+  text-align: center;
+  border: none;
+  padding-right: 10px;
+}
+.nav-list__item:hover {
+  font-size: 2rem;
+  border: none;
 }
 
 .nav__activator {
   display: none;
 }
 
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-}
-.nav-list__item-link {
-  border: none;
-  padding-right: 10px;
-}
-.nav-list__item {
-  background-color: #222;
-}
-
+/*HERO*/
 .hero {
   padding: 50px 70px;
 }
 
+/*HABILITIES*/
 .habilities__list {
   display: flex;
   justify-content: center;
@@ -40,6 +54,7 @@
   margin: 10px;
 }
 
+/*PROJECT*/
 .project__description-buttons {
   margin-top: 15px;
 }

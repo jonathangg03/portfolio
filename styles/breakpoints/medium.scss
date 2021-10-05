@@ -1,19 +1,39 @@
 @import '../variables.scss';
-// .header-wrapper {
-//   display: flex;
-//   justify-content: space-between;
-// }
+
+/*HEADER*/
 .header {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  // position: sticky;
-  // z-index: 5;
+  position: sticky;
+  z-index: 5;
   &__title {
     font-size: 2.3rem;
+    line-height: initial;
   }
   &__nav {
     position: initial;
+  }
+}
+
+/*NAV*/
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: initial;
+  &__item {
+    background-color: $dark-strong;
+  }
+  &__item-link {
+    text-align: center;
+    border: none;
+    padding-right: 10px;
+  }
+
+  &__item:hover {
+    font-size: 2rem;
+    border: none;
   }
 }
 
@@ -21,22 +41,12 @@
   display: none;
 }
 
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-  &__item-link {
-    border: none;
-    padding-right: 10px;
-  }
-  &__item {
-    background-color: $dark-strong;
-  }
-}
-
+/*HERO*/
 .hero {
   padding: 50px 70px;
 }
 
+/*HABILITIES*/
 .habilities__list {
   display: flex;
   justify-content: center;
@@ -47,6 +57,7 @@
   margin: 10px;
 }
 
+/*PROJECT*/
 .project__description-buttons {
   margin-top: 15px;
 }
