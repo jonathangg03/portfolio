@@ -18,14 +18,14 @@ body {
 
 h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   padding-bottom: 30px;
   font-weight: 100;
+  color: #343a40;
 }
 
 .header {
   padding: 15px;
-  height: 80px;
   text-align: center;
   color: white;
   background-color: #222;
@@ -129,7 +129,16 @@ h2 {
 }
 
 .habilities {
-  margin: 30px 0;
+  padding: 25px;
+  color: #343a40;
+}
+.habilities ul {
+  list-style: none;
+}
+.habilities li {
+  margin: 20px 0;
+  line-height: 2rem;
+  text-align: justify;
 }
 
 .habilities__title {
@@ -148,7 +157,7 @@ h2 {
   align-items: center;
   width: 280px;
   height: 180px;
-  background-color: #222;
+  background-color: #343a40;
   margin: 15px auto;
   /* border: 1px solid #0000001c; */
   position: relative;

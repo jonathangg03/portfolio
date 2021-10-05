@@ -1,5 +1,14 @@
 .habilities {
-  margin: 30px 0;
+  padding: 25px;
+  color: #343a40;
+}
+.habilities ul {
+  list-style: none;
+}
+.habilities li {
+  margin: 20px 0;
+  line-height: 2rem;
+  text-align: justify;
 }
 
 .habilities__title {
@@ -18,7 +27,7 @@
   align-items: center;
   width: 280px;
   height: 180px;
-  background-color: #222;
+  background-color: #343a40;
   margin: 15px auto;
   /* border: 1px solid #0000001c; */
   position: relative;
