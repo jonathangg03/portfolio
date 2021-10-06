@@ -11,7 +11,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
   background-color: #e2e2e2;
 }
@@ -35,7 +35,7 @@ h2 {
   -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
 .header__title {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
   text-decoration: none;
   font-size: 3rem;
@@ -333,7 +333,7 @@ h2 {
 
 .form__item input,
 .form__item textarea {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #2e2f2f;
   border: none;
   color: white;
@@ -349,7 +349,7 @@ textarea:focus-visible {
 .form__item button {
   background-color: #2e2f2f;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 15px auto;
   padding: 12px 42px;
   font-size: 1.7rem;
