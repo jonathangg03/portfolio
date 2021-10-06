@@ -13,7 +13,7 @@ body {
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
   color: white;
-  background-color: #e2e2e2;
+  background-color: #2e2f2f;
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
   font-size: 3.5rem;
   padding-bottom: 30px;
   font-weight: 100;
-  color: #2e2f2f;
+  color: white;
 }
 
 .header {
@@ -98,7 +98,7 @@ h2 {
 
 .hero {
   color: white;
-  background-color: #2e2f2f;
+  background-color: #222;
   padding: 30px 0;
   text-align: center;
   padding: 25px;
@@ -130,7 +130,7 @@ h2 {
 
 .habilities {
   padding: 25px;
-  color: #2e2f2f;
+  color: #222;
 }
 .habilities .habilities__title {
   padding-bottom: 25px;
@@ -144,7 +144,7 @@ h2 {
 }
 .habilities li {
   color: white;
-  background-color: #2e2f2f;
+  background-color: #222;
   padding: 20px;
   line-height: 2.7rem;
   font-size: 1.7rem;
@@ -177,7 +177,7 @@ h2 {
   background-color: #343a4024;
 }
 .projects ::-webkit-scrollbar-thumb {
-  background-color: #2e2f2f;
+  background-color: #222;
   border-radius: 5px;
 }
 
@@ -287,18 +287,17 @@ h2 {
 }
 
 .project__description a:hover {
-  background-color: #fb7b3a;
+  background-color: #fb7c3c;
   transition: 0.3s;
   color: white;
 }
 
 .visit__GH {
   text-align: center;
-  color: #2e2f2f;
 }
 
 .visit__GH a {
-  color: #fb7b3a;
+  color: #fb7c3c;
   text-decoration: none;
   font-size: 1.8rem;
 }
@@ -312,9 +311,6 @@ h2 {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-}
-.form__item label {
-  color: #2e2f2f;
 }
 
 .form__item input {
@@ -334,7 +330,7 @@ h2 {
 .form__item input,
 .form__item textarea {
   font-family: "Raleway", sans-serif;
-  background-color: #2e2f2f;
+  background-color: #222;
   border: none;
   color: white;
   font-size: 1.5rem;
@@ -347,7 +343,7 @@ textarea:focus-visible {
 }
 
 .form__item button {
-  background-color: #2e2f2f;
+  background-color: #222;
   color: white;
   font-family: "Roboto", sans-serif;
   margin: 15px auto;
@@ -361,7 +357,7 @@ textarea:focus-visible {
 }
 
 .form__item button:hover {
-  background-color: #fb7b3a;
+  background-color: #fb7c3c;
 }
 
 footer {
@@ -411,7 +407,7 @@ footer {
 .contact__social-item:hover a i {
   font-size: 4rem;
   transition: 0.3s;
-  color: #fb7b3a;
+  color: #fb7c3c;
 }
 
 .contact__social p {

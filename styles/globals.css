@@ -13,7 +13,7 @@ body {
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
   color: white;
-  background-color: #e2e2e2;
+  background-color: #2e2f2f;
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
   font-size: 3.5rem;
   padding-bottom: 30px;
   font-weight: 100;
-  color: #2e2f2f;
+  color: white;
 }
 
 /*# sourceMappingURL=globals.css.map */

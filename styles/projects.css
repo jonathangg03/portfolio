@@ -17,7 +17,7 @@
   background-color: #343a4024;
 }
 .projects ::-webkit-scrollbar-thumb {
-  background-color: #2e2f2f;
+  background-color: #222;
   border-radius: 5px;
 }
 
@@ -127,18 +127,17 @@
 }
 
 .project__description a:hover {
-  background-color: #fb7b3a;
+  background-color: #fb7c3c;
   transition: 0.3s;
   color: white;
 }
 
 .visit__GH {
   text-align: center;
-  color: #2e2f2f;
 }
 
 .visit__GH a {
-  color: #fb7b3a;
+  color: #fb7c3c;
   text-decoration: none;
   font-size: 1.8rem;
 }
