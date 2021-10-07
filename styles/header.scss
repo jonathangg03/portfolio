@@ -6,7 +6,7 @@
   color: white;
   background-color: $dark-strong;
   position: relative;
-  @include darkShadow();
+  @include lightShadow();
   &__title {
     font-family: $font;
     color: white;
