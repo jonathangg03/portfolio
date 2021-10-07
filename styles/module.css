@@ -168,6 +168,8 @@ h2 {
   display: flex;
   overflow-x: scroll;
   margin-bottom: 15px;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
 }
 .projects ::-webkit-scrollbar {
   background-color: transparent;
@@ -191,6 +193,7 @@ h2 {
   flex-shrink: 0;
   margin: 0 20px 5px 0;
   overflow: hidden;
+  scroll-snap-align: center;
 }
 
 .project__item-container:last-child {
