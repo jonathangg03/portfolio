@@ -56,5 +56,6 @@ textarea:focus-visible {
 }
 
 .form__item button:hover {
-  background-color: $selection;
+  background-color: #fb7c3c40;
+  color: $selection;
 }

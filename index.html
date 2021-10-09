@@ -103,23 +103,32 @@
           </ul>
       </section>
       <section class="projects" id="projects">
-        <h2 class="projects__title">Proyectos</h2>
-        <div class="projects__container">
-          <div class="project__item-container">
-            <img
-              src="./assets/projects/chat.jpg"
-              alt="Authenticate App"
-              class="project__image"
-              loading="lazy"
-            />
-            <div class="project__description">
-              <div class="project__description-wrapper">
-                <h4>Chat</h4>
+        <h2>Proyectos</h2>
+          <div class="projects__item">
+            <div class="projects__item-visuals">
+              <h3>CHAT</h3>
+              <img
+                src="./assets/projects/chat.jpg"
+                alt="Authenticate App"
+                class="project__image"
+                loading="lazy"
+              />
+              <div class="projects__item-visuals-tools">
+                <h4>Herramientas usadas</h4>
+                <ul>
+                  <li>Next.js - React.js</li>
+                  <li>Styled JSX para los estilos.</li>
+                  <li>Node.js.</li>
+                  <li>Web sockets.</li>
+                  <li>MongoDB</li>
+                </ul>
+              </div>
+            </div>
+            <div class="projects__item-description">
                 <p>
-                  Una aplicación de chat hecha con Next.js, en la cual usé API REST para la creación y presentación de
-                  información de los usuarios. Para el chat, creé un servidor de Web Sockets, para mantener la comunicación en tiempo real, y almacenar los mensajes en una BD de MongoDB.
+                  Un chat básico, donde podremos enviar y recibir mensajes en tiempo real
                 </p>
-                <div class="project__description-buttons">
+                <div class="projects__item-description-buttons">
                   <a
                     href="https://megabyte-chat.vercel.app/"
                     target="_blank"
@@ -131,13 +140,9 @@
                   >Ver Código</a
                 >
                 </div>
-              </div>
-              <div class="project__title-container">
-                <h2>CHAT</h2>
-              </div>
             </div>
           </div>
-          <div class="project__item-container">
+          <!-- <div class="project__item-container">
             <img
               src="./assets/projects/gallery.jpg"
               alt="Gallery"
@@ -233,8 +238,7 @@
                 <h2>AUTHENTICATE APP</h2>
               </div>
             </div>
-          </div>
-        </div>
+          </div> -->
         <p class="visit__GH">
           Sí quieres ver más proyectos, visita mi
           <a href="https://github.com/jonathangg03" target="_blank">GitHub</a>
@@ -308,8 +312,6 @@
         const $nav = document.getElementById("nav");
         const $icon = document.getElementById("activator__icon");
         const $form = document.querySelector('#form')
-
-        console.log($form)
 
         $activator.addEventListener("click", () => {
           $nav.classList.toggle("show__nav");
