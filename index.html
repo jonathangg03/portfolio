@@ -8,16 +8,23 @@
       href="/your-path-to-fontawesome/css/fontawesome.css"
       rel="stylesheet"
     />
-    <link  rel="icon" href="./assets/icon.png" type="image/png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/icon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,600;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/module.css" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/module.css" />
+    <!-- <link
     href="./styles/breakpoints/small.css"
     rel="stylesheet"
     type="text/css"
@@ -34,7 +41,7 @@
     rel="stylesheet"
     type="text/css"
     media="screen and (min-width: 1710px)"
-  />
+  /> -->
     <title>Jonathan David García González</title>
     <script
       src="https://kit.fontawesome.com/473d269aa9.js"
@@ -44,26 +51,30 @@
   <body>
     <div class="container" id="main">
       <header class="header">
-          <a href="/" class="header__title">JONATHAN GARCÍA GONZÁLEZ</a href="/">
-          <nav id="nav" class='header__nav'>
-            <ul class="nav-list">
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#main">Inicio</a>
+        <div class="header__top">
+          <div class="header__top-title">
+            <img src="./assets/icon.png" alt="" />
+            <a href="/">DAVDEV</a>
+          </div>
+          <nav id="nav" class="nav">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#main">Inicio</a>
               </li>
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#habilities"
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#habilities"
                   >Habilidades</a
                 >
               </li>
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#projects">Proyectos</a>
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#projects">Proyectos</a>
               </li>
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#contact">Contacto</a>
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#contact">Contacto</a>
               </li>
-              <li class="nav-list__item">
+              <li class="nav__list-item">
                 <a
-                  class="nav-list__item-link"
+                  class="nav__list-item-link"
                   href="./assets/curriculum.pdf"
                   target="_blank"
                   >Curriculum</a
@@ -71,8 +82,11 @@
               </li>
             </ul>
           </nav>
+        </div>
+        <div class="header__hero"></div>
       </header>
-      <div class="nav__activator" id="nav__activator">
+    </div>
+    <!-- <div class="nav__activator" id="nav__activator">
         <i class="fas fa-angle-left" id="activator__icon"></i>
       </div>
        <div class="hero" id="hero">
@@ -141,8 +155,8 @@
                 >
                 </div>
             </div>
-          </div>
-          <!-- <div class="project__item-container">
+          </div> -->
+    <!-- <div class="project__item-container">
             <img
               src="./assets/projects/gallery.jpg"
               alt="Gallery"
@@ -239,7 +253,7 @@
               </div>
             </div>
           </div> -->
-        <p class="visit__GH">
+    <!-- <p class="visit__GH">
           Sí quieres ver más proyectos, visita mi
           <a href="https://github.com/jonathangg03" target="_blank">GitHub</a>
         </p>
@@ -306,35 +320,37 @@
           </div>
         </div>
       </footer>
-      </div>
-      <script>
-        const $activator = document.getElementById("nav__activator");
-        const $nav = document.getElementById("nav");
-        const $icon = document.getElementById("activator__icon");
-        const $form = document.querySelector('#form')
+      </div> -->
+    <script>
+      const $activator = document.getElementById('nav__activator')
+      const $nav = document.getElementById('nav')
+      const $icon = document.getElementById('activator__icon')
+      const $form = document.querySelector('#form')
 
-        $activator.addEventListener("click", () => {
-          $nav.classList.toggle("show__nav");
-          $icon.classList.toggle("fa-angle-right");
-        });
+      $activator.addEventListener('click', () => {
+        $nav.classList.toggle('show__nav')
+        $icon.classList.toggle('fa-angle-right')
+      })
 
-        $form.addEventListener("submit", handleSubmit)
+      $form.addEventListener('submit', handleSubmit)
 
-        async function handleSubmit (event) {
-          event.preventDefault()
-          const formData = new FormData(this)
-          const response = await fetch(this.action, {
-            method: "post",
-            body: formData,
-            headers: {
-              "Accept": "application/json"
-            }
-          })
-          if(response.ok) {
-            this.reset()
-            alert("Mensaje enviado. Gracias por tomarme en cuenta, te estare contactando pronto.")
+      async function handleSubmit(event) {
+        event.preventDefault()
+        const formData = new FormData(this)
+        const response = await fetch(this.action, {
+          method: 'post',
+          body: formData,
+          headers: {
+            Accept: 'application/json'
           }
+        })
+        if (response.ok) {
+          this.reset()
+          alert(
+            'Mensaje enviado. Gracias por tomarme en cuenta, te estare contactando pronto.'
+          )
         }
-      </script>
+      }
+    </script>
   </body>
 </html>

@@ -1,10 +1,15 @@
-$light: #2e2f2f;
-$dark-strong: #222;
-$dark: #222;
-$font: 'Raleway', sans-serif;
-$gray-borders: #ffffff1f;
-$selection: hsl(20, 96%, 61%);
-$inputs: #222;
+// $light: #2e2f2f;
+// $dark-strong: #222;
+// $dark: #222;
+// $gray-borders: #ffffff1f;
+// $selection: hsl(20, 96%, 61%);
+// $inputs: #222;
+
+$primary: #1e2233;
+$secondary: #24273d;
+$light: #f85a55;
+$fontLogo: 'Raleway', sans-serif;
+$fontMain: 'Arimo', sans-serif;
 
 @mixin darkShadow() {
   -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);

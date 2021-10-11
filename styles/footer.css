@@ -1,65 +1,17 @@
-footer {
-  background-color: #222;
-  padding: 25px;
-  color: white;
-  font-weight: 100;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |   background-color: $dark-strong;
+ *   |                     ^^^^^^^^^^^^
+ *   '
+ *   styles/footer.scss 4:21  root stylesheet */
 
-.contact__container {
-  width: 98%;
-  margin: 0 auto;
-  justify-content: space-between;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502    background-color: $dark-strong;\a   \2502                      ^^^^^^^^^^^^\a   \2575 \a   styles/footer.scss 4:21  root stylesheet";
 }
-
-.contact__social {
-  text-align: center;
-  width: 100%;
-}
-
-.contact__social ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  width: 250px;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.contact__social-item {
-  margin: 10px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-}
-
-.contact__social-item a {
-  color: white;
-  text-decoration: none;
-}
-
-.contact__social-item a i {
-  font-size: 30px;
-  transition: 0.3s;
-}
-
-.contact__social-item:hover a i {
-  font-size: 4rem;
-  transition: 0.3s;
-  color: #fb7c3c;
-}
-
-.contact__social p {
-  margin-bottom: 20px;
-}
-
-.contact__email {
-  text-align: center;
-}
-
-.contact__email h4 {
-  margin-top: 5px;
-  font-size: 1.7rem;
-  font-weight: 400;
-}
-
-/*# sourceMappingURL=footer.css.map */
