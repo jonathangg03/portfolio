@@ -65,7 +65,6 @@
   z-index: -1;
 }
 .header__hero {
-  color: white;
   height: 410px;
   display: flex;
   flex-direction: column;
