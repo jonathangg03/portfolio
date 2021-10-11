@@ -58,75 +58,75 @@
 
 /*PROJECT*/
 
-// .projects {
-//   padding: 25px;
-//   &__item {
-//     background-color: $dark-strong;
-//     padding: 25px 30px;
-//     display: flex;
-//     justify-content: space-between;
-//     @include darkShadow();
-//     img {
-//       width: 100%;
-//       height: 100%;
-//       object-fit: cover;
-//     }
-//   }
+.projects {
+  padding: 25px;
+  &__item {
+    background-color: $dark-strong;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    @include darkShadow();
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 
-//   &__item-visuals {
-//     position: relative;
-//     display: flex;
-//   }
+  &__item-visuals {
+    position: relative;
+    display: flex;
+  }
 
-//   &__item-description {
-//     width: 60%;
-//     text-align: justify;
-//     padding-left: 30px;
-//     line-height: 2.5rem;
-//     p {
-//       padding-bottom: 10px;
-//     }
+  &__item-description {
+    width: 60%;
+    text-align: justify;
+    padding-left: 30px;
+    line-height: 2.5rem;
+    p {
+      padding-bottom: 10px;
+    }
 
-//     h4 {
-//       padding-bottom: 5px;
-//     }
+    h4 {
+      padding-bottom: 5px;
+    }
 
-//     ul {
-//       padding-left: 25px;
-//     }
-//   }
+    ul {
+      padding-left: 25px;
+    }
+  }
 
-//   &__item-description-buttons {
-//     margin: 20px 0;
-//     display: flex;
-//     justify-content: center;
-//     a {
-//       border: 1px solid rgba(255, 255, 255, 0.411);
-//       font-weight: 300;
-//       padding: 10px 20px;
-//       color: white;
-//       text-decoration: none;
-//       margin: 0 5px;
-//       transition: 0.2s;
-//       font-size: 1.5rem;
-//     }
+  &__item-description-buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    a {
+      border: 1px solid rgba(255, 255, 255, 0.411);
+      font-weight: 300;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      margin: 0 5px;
+      transition: 0.2s;
+      font-size: 1.5rem;
+    }
 
-//     a:hover {
-//       border: 1px solid transparent;
-//       background-color: #fb7c3c40;
-//       color: $selection;
-//     }
-//   }
+    a:hover {
+      border: 1px solid transparent;
+      background-color: #fb7c3c40;
+      color: $selection;
+    }
+  }
 
-//   h3 {
-//     width: 100%;
-//     height: 100%;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     position: absolute;
-//     background-color: #00000099;
-//     font-size: 4rem;
-//     font-weight: 300;
-//   }
-// }
+  h3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #00000099;
+    font-size: 4rem;
+    font-weight: 300;
+  }
+}
