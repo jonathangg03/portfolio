@@ -97,7 +97,7 @@ body {
 }
 
 .aboutme {
-  padding: 70px 50px;
+  padding: 70px 50px 10px;
   font-family: "Raleway", sans-serif;
   display: flex;
 }
@@ -147,6 +147,51 @@ body {
 }
 .aboutme__objectives li {
   margin: 10px 0;
+  font-size: 1.3rem;
+}
+
+.habilities {
+  padding: 40px 50px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.habilities h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  color: #34343480;
+}
+.habilities ul {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 210px;
+  gap: 20px;
+  list-style: none;
+}
+.habilities li {
+  background-color: white;
+  padding: 30px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
+  box-shadow: 1px 3px 5px 1px #0000000d;
+  -moz-box-shadow: 1px 3px 5px 1px #0000000d;
+}
+.habilities i {
+  font-size: 2rem;
+  background-color: #3434342b;
+  border-radius: 50%;
+  padding: 15px 13px;
+}
+.habilities h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 7px 0 8px;
+}
+.habilities p {
   font-size: 1.3rem;
 }
 

@@ -1,32 +1,80 @@
 @import './variables.scss';
 
 .habilities {
-  padding: 25px;
-  color: $dark;
-
-  .habilities__title {
-    padding-bottom: 25px;
+  padding: 40px 50px;
+  max-width: 1500px;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    color: $gray;
   }
 
   ul {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 150px;
+    margin-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 210px;
     gap: 20px;
-    justify-items: center;
+    list-style: none;
   }
 
   li {
-    color: white;
-    background-color: $dark;
-    padding: 20px;
-    line-height: 2.7rem;
-    font-size: 1.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    background-color: white;
+    padding: 30px 15px;
     text-align: center;
-    @include darkShadow();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include lightShadow();
+  }
+
+  i {
+    font-size: 2rem;
+    background-color: #3434342b;
+    border-radius: 50%;
+    padding: 15px 13px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 7px 0 8px;
+  }
+
+  p {
+    font-size: 1.3rem;
   }
 }
+
+// .habilities {
+//   padding: 25px;
+//   color: $dark;
+
+//   .habilities__title {
+//     padding-bottom: 25px;
+//   }
+
+//   ul {
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-auto-rows: 150px;
+//     gap: 20px;
+//     justify-items: center;
+//   }
+
+//   li {
+//     color: white;
+//     background-color: $dark;
+//     padding: 20px;
+//     line-height: 2.7rem;
+//     font-size: 1.7rem;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 100%;
+//     text-align: center;
+//     @include darkShadow();
+//   }
+// }
