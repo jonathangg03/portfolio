@@ -1,58 +1,55 @@
 .aboutme {
-  padding: 60px;
+  padding: 70px 50px;
+  font-family: "Raleway", sans-serif;
   display: flex;
-  justify-content: space-between;
 }
 .aboutme h2 {
-  font-size: 2.3rem;
-  font-weight: 600;
-}
-.aboutme h2:after {
-  display: block;
-  content: "____";
-  margin-top: -20px;
-  color: #fc5c57;
+  border-left: 3px solid #fc5c57;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 2.6rem;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  color: #34343480;
+  font-family: "Raleway", sans-serif;
 }
 .aboutme__description {
-  width: 50%;
-}
-.aboutme__description p {
-  font-size: 1.4rem;
-  font-weight: 300;
-  margin: 10px 0 20px;
-  line-height: 2.5rem;
+  padding-right: 150px;
 }
 .aboutme__personal {
-  border: 1px solid #fc5c577a;
+  margin-top: 15px;
 }
 .aboutme__personal ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  height: 250px;
-  padding: 25px 35px;
-  align-items: center;
-  gap: 10px;
+  padding-left: 5px;
 }
 .aboutme__personal li {
+  margin: 10px 0;
   font-size: 1.3rem;
+}
+.aboutme__personal a {
+  color: #fc5c57;
   font-weight: 600;
+  border: 2px solid #fc5c57;
+  padding: 13px 25px;
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
 }
-.aboutme__personal span {
-  font-size: 1.1rem;
-  font-weight: 100;
-}
-.aboutme__objectives {
-  width: 40%;
+.aboutme__personal a:hover {
+  background-color: #fc5c57;
+  color: white;
 }
 .aboutme__objectives ul {
   list-style: none;
-  margin-top: 12px;
-  font-size: 1.5rem;
+  padding-left: 5px;
+  margin-top: 15px;
 }
 .aboutme__objectives li {
-  margin-bottom: 20px;
+  margin: 10px 0;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=aboutme.css.map */

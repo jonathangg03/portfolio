@@ -9,7 +9,8 @@ $primary: #1e2233;
 $secondary: #24273d;
 $main: #fc5c57;
 $fontLogo: 'Raleway', sans-serif;
-$fontMain: 'Arimo', sans-serif;
+$fontMain: 'Raleway', sans-serif;
+$gray: #34343480;
 
 @mixin darkShadow() {
   -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
