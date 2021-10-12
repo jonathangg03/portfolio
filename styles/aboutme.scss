@@ -31,20 +31,11 @@
     }
 
     a {
-      color: $main;
-      font-weight: 600;
-      // background-color: $main;
-      border: 2px solid $main;
-      padding: 13px 25px;
-      margin-top: 5px;
-      display: inline-block;
-      text-decoration: none;
-      transition: 0.3s;
+      @include redButton();
     }
 
     a:hover {
-      background-color: $main;
-      color: white;
+      @include redButtonHover();
     }
   }
 
