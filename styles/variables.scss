@@ -40,3 +40,10 @@ $gray: #34343480;
   background-color: $main;
   color: white;
 }
+
+@mixin titles() {
+  text-align: center;
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  color: $gray;
+}

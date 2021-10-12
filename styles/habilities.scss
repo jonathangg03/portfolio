@@ -5,10 +5,7 @@
   max-width: 1500px;
   margin: 0 auto;
   h2 {
-    text-align: center;
-    font-size: 2.6rem;
-    letter-spacing: 1px;
-    color: $gray;
+    @include titles();
   }
 
   ul {
