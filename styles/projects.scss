@@ -10,15 +10,14 @@
   &__item {
     display: flex;
     align-items: center;
-    justify-content: end;
     position: relative;
+    justify-content: center;
     padding-right: 60px;
     margin: 40px 0 80px;
     &-description {
       width: 500px;
       height: 270px;
-      left: 70px;
-      position: absolute;
+      margin-right: -250px;
     }
 
     &-description-container {
