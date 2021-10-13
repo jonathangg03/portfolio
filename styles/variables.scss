@@ -12,16 +12,16 @@ $fontLogo: 'Raleway', sans-serif;
 $fontMain: 'Raleway', sans-serif;
 $gray: #34343480;
 
-@mixin darkShadow() {
-  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+@mixin darkShadow($color: rgba(0, 0, 0, 0.28)) {
+  -webkit-box-shadow: 1px 3px 5px 1px $color;
+  box-shadow: 1px 3px 5px 1px $color;
+  -moz-box-shadow: 1px 3px 5px 1px $color;
 }
 
-@mixin lightShadow() {
-  -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
-  box-shadow: 1px 3px 5px 1px #0000000d;
-  -moz-box-shadow: 1px 3px 5px 1px #0000000d;
+@mixin lightShadow($color: #0000000d) {
+  -webkit-box-shadow: 1px 3px 5px 1px $color;
+  box-shadow: 1px 3px 5px 1px $color;
+  -moz-box-shadow: 1px 3px 5px 1px $color;
 }
 
 @mixin redButton() {
