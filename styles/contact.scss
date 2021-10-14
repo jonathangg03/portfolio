@@ -74,6 +74,9 @@
     list-style: none;
     display: flex;
     margin-top: 20px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
   }
 
   li {
@@ -82,6 +85,10 @@
     i {
       font-size: 3rem;
       transition: 0.4s;
+    }
+
+    a {
+      color: white;
     }
   }
 

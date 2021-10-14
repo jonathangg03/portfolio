@@ -67,6 +67,9 @@
   list-style: none;
   display: flex;
   margin-top: 20px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
 }
 .contact li {
   margin-right: 15px;
@@ -75,6 +78,9 @@
 .contact li i {
   font-size: 3rem;
   transition: 0.4s;
+}
+.contact li a {
+  color: white;
 }
 .contact li:hover i {
   font-size: 3.8rem;

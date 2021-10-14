@@ -177,28 +177,37 @@ body {
 }
 .habilities li {
   background-color: white;
-  padding: 30px 15px;
+  padding: 15px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
   box-shadow: 1px 3px 5px 1px #0000000d;
   -moz-box-shadow: 1px 3px 5px 1px #0000000d;
 }
-.habilities i {
+.habilities li div {
   font-size: 2rem;
   background-color: #3434342b;
   border-radius: 50%;
-  padding: 15px 13px;
+  width: 68px;
+  height: 67px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .habilities h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 7px 0 8px;
+  margin: 8px 0 10px;
 }
 .habilities p {
   font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.icon-big {
+  font-size: 3rem;
 }
 
 .projects {
@@ -407,6 +416,9 @@ body {
   list-style: none;
   display: flex;
   margin-top: 20px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
 }
 .contact li {
   margin-right: 15px;
@@ -415,6 +427,9 @@ body {
 .contact li i {
   font-size: 3rem;
   transition: 0.4s;
+}
+.contact li a {
+  color: white;
 }
 .contact li:hover i {
   font-size: 3.8rem;
