@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #fbfbfb;
+  background-color: #f7f7f7;
 }
 
 .header {
@@ -113,7 +113,9 @@ body {
   font-family: "Raleway", sans-serif;
 }
 .aboutme__description {
-  padding-right: 150px;
+  padding-right: 50px;
+  line-height: 1.7rem;
+  width: 50%;
 }
 .aboutme__personal {
   margin-top: 15px;
@@ -124,7 +126,7 @@ body {
 }
 .aboutme__personal li {
   margin: 10px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .aboutme__personal a {
   color: #fc5c57;
@@ -141,6 +143,9 @@ body {
   background-color: #fc5c57;
   color: white;
 }
+.aboutme__objectives {
+  width: 50%;
+}
 .aboutme__objectives ul {
   list-style: none;
   padding-left: 5px;
@@ -148,7 +153,7 @@ body {
 }
 .aboutme__objectives li {
   margin: 10px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .habilities {
@@ -205,13 +210,18 @@ body {
   letter-spacing: 1px;
   color: #34343480;
 }
+.projects__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
 .projects__item {
   display: flex;
   align-items: center;
   position: relative;
   justify-content: center;
-  padding-right: 25px;
-  margin: 40px 0 80px;
+  /* padding-right: 25px; */
+  /* margin: 40px 0 80px; */
 }
 .projects__item-description {
   width: 500px;

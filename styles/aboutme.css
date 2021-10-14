@@ -15,7 +15,9 @@
   font-family: "Raleway", sans-serif;
 }
 .aboutme__description {
-  padding-right: 150px;
+  padding-right: 50px;
+  line-height: 1.7rem;
+  width: 50%;
 }
 .aboutme__personal {
   margin-top: 15px;
@@ -26,7 +28,7 @@
 }
 .aboutme__personal li {
   margin: 10px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .aboutme__personal a {
   color: #fc5c57;
@@ -43,6 +45,9 @@
   background-color: #fc5c57;
   color: white;
 }
+.aboutme__objectives {
+  width: 50%;
+}
 .aboutme__objectives ul {
   list-style: none;
   padding-left: 5px;
@@ -50,7 +55,7 @@
 }
 .aboutme__objectives li {
   margin: 10px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=aboutme.css.map */

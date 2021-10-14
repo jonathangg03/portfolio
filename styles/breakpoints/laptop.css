@@ -1,0 +1,6 @@
+.projects__container {
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=laptop.css.map */

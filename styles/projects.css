@@ -7,13 +7,18 @@
   letter-spacing: 1px;
   color: #34343480;
 }
+.projects__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
 .projects__item {
   display: flex;
   align-items: center;
   position: relative;
   justify-content: center;
-  padding-right: 25px;
-  margin: 40px 0 80px;
+  /* padding-right: 25px; */
+  /* margin: 40px 0 80px; */
 }
 .projects__item-description {
   width: 500px;
