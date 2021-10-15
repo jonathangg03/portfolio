@@ -203,11 +203,11 @@
               </div>
               <div class="description-secondary">
                 <p>
-                  Un chat básico, en el cual enviamos y recibimos mensajes en
-                  tiempo real. Ingresamos con un usuario ya creado o creamos
-                  uno, creamos un chat con el usuario con el que queremos
-                  chatear, en caso de que no esté, e ingresando podremos
-                  comenzar a chatear.
+                  Un chat básico, donde podremos enviar y recibir mensajes en
+                  tiempo real gracias a los Web Sockets. Para probarlo debemos
+                  crear un usuario o ingresamos con alguno ya creado, y
+                  escogemos la persona de los restantes usuarios con la que
+                  queremos chatear.
                 </p>
                 <h4>Tecnologías usadas:</h4>
                 <ul>
@@ -236,13 +236,15 @@
           <div class="projects__item-description">
             <div class="projects__item-description-container">
               <div class="description-initial">
-                <h3>CHAT</h3>
+                <h3>GALERÍA</h3>
                 <div class="projects__item-description-buttons">
-                  <a href="https://megabyte-chat.vercel.app/" target="_blank"
+                  <a
+                    href="https://davdev-gallery-nextui.vercel.app/"
+                    target="_blank"
                     >Ver proyecto</a
                   >
                   <a
-                    href="https://github.com/jonathan-cursos/megabyte_chat"
+                    href="https://github.com/jonathangg03/davdev-gallery-nextui"
                     target="_blank"
                     >Ver Código</a
                   >
@@ -251,18 +253,18 @@
               </div>
               <div class="description-secondary">
                 <p>
-                  Un chat básico, en el cual enviamos y recibimos mensajes en
-                  tiempo real. Ingresamos con un usuario ya creado o creamos
-                  uno, creamos un chat con el usuario con el que queremos
-                  chatear, en caso de que no esté, e ingresando podremos
-                  comenzar a chatear.
+                  Podremos ingresar imagenes que se podrán ver en el incio de la
+                  página, así como eliminarlas y verlas en tamaño completo. Las
+                  imagenes se almacenan en Cloudinary.
                 </p>
+
                 <h4>Tecnologías usadas:</h4>
                 <ul>
                   <li>Next.js - React.js</li>
-                  <li>Styled JSX</li>
+                  <li>NextUI</li>
                   <li>Node.js - Express</li>
-                  <li>Web sockets</li>
+                  <li>Multer</li>
+                  <li>Cloudinary</li>
                   <li>Heroku</li>
                   <li>Vercel</li>
                 </ul>
@@ -273,7 +275,7 @@
           <div class="projects__item-visuals">
             <div class="image-cover"></div>
             <img
-              src="./assets/projects/chat.jpg"
+              src="./assets/projects/gallery.jpg"
               alt="Authenticate App"
               class="project__image"
               loading="lazy"
@@ -284,13 +286,15 @@
           <div class="projects__item-description">
             <div class="projects__item-description-container">
               <div class="description-initial">
-                <h3>CHAT</h3>
+                <h3>AUTENTICACIÓN</h3>
                 <div class="projects__item-description-buttons">
-                  <a href="https://megabyte-chat.vercel.app/" target="_blank"
+                  <a
+                    href="https://authenticate-app-frontend.herokuapp.com/"
+                    target="_blank"
                     >Ver proyecto</a
                   >
                   <a
-                    href="https://github.com/jonathan-cursos/megabyte_chat"
+                    href="https://github.com/jonathan-cursos/authenticate_app_frontend"
                     target="_blank"
                     >Ver Código</a
                   >
@@ -299,20 +303,18 @@
               </div>
               <div class="description-secondary">
                 <p>
-                  Un chat básico, en el cual enviamos y recibimos mensajes en
-                  tiempo real. Ingresamos con un usuario ya creado o creamos
-                  uno, creamos un chat con el usuario con el que queremos
-                  chatear, en caso de que no esté, e ingresando podremos
-                  comenzar a chatear.
+                  Una aplicación donde usamos diferentes tipos de autenticación
+                  para ingresar. Una vez ingresados, vemos el nombre, apellidos,
+                  y correo de la persona. Las estrategías usadas son la básica,
+                  con Facebook, Twitter y con Google.
                 </p>
                 <h4>Tecnologías usadas:</h4>
                 <ul>
-                  <li>Next.js - React.js</li>
-                  <li>Styled JSX</li>
+                  <li>React.js</li>
+                  <li>CSS</li>
                   <li>Node.js - Express</li>
-                  <li>Web sockets</li>
+                  <li>Passport.js</li>
                   <li>Heroku</li>
-                  <li>Vercel</li>
                 </ul>
                 <i class="fas fa-chevron-right"></i>
               </div>
@@ -321,7 +323,57 @@
           <div class="projects__item-visuals">
             <div class="image-cover"></div>
             <img
-              src="./assets/projects/chat.jpg"
+              src="./assets/projects/authenticate.jpg"
+              alt="Authenticate App"
+              class="project__image"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="projects__item">
+          <div class="projects__item-description">
+            <div class="projects__item-description-container">
+              <div class="description-initial">
+                <h3>PORTAL</h3>
+                <div class="projects__item-description-buttons">
+                  <a href="https://portal-d0251.web.app/" target="_blank"
+                    >Ver proyecto</a
+                  >
+                  <a
+                    href="https://github.com/jonathangg03/portal-cesa-frontend"
+                    target="_blank"
+                    >Ver Código</a
+                  >
+                </div>
+                <i class="fas fa-chevron-left"></i>
+              </div>
+              <div class="description-secondary">
+                <p>
+                  Aquí hice una copia similar de un portal que usamos en la
+                  empresa que me encuentro trabajando actualmente, donde
+                  mantenemos el registro de diferente información necesaria para
+                  nuestro puesto, como un directorio, procedimientos de
+                  clientes, documentos, entre otros. Tiene un login, pero no es
+                  seguro, por lo que no hay que colocar ningún dato valioso.
+                </p>
+                <h4>Tecnologías usadas:</h4>
+                <ul>
+                  <li>React.js</li>
+                  <li>CSS</li>
+                  <li>Node.js - Express</li>
+                  <li>Multer</li>
+                  <li>Quill.js</li>
+                  <li>Heroku</li>
+                  <li>Firebase</li>
+                </ul>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="projects__item-visuals">
+            <div class="image-cover"></div>
+            <img
+              src="./assets/projects/portal.jpg"
               alt="Authenticate App"
               class="project__image"
               loading="lazy"
