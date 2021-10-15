@@ -77,6 +77,7 @@
 .description-initial h3 {
   font-size: 3rem;
   font-weight: 300;
+  margin-bottom: 7px;
 }
 .description-initial a {
   color: #fc5c57;
