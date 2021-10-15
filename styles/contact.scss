@@ -8,9 +8,14 @@
     @include titles();
     color: white;
   }
+
+  h3 {
+    margin: 15px 25px 0;
+    font-size: 1.5rem;
+  }
   form {
     max-width: 1200px;
-    margin: 40px auto 20px;
+    margin: 25px auto 20px;
   }
 
   label {

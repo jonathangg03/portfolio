@@ -127,6 +127,7 @@ body {
 .aboutme__personal li {
   margin: 10px 0;
   font-size: 1.5rem;
+  line-height: 2.1rem;
 }
 .aboutme__personal a {
   color: #fc5c57;
@@ -360,9 +361,13 @@ body {
   color: #34343480;
   color: white;
 }
+.contact h3 {
+  margin: 15px 25px 0;
+  font-size: 1.5rem;
+}
 .contact form {
   max-width: 1200px;
-  margin: 40px auto 20px;
+  margin: 25px auto 20px;
 }
 .contact label p {
   text-transform: uppercase;

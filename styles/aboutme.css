@@ -29,6 +29,7 @@
 .aboutme__personal li {
   margin: 10px 0;
   font-size: 1.5rem;
+  line-height: 2.1rem;
 }
 .aboutme__personal a {
   color: #fc5c57;
