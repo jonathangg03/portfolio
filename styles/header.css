@@ -78,9 +78,12 @@
   font-size: 1.3rem;
   letter-spacing: 0.4rem;
   margin-top: 7px;
+  text-align: center;
 }
 .header__activator {
   display: none;
+  transition: 0.3s;
+  opacity: 0;
 }
 .header__closer {
   display: none;

@@ -50,6 +50,10 @@
   </head>
   <body>
     <div class="container" id="main">
+      <div class="responsive-title">
+        <img src="./assets/icon.png" alt="" />
+        <a href="/">DAVDEV</a>
+      </div>
       <header class="header">
         <div class="header__top">
           <div class="header__top-title">
@@ -79,15 +83,26 @@
           </nav>
         </div>
         <div class="header__hero">
-          <img src="./assets/me.jpg" />
-          <h1>Jonathan David García González</h1>
-          <p>Desarrollador web front-end junior</p>
+          <div class="header__hero-img">
+            <img src="./assets/me.jpg" />
+          </div>
+          <div class="header__hero-description">
+            <h1>Jonathan David García González</h1>
+            <p>Desarrollador web front-end junior</p>
+          </div>
         </div>
         <img src="./assets/hero.jpg" class="header__image--bg" alt="" />
-        <div class="header__activator" id="header__activator">
+        <div
+          class="header__activators header__activator"
+          id="header__activator"
+        >
           <i class="fas fa-bars"></i>
         </div>
-        <div class="header__closer"><i class="fas fa-times"></i></div>
+        <div class="header__closer">
+          <div>
+            <i class="fas fa-chevron-up"></i>
+          </div>
+        </div>
       </header>
       <section class="aboutme" id="aboutme">
         <div class="aboutme__description">
@@ -490,11 +505,19 @@
     </script>
     <script>
       const $headerActivator = document.getElementById('header__activator')
+      const $headerCloser = document.querySelector('.header__closer')
       const $header = document.querySelector('header')
 
       $headerActivator.addEventListener('click', (e) => {
         console.log(e)
         $header.classList.add('activate__header')
+        $headerActivator.classList.remove('header__activators')
+      })
+
+      $headerCloser.addEventListener('click', (e) => {
+        console.log(e)
+        $header.classList.remove('activate__header')
+        $headerActivator.classList.add('header__activators')
       })
     </script>
   </body>
