@@ -87,6 +87,14 @@
       margin-top: 7px;
     }
   }
+
+  &__activator {
+    display: none;
+  }
+
+  &__closer {
+    display: none;
+  }
 }
 
 // .header {

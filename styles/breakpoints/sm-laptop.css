@@ -1,0 +1,8 @@
+.habilities ul {
+  grid-template-columns: repeat(2, 1fr);
+}
+.habilities li {
+  padding: 20px 15px;
+}
+
+/*# sourceMappingURL=sm-laptop.css.map */

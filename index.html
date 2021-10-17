@@ -30,6 +30,18 @@
       type="text/css"
       media="screen and (max-width: 1800px)"
     />
+    <link
+      href="./styles/breakpoints/sm-laptop.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 1100px)"
+    />
+    <link
+      href="./styles/breakpoints/tablet.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 768px)"
+    />
     <title>Jonathan David García González</title>
     <script
       src="https://kit.fontawesome.com/3f6e777ff9.js"
@@ -72,363 +84,373 @@
           <p>Desarrollador web front-end junior</p>
         </div>
         <img src="./assets/hero.jpg" class="header__image--bg" alt="" />
+        <div class="header__activator" id="header__activator">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="header__closer"><i class="fas fa-times"></i></div>
       </header>
-    </div>
-    <section class="aboutme" id="aboutme">
-      <div class="aboutme__description">
-        <h2>SOBRE MÍ</h2>
-        <article class="aboutme__personal">
+      <section class="aboutme" id="aboutme">
+        <div class="aboutme__description">
+          <h2>SOBRE MÍ</h2>
+          <article class="aboutme__personal">
+            <ul>
+              <li>
+                Mi nombre es Jonahan David García González, tengo 23 años, y soy
+                de San José, Costa Rica.
+              </li>
+              <li>
+                Soy bachiller y tecnico medio en desarrollo de software.
+                Actualmente estudio Ingeniería en Sistemas en la universidad.
+              </li>
+              <li>
+                Llevo un año estudiando desarrollo web de forma completamente
+                autodidacta, y es la rama del desarrollo de software que hasta
+                ahora más me ha gustado.
+              </li>
+              <li>
+                Estoy completamente dispuesto a aprender de otros
+                desarrolladores con más experiencia que yo, así como a aportar
+                mi conocimiento para quien que así lo requiera.
+              </li>
+              <li>
+                Mi fuerte está en el desarrollo front-end, con tecnologías como
+                HTML, CSS, JavaScript, React.js, Next.js. Sin embargo, he creado
+                las APIs que uso en mis proyectos con Node.js y Express.js y las
+                distintas herramientas que tienen para trabajar.
+              </li>
+              <li>
+                He desarrollado varios proyectos personales de distintos tipos,
+                que puedes encontrar más abajo.
+              </li>
+              <li>
+                <a
+                  class="nav__list-item-link"
+                  href="./assets/curriculum.pdf"
+                  target="_blank"
+                  >Ver Curriculum</a
+                >
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="aboutme__objectives">
+          <h2>OBJETIVOS PERSONALES</h2>
+          <ul>
+            <li>Trabajar del desarrollo de software.</li>
+            <li>Aprender de diferentes desarrolladores de la industria.</li>
+            <li>Aprender desarrollo movil.</li>
+            <li>
+              Poder enseñar los temas que he aprendido de la forma que a mi me
+              hubiera gustado aprender.
+            </li>
+            <li>
+              Desarrollar una aplicación que tenga un impacto en la sociedad.
+            </li>
+            <li>Estudiar robotica en algún momento de mi vida.</li>
+            <li>
+              Vivir en algún país desarrollado por un tiempo, así como conocer
+              distintos países.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="habilities" id="habilities">
+        <h2 class="habilities__title">HABILIDADES TÉCNICAS</h2>
+        <ul>
+          <li>
+            <div><i class="fas fa-laptop-code"></i></div>
+            <h3>Crear landing pages</h3>
+            <p>
+              Creación de landing pages con HTML, CSS/SASS y JavaScript, así
+              como estilizarlas con librerías de CSS como Bootstrap o NextUI.
+            </p>
+          </li>
+          <li>
+            <div><i class="fab fa-react icon-big"></i></div>
+            <h3>SPA con React.js</h3>
+            <p>
+              Creación de Single Page Applications tanto con React.js como con
+              Next.js
+            </p>
+          </li>
+          <li>
+            <div><i class="fab fa-node-js icon-big"></i></div>
+            <h3>REST API con Node.js</h3>
+            <p>
+              Creación de distintas APIs REST con Node.js, ayudandonos de
+              Express.js y almacenamiento de datos en MongoDB.
+            </p>
+          </li>
+          <li>
+            <div><i class="fas fa-terminal"></i></div>
+            <h3>Despliegue de aplicaciones</h3>
+            <p>
+              Desplegar APIs en Heroku, así como las aplicaciones de React.js en
+              Vercel, Firebase y Heroku con Node.js.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- <section class="projects" id="projects">
+        <h2>PROYECTOS</h2>
+        <div class="projects__container">
+          <div class="projects__item">
+            <div class="projects__item-description">
+              <div class="projects__item-description-container">
+                <div class="description-initial">
+                  <h3>CHAT</h3>
+                  <div class="projects__item-description-buttons">
+                    <a href="https://megabyte-chat.vercel.app/" target="_blank"
+                      >Ver proyecto</a
+                    >
+                    <a
+                      href="https://github.com/jonathan-cursos/megabyte_chat"
+                      target="_blank"
+                      >Ver Código</a
+                    >
+                  </div>
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="description-secondary">
+                  <p>
+                    Un chat básico, donde podremos enviar y recibir mensajes en
+                    tiempo real gracias a los Web Sockets. Para probarlo debemos
+                    crear un usuario o ingresamos con alguno ya creado, y
+                    escogemos la persona de los restantes usuarios con la que
+                    queremos chatear.
+                  </p>
+                  <h4>Tecnologías usadas:</h4>
+                  <ul>
+                    <li>Next.js - React.js</li>
+                    <li>Styled JSX</li>
+                    <li>Node.js - Express</li>
+                    <li>Web sockets</li>
+                    <li>Heroku</li>
+                    <li>Vercel</li>
+                  </ul>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="projects__item-visuals">
+              <div class="image-cover"></div>
+              <img
+                src="./assets/projects/chat.jpg"
+                alt="Authenticate App"
+                class="project__image"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__item">
+            <div class="projects__item-description">
+              <div class="projects__item-description-container">
+                <div class="description-initial">
+                  <h3>GALERÍA</h3>
+                  <div class="projects__item-description-buttons">
+                    <a
+                      href="https://davdev-gallery-nextui.vercel.app/"
+                      target="_blank"
+                      >Ver proyecto</a
+                    >
+                    <a
+                      href="https://github.com/jonathangg03/davdev-gallery-nextui"
+                      target="_blank"
+                      >Ver Código</a
+                    >
+                  </div>
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="description-secondary">
+                  <p>
+                    Podremos ingresar imagenes que se podrán ver en el incio de
+                    la página, así como eliminarlas y verlas en tamaño completo.
+                    Las imagenes se almacenan en Cloudinary.
+                  </p>
+
+                  <h4>Tecnologías usadas:</h4>
+                  <ul>
+                    <li>Next.js - React.js</li>
+                    <li>NextUI</li>
+                    <li>Node.js - Express</li>
+                    <li>Multer</li>
+                    <li>Cloudinary</li>
+                    <li>Heroku</li>
+                    <li>Vercel</li>
+                  </ul>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="projects__item-visuals">
+              <div class="image-cover"></div>
+              <img
+                src="./assets/projects/gallery.jpg"
+                alt="Authenticate App"
+                class="project__image"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__item">
+            <div class="projects__item-description">
+              <div class="projects__item-description-container">
+                <div class="description-initial">
+                  <h3>AUTENTICACIÓN</h3>
+                  <div class="projects__item-description-buttons">
+                    <a
+                      href="https://authenticate-app-frontend.herokuapp.com/"
+                      target="_blank"
+                      >Ver proyecto</a
+                    >
+                    <a
+                      href="https://github.com/jonathan-cursos/authenticate_app_frontend"
+                      target="_blank"
+                      >Ver Código</a
+                    >
+                  </div>
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="description-secondary">
+                  <p>
+                    Una aplicación donde usamos diferentes tipos de
+                    autenticación para ingresar. Una vez ingresados, vemos el
+                    nombre, apellidos, y correo de la persona. Las estrategías
+                    usadas son la básica, con Facebook, Twitter y con Google.
+                  </p>
+                  <h4>Tecnologías usadas:</h4>
+                  <ul>
+                    <li>React.js</li>
+                    <li>CSS</li>
+                    <li>Node.js - Express</li>
+                    <li>Passport.js</li>
+                    <li>Heroku</li>
+                  </ul>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="projects__item-visuals">
+              <div class="image-cover"></div>
+              <img
+                src="./assets/projects/authenticate.jpg"
+                alt="Authenticate App"
+                class="project__image"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__item">
+            <div class="projects__item-description">
+              <div class="projects__item-description-container">
+                <div class="description-initial">
+                  <h3>PORTAL</h3>
+                  <div class="projects__item-description-buttons">
+                    <a href="https://portal-d0251.web.app/" target="_blank"
+                      >Ver proyecto</a
+                    >
+                    <a
+                      href="https://github.com/jonathangg03/portal-cesa-frontend"
+                      target="_blank"
+                      >Ver Código</a
+                    >
+                  </div>
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="description-secondary">
+                  <p>
+                    Aquí hice una copia similar de un portal que usamos en la
+                    empresa que me encuentro trabajando actualmente, donde
+                    mantenemos el registro de diferente información necesaria
+                    para nuestro puesto, como un directorio, procedimientos de
+                    clientes, documentos, entre otros. Tiene un login, pero no
+                    es seguro, por lo que no hay que colocar ningún dato
+                    valioso.
+                  </p>
+                  <h4>Tecnologías usadas:</h4>
+                  <ul>
+                    <li>React.js</li>
+                    <li>CSS</li>
+                    <li>Node.js - Express</li>
+                    <li>Multer</li>
+                    <li>Quill.js</li>
+                    <li>Heroku</li>
+                    <li>Firebase</li>
+                  </ul>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="projects__item-visuals">
+              <div class="image-cover"></div>
+              <img
+                src="./assets/projects/portal.jpg"
+                alt="Authenticate App"
+                class="project__image"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="contact">
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <h3>
+          Siéntete libre de contactarme por cualquier medio sí te gustaría que
+          formara parte de tu equipo de trabajo:
+        </h3>
+        <form
+          action="https://formspree.io/f/mdoywqpd"
+          method="POST"
+          id="form"
+          class="form__item"
+        >
+          <label>
+            <p>Nombre completo</p>
+            <input type="text" required name="name" />
+          </label>
+          <label>
+            <p>Nombre de la empresa</p>
+            <input type="text" required name="company" />
+          </label>
+          <label>
+            <p>Mensaje</p>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+          <button type="submit">Enviar</button>
           <ul>
             <li>
-              Mi nombre es Jonahan David García González, tengo 23 años, y soy
-              de San José, Costa Rica.
+              <a href="https://github.com/jonathangg03" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
             </li>
             <li>
-              Soy bachiller y tecnico medio en desarrollo de software.
-              Actualmente estudio Ingeniería en Sistemas en la universidad.
+              <a href="https://twitter.com/jona_davdev" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
             </li>
             <li>
-              Llevo un año estudiando desarrollo web de forma completamente
-              autodidacta, y es la rama del desarrollo de software que hasta
-              ahora más me ha gustado.
-            </li>
-            <li>
-              Estoy completamente dispuesto a aprender de otros desarrolladores
-              con más experiencia que yo, así como a aportar mi conocimiento
-              para quien que así lo requiera.
-            </li>
-            <li>
-              Mi fuerte está en el desarrollo front-end, con tecnologías como
-              HTML, CSS, JavaScript, React.js, Next.js. Sin embargo, he creado
-              las APIs que uso en mis proyectos con Node.js y Express.js y las
-              distintas herramientas que tienen para trabajar.
-            </li>
-            <li>
-              He desarrollado varios proyectos personales de distintos tipos,
-              que puedes encontrar más abajo.
+              <a href="https://www.instagram.com/jonathangg_03/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </li>
             <li>
               <a
-                class="nav__list-item-link"
-                href="./assets/curriculum.pdf"
+                href="https://www.linkedin.com/in/jonathan-david-garc%C3%ADa-gonz%C3%A1lez-9529a3219/"
                 target="_blank"
-                >Ver Curriculum</a
-              >
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </li>
           </ul>
-        </article>
-      </div>
-      <div class="aboutme__objectives">
-        <h2>OBJETIVOS PERSONALES</h2>
-        <ul>
-          <li>Trabajar del desarrollo de software.</li>
-          <li>Aprender de diferentes desarrolladores de la industria.</li>
-          <li>Aprender desarrollo movil.</li>
-          <li>
-            Poder enseñar los temas que he aprendido de la forma que a mi me
-            hubiera gustado aprender.
-          </li>
-          <li>
-            Desarrollar una aplicación que tenga un impacto en la sociedad.
-          </li>
-          <li>Estudiar robotica en algún momento de mi vida.</li>
-          <li>
-            Vivir en algún país desarrollado por un tiempo, así como conocer
-            distintos países.
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="habilities" id="habilities">
-      <h2 class="habilities__title">HABILIDADES TÉCNICAS</h2>
-      <ul>
-        <li>
-          <div><i class="fas fa-laptop-code"></i></div>
-          <h3>Crear landing pages</h3>
-          <p>
-            Creación de landing pages con HTML, CSS/SASS y JavaScript, así como
-            estilizarlas con librerías de CSS como Bootstrap o NextUI.
-          </p>
-        </li>
-        <li>
-          <div><i class="fab fa-react icon-big"></i></div>
-          <h3>SPA con React.js</h3>
-          <p>
-            Creación de Single Page Applications tanto con React.js como con
-            Next.js
-          </p>
-        </li>
-        <li>
-          <div><i class="fab fa-node-js icon-big"></i></div>
-          <h3>REST API con Node.js</h3>
-          <p>
-            Creación de distintas APIs REST con Node.js, ayudandonos de
-            Express.js y almacenamiento de datos en MongoDB.
-          </p>
-        </li>
-        <li>
-          <div><i class="fas fa-terminal"></i></div>
-          <h3>Despliegue de aplicaciones</h3>
-          <p>
-            Desplegar APIs en Heroku, así como las aplicaciones de React.js en
-            Vercel, Firebase y Heroku con Node.js.
-          </p>
-        </li>
-      </ul>
-    </section>
-    <section class="projects" id="projects">
-      <h2>PROYECTOS</h2>
-      <div class="projects__container">
-        <div class="projects__item">
-          <div class="projects__item-description">
-            <div class="projects__item-description-container">
-              <div class="description-initial">
-                <h3>CHAT</h3>
-                <div class="projects__item-description-buttons">
-                  <a href="https://megabyte-chat.vercel.app/" target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
-                    href="https://github.com/jonathan-cursos/megabyte_chat"
-                    target="_blank"
-                    >Ver Código</a
-                  >
-                </div>
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <div class="description-secondary">
-                <p>
-                  Un chat básico, donde podremos enviar y recibir mensajes en
-                  tiempo real gracias a los Web Sockets. Para probarlo debemos
-                  crear un usuario o ingresamos con alguno ya creado, y
-                  escogemos la persona de los restantes usuarios con la que
-                  queremos chatear.
-                </p>
-                <h4>Tecnologías usadas:</h4>
-                <ul>
-                  <li>Next.js - React.js</li>
-                  <li>Styled JSX</li>
-                  <li>Node.js - Express</li>
-                  <li>Web sockets</li>
-                  <li>Heroku</li>
-                  <li>Vercel</li>
-                </ul>
-                <i class="fas fa-chevron-right"></i>
-              </div>
-            </div>
-          </div>
-          <div class="projects__item-visuals">
-            <div class="image-cover"></div>
-            <img
-              src="./assets/projects/chat.jpg"
-              alt="Authenticate App"
-              class="project__image"
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div class="projects__item">
-          <div class="projects__item-description">
-            <div class="projects__item-description-container">
-              <div class="description-initial">
-                <h3>GALERÍA</h3>
-                <div class="projects__item-description-buttons">
-                  <a
-                    href="https://davdev-gallery-nextui.vercel.app/"
-                    target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
-                    href="https://github.com/jonathangg03/davdev-gallery-nextui"
-                    target="_blank"
-                    >Ver Código</a
-                  >
-                </div>
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <div class="description-secondary">
-                <p>
-                  Podremos ingresar imagenes que se podrán ver en el incio de la
-                  página, así como eliminarlas y verlas en tamaño completo. Las
-                  imagenes se almacenan en Cloudinary.
-                </p>
-
-                <h4>Tecnologías usadas:</h4>
-                <ul>
-                  <li>Next.js - React.js</li>
-                  <li>NextUI</li>
-                  <li>Node.js - Express</li>
-                  <li>Multer</li>
-                  <li>Cloudinary</li>
-                  <li>Heroku</li>
-                  <li>Vercel</li>
-                </ul>
-                <i class="fas fa-chevron-right"></i>
-              </div>
-            </div>
-          </div>
-          <div class="projects__item-visuals">
-            <div class="image-cover"></div>
-            <img
-              src="./assets/projects/gallery.jpg"
-              alt="Authenticate App"
-              class="project__image"
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div class="projects__item">
-          <div class="projects__item-description">
-            <div class="projects__item-description-container">
-              <div class="description-initial">
-                <h3>AUTENTICACIÓN</h3>
-                <div class="projects__item-description-buttons">
-                  <a
-                    href="https://authenticate-app-frontend.herokuapp.com/"
-                    target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
-                    href="https://github.com/jonathan-cursos/authenticate_app_frontend"
-                    target="_blank"
-                    >Ver Código</a
-                  >
-                </div>
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <div class="description-secondary">
-                <p>
-                  Una aplicación donde usamos diferentes tipos de autenticación
-                  para ingresar. Una vez ingresados, vemos el nombre, apellidos,
-                  y correo de la persona. Las estrategías usadas son la básica,
-                  con Facebook, Twitter y con Google.
-                </p>
-                <h4>Tecnologías usadas:</h4>
-                <ul>
-                  <li>React.js</li>
-                  <li>CSS</li>
-                  <li>Node.js - Express</li>
-                  <li>Passport.js</li>
-                  <li>Heroku</li>
-                </ul>
-                <i class="fas fa-chevron-right"></i>
-              </div>
-            </div>
-          </div>
-          <div class="projects__item-visuals">
-            <div class="image-cover"></div>
-            <img
-              src="./assets/projects/authenticate.jpg"
-              alt="Authenticate App"
-              class="project__image"
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div class="projects__item">
-          <div class="projects__item-description">
-            <div class="projects__item-description-container">
-              <div class="description-initial">
-                <h3>PORTAL</h3>
-                <div class="projects__item-description-buttons">
-                  <a href="https://portal-d0251.web.app/" target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
-                    href="https://github.com/jonathangg03/portal-cesa-frontend"
-                    target="_blank"
-                    >Ver Código</a
-                  >
-                </div>
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <div class="description-secondary">
-                <p>
-                  Aquí hice una copia similar de un portal que usamos en la
-                  empresa que me encuentro trabajando actualmente, donde
-                  mantenemos el registro de diferente información necesaria para
-                  nuestro puesto, como un directorio, procedimientos de
-                  clientes, documentos, entre otros. Tiene un login, pero no es
-                  seguro, por lo que no hay que colocar ningún dato valioso.
-                </p>
-                <h4>Tecnologías usadas:</h4>
-                <ul>
-                  <li>React.js</li>
-                  <li>CSS</li>
-                  <li>Node.js - Express</li>
-                  <li>Multer</li>
-                  <li>Quill.js</li>
-                  <li>Heroku</li>
-                  <li>Firebase</li>
-                </ul>
-                <i class="fas fa-chevron-right"></i>
-              </div>
-            </div>
-          </div>
-          <div class="projects__item-visuals">
-            <div class="image-cover"></div>
-            <img
-              src="./assets/projects/portal.jpg"
-              alt="Authenticate App"
-              class="project__image"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="contact">
-      <h2>FORMULARIO DE CONTACTO</h2>
-      <h3>
-        Siéntete libre de contactarme por cualquier medio sí te gustaría que
-        formara parte de tu equipo de trabajo:
-      </h3>
-      <form
-        action="https://formspree.io/f/mdoywqpd"
-        method="POST"
-        id="form"
-        class="form__item"
-      >
-        <label>
-          <p>Nombre completo</p>
-          <input type="text" required name="name" />
-        </label>
-        <label>
-          <p>Nombre de la empresa</p>
-          <input type="text" required name="company" />
-        </label>
-        <label>
-          <p>Mensaje</p>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        </label>
-        <button type="submit">Enviar</button>
-        <ul>
-          <li>
-            <a href="https://github.com/jonathangg03" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/jona_davdev" target="_blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/jonathangg_03/" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/jonathan-david-garc%C3%ADa-gonz%C3%A1lez-9529a3219/"
-              target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-          </li>
-        </ul>
-      </form>
-      <article class="contact__social"></article>
-    </section>
+        </form>
+        <article class="contact__social"></article>
+      </section>
+    </div>
     <script>
       const $form = document.querySelector('#form')
       $form.addEventListener('submit', handleSubmit)
@@ -464,6 +486,15 @@
             el.children[1].classList.toggle('move-secondary')
           }
         })
+      })
+    </script>
+    <script>
+      const $headerActivator = document.getElementById('header__activator')
+      const $header = document.querySelector('header')
+
+      $headerActivator.addEventListener('click', (e) => {
+        console.log(e)
+        $header.classList.add('activate__header')
       })
     </script>
   </body>

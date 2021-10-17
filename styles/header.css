@@ -79,5 +79,11 @@
   letter-spacing: 0.4rem;
   margin-top: 7px;
 }
+.header__activator {
+  display: none;
+}
+.header__closer {
+  display: none;
+}
 
 /*# sourceMappingURL=header.css.map */

@@ -1,0 +1,42 @@
+.header {
+  transition: 0.5s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  background-color: white;
+  display: grid;
+}
+.header__top {
+  border: 1px solid white;
+}
+.header__hero {
+  grid-row: 1/span 1;
+  border: 1px solid white;
+  height: 215px;
+}
+.header__activator {
+  background-color: #fc5c57ab;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  z-index: -1;
+}
+.header .nav__list a a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.activate__header {
+  top: 0;
+}
+
+/*# sourceMappingURL=tablet.css.map */

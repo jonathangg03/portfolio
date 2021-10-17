@@ -1,0 +1,9 @@
+.habilities {
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  li {
+    padding: 20px 15px;
+  }
+}
