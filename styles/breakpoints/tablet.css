@@ -147,7 +147,6 @@
   font-size: 1.3rem;
 }
 .aboutme__description ul a {
-  margin: 10px auto 0;
   display: block;
   width: 150px;
   text-align: center;
@@ -162,6 +161,17 @@
 }
 .aboutme__objectives ul li {
   font-size: 1.3rem;
+}
+
+/*_______________Habilities________________*/
+.habilities {
+  padding: 30px 15px 0;
+}
+.habilities h2 {
+  font-size: 2.2rem;
+}
+.habilities ul {
+  grid-template-columns: 1fr;
 }
 
 /*# sourceMappingURL=tablet.css.map */
