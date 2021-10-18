@@ -174,4 +174,13 @@
   grid-template-columns: 1fr;
 }
 
+/*_______________Proyects________________*/
+.projects {
+  padding: 15px 15px 0;
+}
+.projects__item-description {
+  margin-right: 0;
+  position: absolute;
+}
+
 /*# sourceMappingURL=tablet.css.map */

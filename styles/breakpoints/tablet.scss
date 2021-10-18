@@ -188,3 +188,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+/*_______________Proyects________________*/
+
+.projects {
+  padding: 15px 15px 0;
+  &__item-description {
+    margin-right: 0;
+    position: absolute;
+  }
+}
