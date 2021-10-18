@@ -140,3 +140,41 @@
 .header__image--bg {
   display: none;
 }
+
+/*_______________About me________________*/
+.aboutme {
+  display: initial;
+  padding: 0;
+  h2 {
+    font-size: 2.2rem;
+  }
+  &__description {
+    width: 100%;
+    padding: 15px 15px 0;
+    ul {
+      padding: 0;
+      li {
+        font-size: 1.3rem;
+      }
+      a {
+        margin: 10px auto 0;
+        display: block;
+        width: 150px;
+        text-align: center;
+      }
+    }
+  }
+
+  &__objectives {
+    width: 100%;
+    padding: 15px 15px 0;
+    margin: 0;
+
+    ul {
+      padding: 0;
+      li {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

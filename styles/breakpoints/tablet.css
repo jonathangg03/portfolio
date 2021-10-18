@@ -128,4 +128,40 @@
   display: none;
 }
 
+/*_______________About me________________*/
+.aboutme {
+  display: initial;
+  padding: 0;
+}
+.aboutme h2 {
+  font-size: 2.2rem;
+}
+.aboutme__description {
+  width: 100%;
+  padding: 15px 15px 0;
+}
+.aboutme__description ul {
+  padding: 0;
+}
+.aboutme__description ul li {
+  font-size: 1.3rem;
+}
+.aboutme__description ul a {
+  margin: 10px auto 0;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+.aboutme__objectives {
+  width: 100%;
+  padding: 15px 15px 0;
+  margin: 0;
+}
+.aboutme__objectives ul {
+  padding: 0;
+}
+.aboutme__objectives ul li {
+  font-size: 1.3rem;
+}
+
 /*# sourceMappingURL=tablet.css.map */
