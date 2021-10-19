@@ -48,6 +48,12 @@
       type="text/css"
       media="screen and (max-width: 600px)"
     />
+    <link
+      href="./styles/breakpoints/mobile-l.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 425px)"
+    />
     <title>Jonathan David García González</title>
     <script
       src="https://kit.fontawesome.com/3f6e777ff9.js"
@@ -98,12 +104,6 @@
           </div>
         </div>
         <img src="./assets/hero.jpg" class="header__image--bg" alt="" />
-        <div
-          class="header__activators header__activator"
-          id="header__activator"
-        >
-          <i class="fas fa-bars"></i>
-        </div>
         <div class="header__closer">
           <div>
             <i class="fas fa-chevron-up"></i>
@@ -414,7 +414,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="contact">
+      <section class="contact">
         <h2>FORMULARIO DE CONTACTO</h2>
         <h3>
           Siéntete libre de contactarme por cualquier medio sí te gustaría que
@@ -470,7 +470,10 @@
           </ul>
         </form>
         <article class="contact__social"></article>
-      </section> -->
+      </section>
+      <div class="header__activators header__activator" id="header__activator">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
     <script>
       const $form = document.querySelector('#form')

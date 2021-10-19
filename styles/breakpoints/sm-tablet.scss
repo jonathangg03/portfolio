@@ -8,3 +8,43 @@
     line-height: 1.6rem;
   }
 }
+
+.description-initial {
+  h3 {
+    font-size: 2rem;
+  }
+  a {
+    padding: 9px 12px;
+    font-size: 1rem;
+  }
+
+  i {
+    left: 10px;
+  }
+}
+/*________________________Projects____________________*/
+
+.projects__container {
+  gap: 25px;
+}
+
+.projects__item-description {
+  position: static;
+  width: 280px;
+  height: 220px;
+}
+
+.projects__item-visuals {
+  display: none;
+}
+
+.description-secondary {
+  font-size: 1rem;
+  padding: 15px 26px;
+  h4 {
+    font-size: 1.2rem;
+  }
+  i {
+    right: 10px;
+  }
+}
