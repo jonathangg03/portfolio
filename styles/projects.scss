@@ -2,60 +2,62 @@
 
 .projects {
   padding: 40px 50px;
-
   h2 {
     @include titles();
   }
 
   &__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
-    gap: 50px;
+    padding: 40px 50px;
   }
 
   &__item {
     display: flex;
     align-items: center;
-    position: relative;
-    justify-content: center;
-    /* padding-right: 25px; */
-    /* margin: 40px 0 80px; */
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px;
+    height: 360px;
+    max-width: 1500px;
+    margin: 0 auto;
+    @include lightShadow();
     &-description {
-      width: 500px;
-      height: 270px;
-      margin-right: -250px;
-    }
+      padding: 20px;
+      width: 50%;
 
-    &-description-container {
-      background-color: white;
-      overflow: hidden;
-      display: flex;
-      width: 100%;
-      height: 100%;
-      position: relative;
-      @include darkShadow();
-      i {
-        position: absolute;
-        font-size: 2.2rem;
-        cursor: pointer;
+      h3 {
+        font-size: 3rem;
+        text-align: center;
       }
-    }
 
-    &-visuals {
-      position: relative;
-      z-index: -1;
-      width: 545px;
-      height: 320px;
-      @include darkShadow();
+      h4 {
+        font-size: 1.5rem;
+        color: $gray;
+        text-align: center;
+        margin: 3px 0 15px;
+      }
 
-      div {
-        position: absolute;
+      p {
+        font-size: 1.4em;
+        line-height: 2.1rem;
+      }
+
+      &-buttons {
         width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.384);
-      }
+        text-align: center;
+        margin-top: 10px;
+        a {
+          @include redButton();
+        }
 
+        a:hover {
+          @include redButtonHover();
+        }
+      }
+    }
+
+    &-image {
+      height: 260px;
+      width: 420px;
       img {
         width: 100%;
         height: 100%;
@@ -64,76 +66,136 @@
     }
   }
 }
+// .projects {
+//   padding: 40px 50px;
 
-.description-initial {
-  width: 100%;
-  height: 100%;
-  right: 0;
-  flex-shrink: 0;
-  position: absolute;
-  transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+//   &__container {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     margin-top: 50px;
+//     gap: 50px;
+//   }
 
-  h3 {
-    font-size: 3rem;
-    font-weight: 300;
-    margin-bottom: 7px;
-  }
+//   &__item {
+//     display: flex;
+//     align-items: center;
+//     position: relative;
+//     justify-content: center;
+//     /* padding-right: 25px; */
+//     /* margin: 40px 0 80px; */
+//     &-description {
+//       width: 500px;
+//       height: 270px;
+//       margin-right: -250px;
+//     }
 
-  a {
-    @include redButton();
-  }
+//     &-description-container {
+//       background-color: white;
+//       overflow: hidden;
+//       display: flex;
+//       width: 100%;
+//       height: 100%;
+//       position: relative;
+//       @include darkShadow();
+//       i {
+//         position: absolute;
+//         font-size: 2.2rem;
+//         cursor: pointer;
+//       }
+//     }
 
-  a:hover {
-    @include redButtonHover();
-  }
+//     &-visuals {
+//       position: relative;
+//       z-index: -1;
+//       width: 545px;
+//       height: 320px;
+//       @include darkShadow();
 
-  i {
-    left: 25px;
-  }
-}
+//       div {
+//         position: absolute;
+//         width: 100%;
+//         height: 100%;
+//         background-color: rgba(0, 0, 0, 0.384);
+//       }
 
-.description-secondary {
-  width: 100%;
-  height: 100%;
-  left: 500px;
-  flex-shrink: 0;
-  position: absolute;
-  transition: 0.5s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 1.3rem;
-  padding: 30px 50px;
-  p {
-    padding-bottom: 10px;
-    text-align: justify;
-  }
+//       img {
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//       }
+//     }
+//   }
+// }
 
-  h4 {
-    font-size: 1.5rem;
-  }
+// .description-initial {
+//   width: 100%;
+//   height: 100%;
+//   right: 0;
+//   flex-shrink: 0;
+//   position: absolute;
+//   transition: 0.5s;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
 
-  ul {
-    padding-left: 20px;
-  }
+//   h3 {
+//     font-size: 3rem;
+//     font-weight: 300;
+//     margin-bottom: 7px;
+//   }
 
-  li {
-    margin: 2px 0;
-  }
+//   a {
+//     @include redButton();
+//   }
 
-  i {
-    right: 25px;
-  }
-}
+//   a:hover {
+//     @include redButtonHover();
+//   }
 
-.move-initial {
-  right: 500px;
-}
+//   i {
+//     left: 25px;
+//   }
+// }
 
-.move-secondary {
-  left: 0;
-}
+// .description-secondary {
+//   width: 100%;
+//   height: 100%;
+//   left: 500px;
+//   flex-shrink: 0;
+//   position: absolute;
+//   transition: 0.5s;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   font-size: 1.3rem;
+//   padding: 30px 50px;
+//   p {
+//     padding-bottom: 10px;
+//     text-align: justify;
+//   }
+
+//   h4 {
+//     font-size: 1.5rem;
+//   }
+
+//   ul {
+//     padding-left: 20px;
+//   }
+
+//   li {
+//     margin: 2px 0;
+//   }
+
+//   i {
+//     right: 25px;
+//   }
+// }
+
+// .move-initial {
+//   right: 500px;
+// }
+
+// .move-secondary {
+//   left: 0;
+// }

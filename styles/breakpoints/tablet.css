@@ -26,6 +26,7 @@
   top: -100vh;
   height: 100vh;
   display: grid;
+  z-index: 10;
   grid-template-rows: 0.4fr 0.8fr 0.5fr;
   padding: 0;
   background-color: #f7f7f7;
@@ -138,7 +139,7 @@
 }
 .aboutme__description {
   width: 100%;
-  padding: 15px 15px 0;
+  padding: 20px 15px 0;
 }
 .aboutme__description ul {
   padding: 0;
@@ -153,7 +154,7 @@
 }
 .aboutme__objectives {
   width: 100%;
-  padding: 15px 15px 0;
+  padding: 30px 15px 0;
   margin: 0;
 }
 .aboutme__objectives ul {
@@ -175,18 +176,6 @@
 }
 
 /*_______________Proyects________________*/
-.projects {
-  padding: 70px 15px 0;
-}
-.projects__container {
-  gap: 45px;
-  margin-top: 30px;
-}
-.projects__item-description {
-  margin-right: 0;
-  position: absolute;
-}
-
 /*_______________Contact________________*/
 .contact {
   margin-top: 40px;

@@ -18,29 +18,5 @@
 }
 
 /*________________________Projects____________________*/
-.projects__container {
-  gap: 25px;
-}
-
-.projects__item-description {
-  position: static;
-  width: 280px;
-  height: 220px;
-}
-
-.projects__item-visuals {
-  display: none;
-}
-
-.description-secondary {
-  font-size: 1rem;
-  padding: 15px 26px;
-}
-.description-secondary h4 {
-  font-size: 1.2rem;
-}
-.description-secondary i {
-  right: 10px;
-}
 
 /*# sourceMappingURL=sm-tablet.css.map */
