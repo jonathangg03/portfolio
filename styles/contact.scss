@@ -42,7 +42,7 @@
 
     textarea {
       margin-top: 10px;
-      height: 70px;
+      height: 100px;
       resize: none;
       font-family: $fontMain;
     }
@@ -54,22 +54,31 @@
   }
 
   button {
-    color: white;
-    background-color: $main;
-    font-family: $fontMain;
     font-weight: 600;
-    font-size: 1.7rem;
-    border: 2px solid $main;
-    padding: 13px 25px;
     margin-top: 5px;
+    border: none;
+    padding: 13px 25px;
     display: inline-block;
-    text-decoration: none;
-    transition: 0.2s;
     width: 280px;
     cursor: pointer;
+    font-family: $fontMain;
+    font-size: 1.7rem;
+    @include redButton();
+    span {
+      @include redButtonSpan();
+    }
+    /*     color: white;
+    background-color: $main;
+    text-decoration: none;
+    transition: 0.2s;
+   */
   }
 
-  button:hover {
+  button::after {
+    @include redButtonAfter();
+  }
+
+  button:hover::after {
     @include redButtonHover();
   }
 

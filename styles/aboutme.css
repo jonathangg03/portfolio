@@ -32,6 +32,8 @@
   line-height: 2.1rem;
 }
 .aboutme__personal a {
+  position: relative;
+  overflow: hidden;
   color: white;
   font-weight: 600;
   background-color: #fc5c57;
@@ -43,10 +45,23 @@
   text-decoration: none;
   transition: 0.3s;
 }
-.aboutme__personal a:hover {
-  -webkit-box-shadow: 1px 3px 5px 1px #fc5c57;
-  box-shadow: 1px 3px 5px 1px #fc5c57;
-  -moz-box-shadow: 1px 3px 5px 1px #fc5c57;
+.aboutme__personal a span {
+  position: inherit;
+  z-index: 2;
+}
+.aboutme__personal a::after {
+  position: absolute;
+  left: 0;
+  top: -100%;
+  content: "";
+  background-color: #ff8178;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: 0.4s ease all;
+}
+.aboutme__personal a:hover::after {
+  top: 0;
 }
 .aboutme__objectives {
   width: 50%;

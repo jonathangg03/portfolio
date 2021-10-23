@@ -35,9 +35,16 @@
 
     a {
       @include redButton();
+      span {
+        @include redButtonSpan();
+      }
     }
 
-    a:hover {
+    a::after {
+      @include redButtonAfter();
+    }
+
+    a:hover::after {
       @include redButtonHover();
     }
   }
