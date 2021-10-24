@@ -239,12 +239,16 @@
               </div>
             </div>
             <div class="projects__item-image">
-              <img src="./assets/projects/chat.jpg" alt="" />
+              <img src="./assets/projects/chat.jpg" alt="Chat" loading="lazy" />
             </div>
           </div>
           <div class="projects__item">
             <div class="projects__item-image">
-              <img src="./assets/projects/gallery.jpg" alt="" />
+              <img
+                src="./assets/projects/gallery.jpg"
+                alt="Gallery"
+                loading="lazy"
+              />
             </div>
             <div class="projects__item-description">
               <h3>Galería</h3>
@@ -295,12 +299,20 @@
               </div>
             </div>
             <div class="projects__item-image">
-              <img src="./assets/projects/authenticate.jpg" alt="" />
+              <img
+                src="./assets/projects/authenticate.jpg"
+                alt="Autenticación"
+                loading="lazy"
+              />
             </div>
           </div>
           <div class="projects__item">
             <div class="projects__item-image">
-              <img src="./assets/projects/portal.jpg" alt="" />
+              <img
+                src="./assets/projects/portal.jpg"
+                alt="Portal"
+                loading="lazy"
+              />
             </div>
             <div class="projects__item-description">
               <h3>Portal</h3>
@@ -425,6 +437,7 @@
       const $headerCloser = document.querySelector('.header__closer')
       const $header = document.querySelector('header')
       const $headerImage = document.querySelector('.header__image--bg')
+      const $navList = document.querySelector('.nav__list')
 
       $headerActivator.addEventListener('click', (e) => {
         console.log(e)
@@ -441,6 +454,13 @@
       window.addEventListener('load', (e) => {
         console.log($headerImage)
         $headerImage.classList.add('opacity-img')
+      })
+
+      $navList.addEventListener('click', (e) => {
+        if (e.target.tagName === 'A') {
+          $header.classList.remove('activate__header')
+          $headerActivator.classList.add('header__activators')
+        }
       })
     </script>
   </body>

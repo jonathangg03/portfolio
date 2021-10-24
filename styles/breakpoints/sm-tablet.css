@@ -1,9 +1,20 @@
+.header__hero {
+  padding-left: 15px;
+}
+.header__hero-description {
+  padding-left: 15px;
+}
 .header__hero-description h1 {
   font-size: 1.4rem;
 }
 .header__hero-description p {
   font-size: 1.1rem;
   line-height: 1.6rem;
+}
+
+.header__top .nav__list {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .description-initial h3 {
@@ -17,6 +28,18 @@
   left: 10px;
 }
 
-/*________________________Projects____________________*/
+/*________________________Contact____________________*/
+.contact {
+  padding: 40px 30px 10px;
+}
+.contact button {
+  width: 200px;
+  height: 45px;
+  margin: 0 auto;
+  display: block;
+}
+.contact ul {
+  margin: 30px auto 0;
+}
 
 /*# sourceMappingURL=sm-tablet.css.map */

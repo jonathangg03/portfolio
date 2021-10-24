@@ -1,11 +1,22 @@
-.header__hero-description {
-  h1 {
-    font-size: 1.4rem;
-  }
+.header__hero {
+  padding-left: 15px;
+  &-description {
+    padding-left: 15px;
+    h1 {
+      font-size: 1.4rem;
+    }
 
-  p {
-    font-size: 1.1rem;
-    line-height: 1.6rem;
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+    }
+  }
+}
+
+.header__top {
+  .nav__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
   }
 }
 
@@ -22,4 +33,17 @@
     left: 10px;
   }
 }
-/*________________________Projects____________________*/
+/*________________________Contact____________________*/
+
+.contact {
+  padding: 40px 30px 10px;
+  button {
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
+  }
+  ul {
+    margin: 30px auto 0;
+  }
+}
