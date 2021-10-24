@@ -156,10 +156,12 @@
       padding: 0;
       li {
         font-size: 1.3rem;
+        line-height: 2.3rem;
+        margin: 15px 0;
       }
       a {
         display: block;
-        width: 150px;
+        width: 160px;
         text-align: center;
       }
     }
@@ -181,7 +183,7 @@
 
 /*_______________Habilities________________*/
 .habilities {
-  padding: 30px 15px 0;
+  padding: 30px 35px 0;
   h2 {
     font-size: 2.2rem;
   }
@@ -191,11 +193,50 @@
 }
 
 /*_______________Proyects________________*/
+.projects {
+  padding: 40px 20px 0;
+  &__container {
+    padding-bottom: 0;
+  }
+  &__item {
+    padding: 0;
+    &-description {
+      width: 100%;
+      height: 100%;
+      background-color: #ffffffeb;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h4 {
+        font-size: 1.4rem;
+        margin-top: 8px;
+      }
+
+      p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+      }
+
+      a {
+        font-size: 1.5rem;
+        padding: 15px 28px;
+      }
+    }
+
+    &-image {
+      display: none;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
 
 /*_______________Contact________________*/
 .contact {
   margin-top: 40px;
-
+  padding: 40px 30px;
   h3 {
     text-align: center;
   }
