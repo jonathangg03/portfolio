@@ -1,3 +1,4 @@
+/* $main: #fc5c57; */
 .responsive-title {
   display: flex;
   background-color: #000000e0;
@@ -110,8 +111,8 @@
   align-items: center;
 }
 .header__closer div {
-  border: 2px solid #fc5c57;
-  color: #fc5c57;
+  border: 2px solid #1c99fa;
+  color: #1c99fa;
   width: 70px;
   height: 70px;
   display: flex;

@@ -1,3 +1,4 @@
+/* $main: #fc5c57; */
 * {
   margin: 0;
   padding: 0;
@@ -11,37 +12,39 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #f7f7f7;
+  background-color: #f5f5f5;
 }
 
 .responsive-title {
   display: none;
 }
 
+/* $main: #fc5c57; */
 .header {
-  height: 500px;
+  height: 100vh;
   padding: 25px;
-  background-color: #1c1c1cdb;
+  /* background-color: #1c1c1cdb; */
+  background-color: rgba(0, 0, 0, 0.849);
   position: relative;
   color: white;
 }
 .header__top {
-  height: 40px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
-}
-.header__top-title {
-  display: flex;
   align-items: center;
 }
 .header__top-title img {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  transition: 0.6s;
 }
 .header__top-title a {
+  display: flex;
+  align-items: center;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   letter-spacing: 0.7rem;
@@ -54,7 +57,7 @@ body {
 }
 .header .nav__list-item {
   margin-left: 20px;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
@@ -64,8 +67,8 @@ body {
   transition: 0.4s;
 }
 .header .nav__list-item a:hover {
-  font-size: 1.8rem;
-  color: #fc5c57;
+  font-size: 2.1rem;
+  color: #1c99fa;
 }
 .header__image--bg {
   position: absolute;
@@ -74,9 +77,10 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+  opacity: 0;
 }
 .header__hero {
-  height: 410px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,12 +94,12 @@ body {
   margin-top: -55px;
 }
 .header__hero h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.2rem;
 }
 .header__hero p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   letter-spacing: 0.4rem;
   margin-top: 7px;
   text-align: center;
@@ -109,13 +113,19 @@ body {
   display: none;
 }
 
+.opacity-img {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+/* $main: #fc5c57; */
 .aboutme {
   padding: 70px 50px 10px;
   font-family: "Raleway", sans-serif;
   display: flex;
 }
 .aboutme h2 {
-  border-left: 3px solid #fc5c57;
+  border-left: 3px solid #1c99fa;
   height: 35px;
   display: flex;
   align-items: center;
@@ -147,14 +157,14 @@ body {
   overflow: hidden;
   color: white;
   font-weight: 600;
-  background-color: #fc5c57;
+  background-color: #1c99fa;
   margin-right: 5px;
   font-size: 1.5rem;
   padding: 15px 25px;
   margin-top: 5px;
   display: inline-block;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .aboutme__personal a span {
   position: inherit;
@@ -165,7 +175,7 @@ body {
   left: 0;
   top: -100%;
   content: "";
-  background-color: #ff8178;
+  background-color: #4db1ff;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -187,6 +197,7 @@ body {
   font-size: 1.5rem;
 }
 
+/* $main: #fc5c57; */
 .habilities {
   padding: 40px 50px;
   max-width: 1500px;
@@ -202,7 +213,7 @@ body {
   display: grid;
   margin-top: 30px;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 40px;
   list-style: none;
 }
 .habilities li {
@@ -211,13 +222,15 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  position: relative;
   -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
   box-shadow: 1px 3px 5px 1px #0000000d;
   -moz-box-shadow: 1px 3px 5px 1px #0000000d;
 }
 .habilities li div {
   font-size: 2rem;
-  background-color: #3434342b;
+  background-color: #1c99fa;
+  color: white;
   border-radius: 50%;
   width: 68px;
   height: 67px;
@@ -226,20 +239,32 @@ body {
   align-items: center;
   justify-content: center;
 }
+.habilities li::before {
+  content: "";
+  height: 3px;
+  background-color: #1c99fa;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 15%;
+}
 .habilities h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
   margin: 8px 0 10px;
 }
 .habilities p {
-  font-size: 1.3rem;
-  line-height: 2rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 
 .icon-big {
   font-size: 3rem;
 }
 
+/* $main: #fc5c57; */
 .projects {
   padding: 40px 50px;
 }
@@ -267,7 +292,7 @@ body {
 }
 .projects__item-description {
   padding: 20px;
-  width: 50%;
+  width: 58%;
 }
 .projects__item-description h3 {
   font-size: 3rem;
@@ -280,30 +305,27 @@ body {
   margin: 3px 0 15px;
 }
 .projects__item-description p {
-  font-size: 1.4em;
-  line-height: 2.1rem;
+  font-size: 1.6em;
+  line-height: 2.3rem;
 }
 .projects__item-description-buttons {
   width: 100%;
   text-align: center;
-  margin-top: 10px;
-  /* a:hover {
-    @include redButtonHover();
-  } */
+  margin-top: 17px;
 }
 .projects__item-description-buttons a {
   position: relative;
   overflow: hidden;
   color: white;
   font-weight: 600;
-  background-color: #fc5c57;
+  background-color: #1c99fa;
   margin-right: 5px;
   font-size: 1.5rem;
   padding: 15px 25px;
   margin-top: 5px;
   display: inline-block;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .projects__item-description-buttons a span {
   position: inherit;
@@ -314,7 +336,7 @@ body {
   left: 0;
   top: -100%;
   content: "";
-  background-color: #ff8178;
+  background-color: #4db1ff;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -333,6 +355,7 @@ body {
   object-fit: cover;
 }
 
+/* $main: #fc5c57; */
 .contact {
   background-color: #000000e0;
   color: white;
@@ -380,30 +403,31 @@ body {
 }
 .contact label input:focus,
 .contact label textarea:focus {
-  border-bottom: 1px solid #fc5c57;
+  border-bottom: 1px solid #1c99fa;
 }
 .contact button {
-  font-weight: 600;
-  margin-top: 5px;
-  border: none;
-  padding: 13px 25px;
-  display: inline-block;
-  width: 280px;
-  cursor: pointer;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.7rem;
   position: relative;
   overflow: hidden;
   color: white;
   font-weight: 600;
-  background-color: #fc5c57;
+  background-color: #1c99fa;
   margin-right: 5px;
   font-size: 1.5rem;
   padding: 15px 25px;
   margin-top: 5px;
   display: inline-block;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.25s;
+  font-weight: 600;
+  margin-top: 5px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  width: 280px;
+  height: 50px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.9rem;
   /*     color: white;
    background-color: $main;
    text-decoration: none;
@@ -419,7 +443,7 @@ body {
   left: 0;
   top: -100%;
   content: "";
-  background-color: #ff8178;
+  background-color: #4db1ff;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -449,7 +473,7 @@ body {
 }
 .contact li:hover i {
   font-size: 3.8rem;
-  color: #fc5c57;
+  color: #1c99fa;
 }
 
 /*# sourceMappingURL=module.css.map */

@@ -69,8 +69,9 @@
       <header class="header">
         <div class="header__top">
           <div class="header__top-title">
-            <img src="./assets/icon.png" alt="" />
-            <a href="/">DAVDEV</a>
+            <a href="/"
+              ><img src="./assets/icon.png" alt="" /><span>DAVDEV</span></a
+            >
           </div>
           <nav id="nav" class="nav">
             <ul class="nav__list">
@@ -423,6 +424,7 @@
       const $headerActivator = document.getElementById('header__activator')
       const $headerCloser = document.querySelector('.header__closer')
       const $header = document.querySelector('header')
+      const $headerImage = document.querySelector('.header__image--bg')
 
       $headerActivator.addEventListener('click', (e) => {
         console.log(e)
@@ -434,6 +436,11 @@
         console.log(e)
         $header.classList.remove('activate__header')
         $headerActivator.classList.add('header__activators')
+      })
+
+      window.addEventListener('load', (e) => {
+        console.log($headerImage)
+        $headerImage.classList.add('opacity-img')
       })
     </script>
   </body>

@@ -22,7 +22,7 @@
     @include lightShadow();
     &-description {
       padding: 20px;
-      width: 50%;
+      width: 58%;
 
       h3 {
         font-size: 3rem;
@@ -37,14 +37,14 @@
       }
 
       p {
-        font-size: 1.4em;
-        line-height: 2.1rem;
+        font-size: 1.6em;
+        line-height: 2.3rem;
       }
 
       &-buttons {
         width: 100%;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 17px;
         a {
           @include redButton();
           span {
@@ -54,10 +54,6 @@
         a::after {
           @include redButtonAfter();
         }
-
-        /* a:hover {
-          @include redButtonHover();
-        } */
       }
 
       a:hover::after {

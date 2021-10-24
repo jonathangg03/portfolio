@@ -1,3 +1,4 @@
+/* $main: #fc5c57; */
 .habilities {
   padding: 40px 50px;
   max-width: 1500px;
@@ -13,7 +14,7 @@
   display: grid;
   margin-top: 30px;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 40px;
   list-style: none;
 }
 .habilities li {
@@ -22,13 +23,15 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  position: relative;
   -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
   box-shadow: 1px 3px 5px 1px #0000000d;
   -moz-box-shadow: 1px 3px 5px 1px #0000000d;
 }
 .habilities li div {
   font-size: 2rem;
-  background-color: #3434342b;
+  background-color: #1c99fa;
+  color: white;
   border-radius: 50%;
   width: 68px;
   height: 67px;
@@ -37,14 +40,25 @@
   align-items: center;
   justify-content: center;
 }
+.habilities li::before {
+  content: "";
+  height: 3px;
+  background-color: #1c99fa;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 15%;
+}
 .habilities h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
   margin: 8px 0 10px;
 }
 .habilities p {
-  font-size: 1.3rem;
-  line-height: 2rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 
 .icon-big {
