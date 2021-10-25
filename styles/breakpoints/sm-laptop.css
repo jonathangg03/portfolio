@@ -1,0 +1,26 @@
+.habilities ul {
+  grid-template-columns: repeat(2, 1fr);
+}
+.habilities li {
+  padding: 20px 15px;
+}
+
+.projects__item-image {
+  width: 370px;
+}
+.projects__item-description h3 {
+  font-size: 2.7rem;
+}
+.projects__item-description h4 {
+  font-size: 1.2rem;
+}
+.projects__item-description p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.projects__item-description-buttons a {
+  padding: 15px;
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=sm-laptop.css.map */

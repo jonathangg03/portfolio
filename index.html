@@ -8,331 +8,454 @@
       href="/your-path-to-fontawesome/css/fontawesome.css"
       rel="stylesheet"
     />
-    <link  rel="icon" href="./assets/icon.png" type="image/png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/icon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,600;1,400&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/module.css" />
     <link
-    href="./styles/breakpoints/small.css"
-    rel="stylesheet"
-    type="text/css"
-    media="screen and (min-width: 600px)"
-  />
-    <link
-      href="./styles/breakpoints/medium.css"
+      href="./styles/breakpoints/laptop.css"
       rel="stylesheet"
       type="text/css"
-      media="screen and (min-width: 860px)"
+      media="screen and (max-width: 1800px)"
     />
     <link
-    href="./styles/breakpoints/xl.css"
-    rel="stylesheet"
-    type="text/css"
-    media="screen and (min-width: 1710px)"
-  />
+      href="./styles/breakpoints/sm-laptop.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 1100px)"
+    />
+    <link
+      href="./styles/breakpoints/tablet.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 768px)"
+    />
+    <link
+      href="./styles/breakpoints/sm-tablet.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 600px)"
+    />
+    <link
+      href="./styles/breakpoints/mobile-l.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width: 392px)"
+    />
     <title>Jonathan David García González</title>
     <script
-      src="https://kit.fontawesome.com/473d269aa9.js"
+      src="https://kit.fontawesome.com/3f6e777ff9.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
     <div class="container" id="main">
+      <div class="responsive-title">
+        <img src="./assets/icon.png" alt="" />
+        <a href="/">DAVDEV</a>
+      </div>
       <header class="header">
-          <a href="/" class="header__title">JONATHAN GARCÍA GONZÁLEZ</a href="/">
-          <nav id="nav" class='header__nav'>
-            <ul class="nav-list">
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#main">Inicio</a>
+        <div class="header__top">
+          <div class="header__top-title">
+            <a href="/"
+              ><img src="./assets/icon.png" alt="" /><span>DAVDEV</span></a
+            >
+          </div>
+          <nav id="nav" class="nav">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#main">Inicio</a>
               </li>
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#habilities"
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#aboutme">Sobre mí</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#habilities"
                   >Habilidades</a
                 >
               </li>
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#projects">Proyectos</a>
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#projects">Proyectos</a>
               </li>
-              <li class="nav-list__item">
-                <a class="nav-list__item-link" href="#contact">Contacto</a>
-              </li>
-              <li class="nav-list__item">
-                <a
-                  class="nav-list__item-link"
-                  href="./assets/curriculum.pdf"
-                  target="_blank"
-                  >Curriculum</a
-                >
+              <li class="nav__list-item">
+                <a class="nav__list-item-link" href="#contact">Contacto</a>
               </li>
             </ul>
           </nav>
-      </header>
-      <div class="nav__activator" id="nav__activator">
-        <i class="fas fa-angle-left" id="activator__icon"></i>
-      </div>
-       <div class="hero" id="hero">
-          <div class="hero__photo-container">
+        </div>
+        <div class="header__hero">
+          <div class="header__hero-img">
             <img src="./assets/me.jpg" />
           </div>
-          <p class="hero__description">
-            Desarrollador Frontend Junior, con conocimiento en backend con
-            Node.js y Express para la creación de API REST. Gran pasión por la
-            programación y la tecnología en general. Con muchas ganas de
-            aprender de otros programadores, poder compartir y aportar mis
-            conocimientos.
-          </p>
-      </div>
-      <section class="habilities" id="habilities">
-        <h2 class="habilities__title">Habilidades</h2>
+          <div class="header__hero-description">
+            <h1>Jonathan David García González</h1>
+            <p>Desarrollador web front-end junior</p>
+          </div>
+        </div>
+        <img src="./assets/hero.jpg" class="header__image--bg" alt="" />
+        <div class="header__closer">
+          <div>
+            <i class="fas fa-chevron-up"></i>
+          </div>
+        </div>
+      </header>
+      <section class="aboutme" id="aboutme">
+        <div class="aboutme__description">
+          <h2>SOBRE MÍ</h2>
+          <article class="aboutme__personal">
+            <ul>
+              <li>
+                Mi nombre es Jonathan David García González, tengo 23 años, y
+                soy de San José, Costa Rica.
+              </li>
+              <li>
+                Soy bachiller y técnico medio en desarrollo de software.
+                Actualmente estudio Ingeniería en Sistemas en la universidad.
+              </li>
+              <li>
+                Llevo un año estudiando desarrollo web de forma completamente
+                autodidacta, y es la rama del desarrollo de software que hasta
+                ahora más me ha gustado.
+              </li>
+              <li>
+                Estoy completamente dispuesto a aprender de otros
+                desarrolladores con más experiencia que yo, así como a aportar
+                mi conocimiento para quien que así lo requiera.
+              </li>
+              <li>
+                Mi fuerte está en el desarrollo front-end, con tecnologías como
+                HTML, CSS, JavaScript, React.js, Next.js. Sin embargo, he creado
+                las APIs que uso en mis proyectos con Node.js y Express.js y las
+                distintas herramientas que tienen para trabajar.
+              </li>
+              <li>
+                He desarrollado varios proyectos personales de distintos tipos,
+                que puedes encontrar más abajo.
+              </li>
+              <li>
+                <a
+                  class="nav__list-item-link"
+                  href="./assets/curriculum.pdf"
+                  target="_blank"
+                  ><span>Ver Curriculum</span></a
+                >
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="aboutme__objectives">
+          <h2>OBJETIVOS PERSONALES</h2>
           <ul>
-            <li>Maquteción web con HTML</li>
-            <li>Estilizar de la web con CSS. Tambien con librerías de CSS como Bootstrap y NextUI.</li>
-            <li>Desarrollo con React.js como librería principal para la creación de interfaces.</li>
-            <li>Desarrollo con Next.js como framework de React.js, para renderizado en el servidor.</li>
-            <li>Configuración básica de Webpack para empaquetar la aplicación de React.js.</li>
-            <li>Integrar frontend con el backend.</li>
-            <li>Creación de REST API's con Node.js, usando Express.js para la configuración del servidor.</li>
-            <li>Desplegar aplicaciónes de React.js en Vercel, Heroku, y Firebase.</li>
-            <li>Desplegar API REST en Heroku.</li>
-            <li>Manejar las versiones de los proyectos con Git y mantener repositorios en GitHub.</li>
+            <li>Trabajar del desarrollo de software.</li>
+            <li>Aprender de diferentes desarrolladores de la industria.</li>
+            <li>Aprender desarrollo móvil.</li>
+            <li>
+              Poder enseñar desarrollo de software de la forma que a mí me
+              hubiera gustado aprender.
+            </li>
+            <li>
+              Desarrollar una aplicación que tenga un impacto en la sociedad.
+            </li>
+            <li>Estudiar robótica en algún momento de mi vida.</li>
+            <li>
+              Vivir en algún país desarrollado por un tiempo, así como conocer
+              distintos países.
+            </li>
           </ul>
+        </div>
+      </section>
+      <section class="habilities" id="habilities">
+        <h2 class="habilities__title">HABILIDADES TÉCNICAS</h2>
+        <ul>
+          <li>
+            <div><i class="fas fa-laptop-code"></i></div>
+            <h3>Crear landing pages</h3>
+            <p>
+              Creación de landing pages con HTML, CSS/SASS y JavaScript, así
+              como estilizarlas con librerías de CSS como Bootstrap o NextUI.
+            </p>
+          </li>
+          <li>
+            <div><i class="fab fa-react icon-big"></i></div>
+            <h3>SPA con React.js</h3>
+            <p>
+              Desarrollo de Single Page Applications tanto con React.js como con
+              Next.js.
+            </p>
+          </li>
+          <li>
+            <div><i class="fab fa-node-js icon-big"></i></div>
+            <h3>REST API con Node.js</h3>
+            <p>
+              Programación de distintas APIs con Node.js y Express.js.
+              Almacenando los datos en MongoDB.
+            </p>
+          </li>
+          <li>
+            <div><i class="fas fa-terminal"></i></div>
+            <h3>Despliegue de aplicaciones</h3>
+            <p>
+              Desplegar APIs en Heroku, así como las aplicaciones de React.js en
+              Vercel, Firebase y Heroku con Node.js.
+            </p>
+          </li>
+        </ul>
       </section>
       <section class="projects" id="projects">
-        <h2 class="projects__title">Proyectos</h2>
+        <h2>PROYECTOS</h2>
         <div class="projects__container">
-          <div class="project__item-container">
-            <img
-              src="./assets/projects/chat.jpg"
-              alt="Authenticate App"
-              class="project__image"
-              loading="lazy"
-            />
-            <div class="project__description">
-              <div class="project__description-wrapper">
-                <h4>Chat</h4>
-                <p>
-                  Una aplicación de chat hecha con Next.js, en la cual usé API REST para la creación y presentación de
-                  información de los usuarios. Para el chat, creé un servidor de Web Sockets, para mantener la comunicación en tiempo real, y almacenar los mensajes en una BD de MongoDB.
-                </p>
-                <div class="project__description-buttons">
-                  <a
-                    href="https://megabyte-chat.vercel.app/"
-                    target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
+          <div class="projects__item">
+            <div class="projects__item-description">
+              <h3>Chat</h3>
+              <h4>Aplicación de chat en tiempo real.</h4>
+              <p>
+                Un chat básico, donde podremos enviar y recibir mensajes en
+                tiempo real gracias a los Web Sockets. Para probarlo debemos
+                crear un usuario o ingresamos con alguno ya creado, y escogemos
+                la persona de los restantes usuarios con la que queremos
+                chatear.
+              </p>
+              <div class="projects__item-description-buttons">
+                <a href="https://megabyte-chat.vercel.app/" target="_blank"
+                  ><span>Ver proyecto</span></a
+                >
+                <a
                   href="https://github.com/jonathan-cursos/megabyte_chat"
                   target="_blank"
-                  >Ver Código</a
+                  ><span>Ver Código</span></a
                 >
-                </div>
-              </div>
-              <div class="project__title-container">
-                <h2>CHAT</h2>
               </div>
             </div>
+            <div class="projects__item-image">
+              <img src="./assets/projects/chat.jpg" alt="Chat" loading="lazy" />
+            </div>
           </div>
-          <div class="project__item-container">
-            <img
-              src="./assets/projects/gallery.jpg"
-              alt="Gallery"
-              class="project__image"
-              loading="lazy"
-            />
-            <div class="project__description">
-              <div class="project__description-wrapper">
-                <h4>Gallery</h4>
-                <p>
-                  Una aplicación básica de galería, hecha con Next.js, Node.js para el backend con Multer para manejar las imagenes, y haciendo uso de la librería de CSS NextUI.
-                </p>
-                <div class="project__description-buttons">
-                  <a href="https://davdev-gallery-nextui.vercel.app/" target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
+          <div class="projects__item">
+            <div class="projects__item-image">
+              <img
+                src="./assets/projects/gallery.jpg"
+                alt="Gallery"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__item-description">
+              <h3>Galería</h3>
+              <h4>Galería de imágenes.</h4>
+              <p>
+                Una aplicación de galería donde podremos subir imágenes con una
+                descripción, verlas en pantalla completa y eliminarlas. Estas se
+                almacenan en Cloudinary, y para los estilos usamos NextUI.
+              </p>
+              <div class="projects__item-description-buttons">
+                <a
+                  href="https://davdev-gallery-nextui.vercel.app/"
+                  target="_blank"
+                  ><span>Ver proyecto</span></a
+                >
+                <a
                   href="https://github.com/jonathangg03/davdev-gallery-nextui"
                   target="_blank"
-                  >Ver Código</a
+                  ><span>Ver Código</span></a
                 >
-                </div>
-              </div>
-              <div class="project__title-container">
-                <h2>GALLERY</h2>
               </div>
             </div>
           </div>
-          <div class="project__item-container">
-            <img
-              src="./assets/projects/portal.jpg"
-              alt="Portal"
-              class="project__image"
-              loading="lazy"
-            />
-            <div class="project__description">
-              <div class="project__description-wrapper">
-                <h4>Portal</h4>
-                <p>
-                  Este proyecto es un pequeño portal el cual es una recreación del
-                  que usamos en mi trabajo actual, pero añadiendo funcionalidades
-                  y rediseño. Lo más destacado es que contiene un editor de textos
-                  con formato. El backend corre en Heroku, y el frontend en
-                  Firebase.
-                </p>
-                <div class="project__description-buttons">
-                  <a href="https://portal-d0251.web.app/" target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
-                  href="https://github.com/jonathangg03/portal-cesa-frontend"
+          <div class="projects__item">
+            <div class="projects__item-description">
+              <h3>Autenticación</h3>
+              <h4>Diferentes métodos de autenticación.</h4>
+              <p>
+                Una aplicación en la cual probamos estrategias de autenticación
+                de Google, Facebook, Twitter y la estrategia básica. Al ingresar
+                veremos nuestra información.
+              </p>
+              <div class="projects__item-description-buttons">
+                <a
+                  href="https://authenticate-app-frontend.herokuapp.com/"
                   target="_blank"
-                  >Ver Código</a
+                  ><span>Ver proyecto</span></a
                 >
-                </div>
-              </div>
-              <div class="project__title-container">
-                <h2>PORTAL</h2>
-              </div>
-            </div>
-          </div>
-          <div class="project__item-container">
-            <img
-              src="./assets/projects/authenticate.jpg"
-              alt="Authenticate App"
-              class="project__image"
-              loading="lazy"
-            />
-            <div class="project__description">
-              <div class="project__description-wrapper">
-                <h4>Authenticate App</h4>
-                <p>
-                  Una aplicación que consiste en una ventana de log in en la cual
-                  se implemente estrategias de ingreso local, con Google, con
-                  Twitter y con Facebook, y en la cual, una vez ingresamos, podrá
-                  ver su nombre, apellidos y correo. Toda la aplicación corre en
-                  Heroku.
-                </p>
-                <div class="project__description-buttons">
-                  <a
-                    href="https://authenticate-app-frontend.herokuapp.com/"
-                    target="_blank"
-                    >Ver proyecto</a
-                  >
-                  <a
+                <a
                   href="https://github.com/jonathan-cursos/authenticate_app_frontend"
                   target="_blank"
-                  >Ver Código</a
+                  ><span>Ver Código</span></a
                 >
-                </div>
               </div>
-              <div class="project__title-container">
-                <h2>AUTHENTICATE APP</h2>
+            </div>
+            <div class="projects__item-image">
+              <img
+                src="./assets/projects/authenticate.jpg"
+                alt="Autenticación"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__item">
+            <div class="projects__item-image">
+              <img
+                src="./assets/projects/portal.jpg"
+                alt="Portal"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__item-description">
+              <h3>Portal</h3>
+              <h4>Recreación de portal.</h4>
+              <p>
+                Una recreación del portal web que usamos en la empresa donde
+                trabajo actualmente para mantener el registro de información que
+                necesitamos en el puesto.
+              </p>
+              <div class="projects__item-description-buttons">
+                <a href="https://portal-d0251.web.app/" target="_blank"
+                  ><span>Ver proyecto</span></a
+                >
+                <a
+                  href="https://github.com/jonathangg03/portal-cesa-frontend"
+                  target="_blank"
+                  ><span>Ver Código</span></a
+                >
               </div>
             </div>
           </div>
         </div>
-        <p class="visit__GH">
-          Sí quieres ver más proyectos, visita mi
-          <a href="https://github.com/jonathangg03" target="_blank">GitHub</a>
-        </p>
       </section>
-      <section class="form" id="contact">
-        <h2>Formulario de contacto</h2>
-        <form action="https://formspree.io/f/mdoywqpd" method="POST" id="form" class="form__item">
+      <section class="contact" id="contact">
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <form
+          action="https://formspree.io/f/mdoywqpd"
+          method="POST"
+          id="form"
+          class="form__item"
+        >
           <label>
             <p>Nombre completo</p>
-            <input type="text" required placeholder="Nombre" name="name">
+            <input type="text" required name="name" />
           </label>
           <label>
             <p>Nombre de la empresa</p>
-            <input type="text" required placeholder="Empresa" name="company">
+            <input type="text" required name="company" />
           </label>
           <label>
             <p>Mensaje</p>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
           </label>
-          <button type="submit">Enviar</button>
+          <button type="submit"><span>Enviar</span></button>
+          <ul>
+            <li>
+              <a href="https://github.com/jonathangg03" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/jona_davdev" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/jonathangg_03/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jonathan-david-garc%C3%ADa-gonz%C3%A1lez-9529a3219/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
         </form>
+        <article class="contact__social"></article>
       </section>
-      <footer>
-        <div class="wrapper">
-          <div class="contact__container">
-
-            <div class="contact__social">
-              <p>
-               Tambien puedes contactarme mediante las siguientes
-                plataformas:
-              </p>
-              <ul>
-                <li class="contact__social-item">
-                  <div>
-                    <a href="https://twitter.com/jona_davdev" target="_blank"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                  </div>
-                </li>
-                <li class="contact__social-item">
-                  <div>
-                    <a
-                      href="https://www.instagram.com/jonathangg_03/"
-                      target="_blank"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                </li>
-                <li class="contact__social-item">
-                  <div>
-                    <a href="https://github.com/jonathangg03" target="_blank"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                  </div>
-                </li>
-                <li class="contact__social-item">
-                  <div>
-                    <a href="https://www.linkedin.com/in/jonathan-david-garc%C3%ADa-gonz%C3%A1lez-9529a3219/" target="_blank"
-                      ><i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <div class="header__activators header__activator" id="header__activator">
+        <i class="fas fa-bars"></i>
       </div>
-      <script>
-        const $activator = document.getElementById("nav__activator");
-        const $nav = document.getElementById("nav");
-        const $icon = document.getElementById("activator__icon");
-        const $form = document.querySelector('#form')
+    </div>
+    <script>
+      const $form = document.querySelector('#form')
+      $form.addEventListener('submit', handleSubmit)
 
-        console.log($form)
-
-        $activator.addEventListener("click", () => {
-          $nav.classList.toggle("show__nav");
-          $icon.classList.toggle("fa-angle-right");
-        });
-
-        $form.addEventListener("submit", handleSubmit)
-
-        async function handleSubmit (event) {
-          event.preventDefault()
-          const formData = new FormData(this)
-          const response = await fetch(this.action, {
-            method: "post",
-            body: formData,
-            headers: {
-              "Accept": "application/json"
-            }
-          })
-          if(response.ok) {
-            this.reset()
-            alert("Mensaje enviado. Gracias por tomarme en cuenta, te estare contactando pronto.")
+      async function handleSubmit(event) {
+        event.preventDefault()
+        const formData = new FormData(this)
+        const response = await fetch(this.action, {
+          method: 'post',
+          body: formData,
+          headers: {
+            Accept: 'application/json'
           }
+        })
+        if (response.ok) {
+          this.reset()
+          alert(
+            'Mensaje enviado. Gracias por tomarme en cuenta, te estare contactando pronto.'
+          )
         }
-      </script>
+      }
+    </script>
+    <script>
+      const $initials = document.querySelectorAll(
+        '.projects__item-description-container'
+      )
+
+      $initials.forEach((el) => {
+        el.addEventListener('click', (e) => {
+          if (e.target && e.target.tagName === 'I') {
+            console.log(el.children[0])
+            el.children[0].classList.toggle('move-initial')
+            el.children[1].classList.toggle('move-secondary')
+          }
+        })
+      })
+    </script>
+    <script>
+      const $headerActivator = document.getElementById('header__activator')
+      const $headerCloser = document.querySelector('.header__closer')
+      const $header = document.querySelector('header')
+      const $headerImage = document.querySelector('.header__image--bg')
+      const $navList = document.querySelector('.nav__list')
+
+      $headerActivator.addEventListener('click', (e) => {
+        console.log(e)
+        $header.classList.add('activate__header')
+        $headerActivator.classList.remove('header__activators')
+      })
+
+      $headerCloser.addEventListener('click', (e) => {
+        console.log(e)
+        $header.classList.remove('activate__header')
+        $headerActivator.classList.add('header__activators')
+      })
+
+      window.addEventListener('load', (e) => {
+        console.log($headerImage)
+        $headerImage.classList.add('opacity-img')
+      })
+
+      $navList.addEventListener('click', (e) => {
+        if (e.target.tagName === 'A') {
+          $header.classList.remove('activate__header')
+          $headerActivator.classList.add('header__activators')
+        }
+      })
+    </script>
   </body>
 </html>

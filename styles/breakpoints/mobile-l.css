@@ -1,0 +1,44 @@
+.contact h2 {
+  font-size: 2rem;
+}
+.contact h3 {
+  font-size: 1.1rem;
+  display: none;
+}
+.contact button {
+  width: 220px;
+  padding-top: 9px;
+}
+.contact label p {
+  font-size: 1.2rem;
+}
+.contact label input,
+.contact label textarea {
+  font-size: 1rem;
+}
+.contact li i {
+  font-size: 2.4rem;
+}
+.contact li:hover i {
+  font-size: 3.2rem;
+}
+
+.projects__item-description {
+  padding: 15px;
+}
+.projects__item-description h3 {
+  font-size: 2.2rem;
+}
+.projects__item-description h4 {
+  font-size: 1.2rem;
+}
+.projects__item-description p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.projects__item-description a {
+  padding: 15px 8px;
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=mobile-l.css.map */

@@ -1,0 +1,35 @@
+.habilities {
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  li {
+    padding: 20px 15px;
+  }
+}
+
+.projects {
+  &__item-image {
+    width: 370px;
+  }
+  &__item-description {
+    h3 {
+      font-size: 2.7rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 2rem;
+    }
+
+    &-buttons {
+      a {
+        padding: 15px;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

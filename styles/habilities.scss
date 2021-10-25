@@ -1,32 +1,68 @@
 @import './variables.scss';
 
 .habilities {
-  padding: 25px;
-  color: $dark;
-
-  .habilities__title {
-    padding-bottom: 25px;
+  padding: 40px 50px;
+  max-width: 1500px;
+  margin: 0 auto;
+  h2 {
+    @include titles();
   }
 
   ul {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 150px;
-    gap: 20px;
-    justify-items: center;
+    margin-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    list-style: none;
   }
 
   li {
-    color: white;
-    background-color: $dark;
-    padding: 20px;
-    line-height: 2.7rem;
-    font-size: 1.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
     text-align: center;
-    @include darkShadow();
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    @include lightShadow();
+
+    div {
+      font-size: 2rem;
+      background-color: $main;
+      color: white;
+      border-radius: 50%;
+      width: 68px;
+      height: 67px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
+
+  li::before {
+    content: '';
+    height: 3px;
+    background-color: $main;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 15%;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 8px 0 10px;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+}
+
+.icon-big {
+  font-size: 3rem;
 }
