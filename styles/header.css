@@ -11,6 +11,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transform: translateX(-300px);
+  transition: 1s ease-in-out all;
+  opacity: 0;
 }
 .header__top-title img {
   width: 30px;

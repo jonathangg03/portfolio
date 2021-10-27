@@ -69,7 +69,8 @@
 }
 .aboutme__objectives {
   width: 50%;
-  transform: translateX(300px);
+  opacity: 0;
+  transform: translateX(-300px);
   transition: 1s ease-in-out all;
 }
 .aboutme__objectives ul {

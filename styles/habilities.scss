@@ -16,13 +16,16 @@
     list-style: none;
   }
 
-  li {
+  .habilities__item {
     background-color: white;
     padding: 20px 15px;
     text-align: center;
     display: flex;
     flex-direction: column;
     position: relative;
+    transform: translateX(-300px);
+    opacity: 0;
+    transition: 1s ease-in-out all;
     @include lightShadow();
 
     div {
@@ -39,7 +42,19 @@
     }
   }
 
-  li::before {
+  .a {
+    transition-delay: 1.5s;
+  }
+
+  .b {
+    transition-delay: 1s;
+  }
+
+  .c {
+    transition-delay: 0.5s;
+  }
+
+  .habilities__item::before {
     content: '';
     height: 3px;
     background-color: $main;

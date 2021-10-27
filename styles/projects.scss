@@ -19,6 +19,9 @@
     height: 360px;
     max-width: 1500px;
     margin: 0 auto 50px;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 0.5s;
     @include lightShadow();
     &-description {
       padding: 20px;

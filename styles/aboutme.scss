@@ -56,8 +56,8 @@
 
   &__objectives {
     width: 50%;
-    // opacity: 0;
-    transform: translateX(300px);
+    opacity: 0;
+    transform: translateX(-300px);
     transition: 1s ease-in-out all;
     ul {
       list-style: none;

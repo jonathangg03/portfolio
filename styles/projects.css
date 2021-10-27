@@ -19,6 +19,9 @@
   height: 360px;
   max-width: 1500px;
   margin: 0 auto 50px;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: 0.5s;
   -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
   box-shadow: 1px 3px 5px 1px #0000000d;
   -moz-box-shadow: 1px 3px 5px 1px #0000000d;

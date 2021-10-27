@@ -38,6 +38,9 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transform: translateX(-300px);
+  transition: 1s ease-in-out all;
+  opacity: 0;
 }
 .header__top-title img {
   width: 30px;
@@ -197,7 +200,8 @@ h4 {
 }
 .aboutme__objectives {
   width: 50%;
-  transform: translateX(300px);
+  opacity: 0;
+  transform: translateX(-300px);
   transition: 1s ease-in-out all;
 }
 .aboutme__objectives ul {
@@ -229,18 +233,21 @@ h4 {
   gap: 40px;
   list-style: none;
 }
-.habilities li {
+.habilities .habilities__item {
   background-color: white;
   padding: 20px 15px;
   text-align: center;
   display: flex;
   flex-direction: column;
   position: relative;
+  transform: translateX(-300px);
+  opacity: 0;
+  transition: 1s ease-in-out all;
   -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
   box-shadow: 1px 3px 5px 1px #0000000d;
   -moz-box-shadow: 1px 3px 5px 1px #0000000d;
 }
-.habilities li div {
+.habilities .habilities__item div {
   font-size: 2rem;
   background-color: #1c99fa;
   color: white;
@@ -252,7 +259,16 @@ h4 {
   align-items: center;
   justify-content: center;
 }
-.habilities li::before {
+.habilities .a {
+  transition-delay: 1.5s;
+}
+.habilities .b {
+  transition-delay: 1s;
+}
+.habilities .c {
+  transition-delay: 0.5s;
+}
+.habilities .habilities__item::before {
   content: "";
   height: 3px;
   background-color: #1c99fa;
@@ -299,6 +315,9 @@ h4 {
   height: 360px;
   max-width: 1500px;
   margin: 0 auto 50px;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: 0.5s;
   -webkit-box-shadow: 1px 3px 5px 1px #0000000d;
   box-shadow: 1px 3px 5px 1px #0000000d;
   -moz-box-shadow: 1px 3px 5px 1px #0000000d;
@@ -484,6 +503,11 @@ h4 {
   color: #1c99fa;
 }
 
+.moveHeaderTop {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
 .moveHero {
   transform: translateY(0px);
   opacity: 1;
@@ -491,6 +515,16 @@ h4 {
 
 .moveAboutme {
   transform: translateX(0px);
+  opacity: 1;
+}
+
+.habilities .moveHability {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.moveProject {
+  transform: translateY(0px);
   opacity: 1;
 }
 
