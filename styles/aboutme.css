@@ -19,6 +19,9 @@
   line-height: 1.7rem;
   width: 50%;
   color: #767676;
+  opacity: 0;
+  transform: translateX(-300px);
+  transition: 1s ease-in-out all;
 }
 .aboutme__personal {
   margin-top: 15px;
@@ -66,6 +69,8 @@
 }
 .aboutme__objectives {
   width: 50%;
+  transform: translateX(300px);
+  transition: 1s ease-in-out all;
 }
 .aboutme__objectives ul {
   list-style: none;

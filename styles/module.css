@@ -90,6 +90,9 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transform: translateY(200px);
+  transition: 1s ease-in-out all;
+  opacity: 0;
 }
 .header__hero img {
   width: 125px;
@@ -144,6 +147,9 @@ h4 {
   line-height: 1.7rem;
   width: 50%;
   color: #767676;
+  opacity: 0;
+  transform: translateX(-300px);
+  transition: 1s ease-in-out all;
 }
 .aboutme__personal {
   margin-top: 15px;
@@ -191,6 +197,8 @@ h4 {
 }
 .aboutme__objectives {
   width: 50%;
+  transform: translateX(300px);
+  transition: 1s ease-in-out all;
 }
 .aboutme__objectives ul {
   list-style: none;
@@ -474,6 +482,16 @@ h4 {
 .contact li:hover i {
   font-size: 3.8rem;
   color: #1c99fa;
+}
+
+.moveHero {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.moveAboutme {
+  transform: translateX(0px);
+  opacity: 1;
 }
 
 /*# sourceMappingURL=module.css.map */
