@@ -39,6 +39,7 @@
       p {
         font-size: 1.6em;
         line-height: 2.3rem;
+        color: $texts;
       }
 
       &-buttons {
@@ -46,18 +47,18 @@
         text-align: center;
         margin-top: 17px;
         a {
-          @include redButton();
+          @include blueButton();
           span {
-            @include redButtonSpan;
+            @include blueButtonSpan;
           }
         }
         a::after {
-          @include redButtonAfter();
+          @include blueButtonAfter();
         }
       }
 
       a:hover::after {
-        @include redButtonHover();
+        @include blueButtonHover();
       }
     }
 
@@ -72,136 +73,3 @@
     }
   }
 }
-// .projects {
-//   padding: 40px 50px;
-
-//   &__container {
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-//     margin-top: 50px;
-//     gap: 50px;
-//   }
-
-//   &__item {
-//     display: flex;
-//     align-items: center;
-//     position: relative;
-//     justify-content: center;
-//     /* padding-right: 25px; */
-//     /* margin: 40px 0 80px; */
-//     &-description {
-//       width: 500px;
-//       height: 270px;
-//       margin-right: -250px;
-//     }
-
-//     &-description-container {
-//       background-color: white;
-//       overflow: hidden;
-//       display: flex;
-//       width: 100%;
-//       height: 100%;
-//       position: relative;
-//       @include darkShadow();
-//       i {
-//         position: absolute;
-//         font-size: 2.2rem;
-//         cursor: pointer;
-//       }
-//     }
-
-//     &-visuals {
-//       position: relative;
-//       z-index: -1;
-//       width: 545px;
-//       height: 320px;
-//       @include darkShadow();
-
-//       div {
-//         position: absolute;
-//         width: 100%;
-//         height: 100%;
-//         background-color: rgba(0, 0, 0, 0.384);
-//       }
-
-//       img {
-//         width: 100%;
-//         height: 100%;
-//         object-fit: cover;
-//       }
-//     }
-//   }
-// }
-
-// .description-initial {
-//   width: 100%;
-//   height: 100%;
-//   right: 0;
-//   flex-shrink: 0;
-//   position: absolute;
-//   transition: 0.5s;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-direction: column;
-
-//   h3 {
-//     font-size: 3rem;
-//     font-weight: 300;
-//     margin-bottom: 7px;
-//   }
-
-//   a {
-//     @include redButton();
-//   }
-
-//   a:hover {
-//     @include redButtonHover();
-//   }
-
-//   i {
-//     left: 25px;
-//   }
-// }
-
-// .description-secondary {
-//   width: 100%;
-//   height: 100%;
-//   left: 500px;
-//   flex-shrink: 0;
-//   position: absolute;
-//   transition: 0.5s;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   font-size: 1.3rem;
-//   padding: 30px 50px;
-//   p {
-//     padding-bottom: 10px;
-//     text-align: justify;
-//   }
-
-//   h4 {
-//     font-size: 1.5rem;
-//   }
-
-//   ul {
-//     padding-left: 20px;
-//   }
-
-//   li {
-//     margin: 2px 0;
-//   }
-
-//   i {
-//     right: 25px;
-//   }
-// }
-
-// .move-initial {
-//   right: 500px;
-// }
-
-// .move-secondary {
-//   left: 0;
-// }

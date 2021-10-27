@@ -1,4 +1,3 @@
-/* $main: #fc5c57; */
 .habilities {
   padding: 40px 50px;
   max-width: 1500px;
@@ -54,11 +53,12 @@
 .habilities h3 {
   font-size: 1.7rem;
   font-weight: 700;
-  margin: 8px 0 10px;
+  margin: 10px 0 12px;
 }
 .habilities p {
   font-size: 1.4rem;
   line-height: 2.4rem;
+  color: #767676;
 }
 
 .icon-big {

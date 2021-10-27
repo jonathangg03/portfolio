@@ -1,18 +1,10 @@
-// $light: #2e2f2f;
-// $dark-strong: #222;
-// $dark: #222;
-// $gray-borders: #ffffff1f;
-// $selection: hsl(20, 96%, 61%);
-// $inputs: #222;
-
 $primary: #1e2233;
 $secondary: #24273d;
 $main: #1c99fa;
-/* $main: #fc5c57; */
-$fontLogo: 'Raleway', sans-serif;
-$fontMain: 'Raleway', sans-serif;
-$fontRoboto: 'Roboto', sans-serif;
+$fontTitles: 'Raleway', sans-serif;
+$fontMain: 'Open Sans', sans-serif;
 $gray: #34343480;
+$texts: #767676;
 
 @mixin darkShadow($color: rgba(0, 0, 0, 0.28)) {
   -webkit-box-shadow: 1px 3px 5px 1px $color;
@@ -26,7 +18,7 @@ $gray: #34343480;
   -moz-box-shadow: 1px 3px 5px 1px $color;
 }
 
-@mixin redButton() {
+@mixin blueButton() {
   position: relative;
   overflow: hidden;
   color: white;
@@ -41,12 +33,12 @@ $gray: #34343480;
   transition: 0.25s;
 }
 
-@mixin redButtonSpan() {
+@mixin blueButtonSpan() {
   position: inherit;
   z-index: 2;
 }
 
-@mixin redButtonAfter() {
+@mixin blueButtonAfter() {
   position: absolute;
   left: 0;
   top: -100%;
@@ -58,7 +50,7 @@ $gray: #34343480;
   transition: 0.4s ease all;
 }
 
-@mixin redButtonHover() {
+@mixin blueButtonHover() {
   top: 0;
 }
 

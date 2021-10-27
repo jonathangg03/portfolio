@@ -1,7 +1,6 @@
-/* $main: #fc5c57; */
 .aboutme {
   padding: 70px 50px 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
 }
 .aboutme h2 {
@@ -19,6 +18,7 @@
   padding-right: 50px;
   line-height: 1.7rem;
   width: 50%;
+  color: #767676;
 }
 .aboutme__personal {
   margin-top: 15px;
@@ -71,6 +71,7 @@
   list-style: none;
   padding-left: 5px;
   margin-top: 15px;
+  color: #767676;
 }
 .aboutme__objectives li {
   margin: 10px 0;

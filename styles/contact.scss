@@ -54,7 +54,7 @@
   }
 
   button {
-    @include redButton();
+    @include blueButton();
     font-weight: 600;
     margin-top: 5px;
     border: none;
@@ -66,21 +66,16 @@
     font-family: $fontMain;
     font-size: 1.9rem;
     span {
-      @include redButtonSpan();
+      @include blueButtonSpan();
     }
-    /*     color: white;
-    background-color: $main;
-    text-decoration: none;
-    transition: 0.2s;
-   */
   }
 
   button::after {
-    @include redButtonAfter();
+    @include blueButtonAfter();
   }
 
   button:hover::after {
-    @include redButtonHover();
+    @include blueButtonHover();
   }
 
   ul {

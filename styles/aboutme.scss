@@ -2,7 +2,7 @@
 
 .aboutme {
   padding: 70px 50px 10px;
-  font-family: $fontLogo;
+  font-family: $fontMain;
   display: flex;
   h2 {
     border-left: 3px solid $main;
@@ -13,16 +13,18 @@
     padding-left: 10px;
     letter-spacing: 1px;
     color: $gray;
-    font-family: $fontLogo;
+    font-family: $fontTitles;
   }
   &__description {
     padding-right: 50px;
     line-height: 1.7rem;
     width: 50%;
+    color: $texts;
   }
 
   &__personal {
     margin-top: 15px;
+
     ul {
       list-style: none;
       padding-left: 5px;
@@ -34,18 +36,18 @@
     }
 
     a {
-      @include redButton();
+      @include blueButton();
       span {
-        @include redButtonSpan();
+        @include blueButtonSpan();
       }
     }
 
     a::after {
-      @include redButtonAfter();
+      @include blueButtonAfter();
     }
 
     a:hover::after {
-      @include redButtonHover();
+      @include blueButtonHover();
     }
   }
 
@@ -55,6 +57,7 @@
       list-style: none;
       padding-left: 5px;
       margin-top: 15px;
+      color: $texts;
     }
     li {
       margin: 10px 0;
