@@ -1,8 +1,20 @@
 .habilities ul {
   grid-template-columns: repeat(2, 1fr);
 }
-.habilities li {
+.habilities ul__item {
   padding: 20px 15px;
+}
+.habilities ul .a {
+  transition-delay: 0.5s;
+}
+.habilities ul .b {
+  transition-delay: 0s;
+}
+.habilities ul .c {
+  transition-delay: 1.5s;
+}
+.habilities ul .d {
+  transition-delay: 1s;
 }
 
 .projects__item-image {

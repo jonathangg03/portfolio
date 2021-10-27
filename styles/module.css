@@ -233,7 +233,7 @@ h4 {
   gap: 40px;
   list-style: none;
 }
-.habilities .habilities__item {
+.habilities__item {
   background-color: white;
   padding: 20px 15px;
   text-align: center;
@@ -247,7 +247,7 @@ h4 {
   box-shadow: 1px 3px 5px 1px #0000000d;
   -moz-box-shadow: 1px 3px 5px 1px #0000000d;
 }
-.habilities .habilities__item div {
+.habilities__item div {
   font-size: 2rem;
   background-color: #1c99fa;
   color: white;

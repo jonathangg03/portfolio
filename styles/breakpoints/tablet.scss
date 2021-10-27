@@ -36,6 +36,8 @@
   &__top {
     height: auto;
     width: 100%;
+    transform: initial;
+    opacity: 1;
     .nav {
       height: 100%;
       width: 100%;
@@ -81,7 +83,8 @@
     grid-template-columns: 80px 1fr;
     grid-template-rows: 1fr;
     background-color: #1c1c1cdb;
-    /* border: 1px solid blue; */
+    transform: initial;
+    opacity: 1;
 
     &-img {
       display: flex;
@@ -218,6 +221,21 @@
   }
   ul {
     grid-template-columns: 1fr;
+    .a {
+      transition-delay: 0s;
+    }
+
+    .b {
+      transition-delay: 0.5s;
+    }
+
+    .c {
+      transition-delay: 1s;
+    }
+
+    .d {
+      transition-delay: 1.5s;
+    }
   }
 }
 

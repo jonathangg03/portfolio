@@ -34,6 +34,8 @@
 .header__top {
   height: auto;
   width: 100%;
+  transform: initial;
+  opacity: 1;
 }
 .header__top .nav {
   height: 100%;
@@ -78,7 +80,8 @@
   grid-template-columns: 80px 1fr;
   grid-template-rows: 1fr;
   background-color: #1c1c1cdb;
-  /* border: 1px solid blue; */
+  transform: initial;
+  opacity: 1;
 }
 .header__hero-img {
   display: flex;
@@ -208,6 +211,18 @@
 }
 .habilities ul {
   grid-template-columns: 1fr;
+}
+.habilities ul .a {
+  transition-delay: 0s;
+}
+.habilities ul .b {
+  transition-delay: 0.5s;
+}
+.habilities ul .c {
+  transition-delay: 1s;
+}
+.habilities ul .d {
+  transition-delay: 1.5s;
 }
 
 /*_______________Proyects________________*/
