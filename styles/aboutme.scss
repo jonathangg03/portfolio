@@ -36,20 +36,24 @@
       margin: 10px 0;
       font-size: 1.5rem;
       line-height: 2.1rem;
+      a {
+        color: $main;
+        text-decoration: none;
+      }
     }
 
-    a {
+    .nav__list-item-link {
       @include blueButton();
       span {
         @include blueButtonSpan();
       }
     }
 
-    a::after {
+    .nav__list-item-link::after {
       @include blueButtonAfter();
     }
 
-    a:hover::after {
+    .nav__list-item-link:hover::after {
       @include blueButtonHover();
     }
   }
@@ -68,6 +72,7 @@
     li {
       margin: 10px 0;
       font-size: 1.5rem;
+      line-height: 2.1rem;
     }
   }
 }

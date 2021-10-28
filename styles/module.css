@@ -30,13 +30,13 @@ h4 {
   padding: 25px;
   /* background-color: #1c1c1cdb; */
   background-color: rgba(0, 0, 0, 0.849);
-  position: relative;
   color: white;
 }
 .header__top {
   height: 60px;
   display: flex;
   justify-content: space-between;
+  top: 1px;
   align-items: center;
   transform: translateX(-300px);
   transition: 1s ease-in-out all;
@@ -166,7 +166,11 @@ h4 {
   font-size: 1.5rem;
   line-height: 2.1rem;
 }
-.aboutme__personal a {
+.aboutme__personal li a {
+  color: #1c99fa;
+  text-decoration: none;
+}
+.aboutme__personal .nav__list-item-link {
   position: relative;
   overflow: hidden;
   color: white;
@@ -180,11 +184,11 @@ h4 {
   text-decoration: none;
   transition: 0.25s;
 }
-.aboutme__personal a span {
+.aboutme__personal .nav__list-item-link span {
   position: inherit;
   z-index: 2;
 }
-.aboutme__personal a::after {
+.aboutme__personal .nav__list-item-link::after {
   position: absolute;
   left: 0;
   top: -100%;
@@ -195,7 +199,7 @@ h4 {
   z-index: 1;
   transition: 0.4s ease all;
 }
-.aboutme__personal a:hover::after {
+.aboutme__personal .nav__list-item-link:hover::after {
   top: 0;
 }
 .aboutme__objectives {
@@ -213,6 +217,7 @@ h4 {
 .aboutme__objectives li {
   margin: 10px 0;
   font-size: 1.5rem;
+  line-height: 2.1rem;
 }
 
 .habilities {
