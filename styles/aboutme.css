@@ -37,7 +37,7 @@
   position: relative;
   overflow: hidden;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   background-color: #1c99fa;
   margin-right: 5px;
   font-size: 1.5rem;
@@ -46,6 +46,9 @@
   display: inline-block;
   text-decoration: none;
   transition: 0.25s;
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
 .aboutme__personal .nav__list-item-link span {
   position: inherit;

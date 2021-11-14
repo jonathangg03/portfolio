@@ -134,13 +134,9 @@
   justify-content: center;
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  right: 20px;
+  background-color: #1c99fa;
   justify-content: flex-end;
-}
-.header__closer div {
-  background-color: #1c99faa6;
-  margin-right: 20px;
-  color: white;
   width: 70px;
   height: 70px;
   display: flex;
@@ -148,6 +144,10 @@
   justify-content: center;
   border-radius: 100px;
   font-size: 3rem;
+}
+.header__closer div {
+  margin-right: 20px;
+  color: white;
   -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
   box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
@@ -185,9 +185,12 @@
   margin: 15px 0;
 }
 .aboutme__description ul li a {
-  display: block;
   width: 180px;
   text-align: center;
+}
+.aboutme__description ul li:last-child {
+  display: flex;
+  justify-content: center;
 }
 
 /*_______________Habilities________________*/
@@ -218,13 +221,15 @@
 
 /*_______________Proyects________________*/
 .projects {
-  padding: 40px 20px 0;
+  padding: 50px 20px 0;
 }
 .projects__container {
+  padding-top: 20px;
   padding-bottom: 0;
 }
 .projects__item {
   padding: 0;
+  margin-bottom: 30px;
 }
 .projects__item-description {
   width: 100%;

@@ -22,7 +22,7 @@ $texts: #767676;
   position: relative;
   overflow: hidden;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   background-color: $main;
   margin-right: 5px;
   font-size: 1.5rem;
@@ -31,6 +31,7 @@ $texts: #767676;
   display: inline-block;
   text-decoration: none;
   transition: 0.25s;
+  @include darkShadow();
 }
 
 @mixin blueButtonSpan() {
