@@ -2,7 +2,6 @@ const $hero = document.querySelector('.header__hero')
 const $headerElement = document.querySelector('.header')
 const $headerTop = document.querySelector('.header__top')
 const $aboutMeDescription = document.querySelector('.aboutme__description')
-const $aboutMeObjectives = document.querySelector('.aboutme__objectives')
 const $habiitiesContainer = document.querySelector('.habilities__container')
 const $habiitiesItems = document.querySelectorAll('.habilities__item')
 const $projectsItems = document.querySelectorAll('.projects__item')
@@ -16,10 +15,7 @@ const intersections = () => {
           $headerTop.classList.add('moveHeaderTop')
         }
 
-        if (
-          enter.target.className === 'aboutme__description' ||
-          enter.target.className === 'aboutme__objectives'
-        ) {
+        if (enter.target.className === 'aboutme__description') {
           enter.target.classList.add('moveAboutme')
         }
 
@@ -44,7 +40,6 @@ const intersections = () => {
 
   observer.observe($headerElement)
   observer.observe($aboutMeDescription)
-  observer.observe($aboutMeObjectives)
   observer.observe($habiitiesContainer)
   $projectsItems.forEach((item) => {
     observer.observe(item)

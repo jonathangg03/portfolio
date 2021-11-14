@@ -5,13 +5,11 @@ const $headerImage = document.querySelector('.header__image--bg')
 const $navList = document.querySelector('.nav__list')
 
 $headerActivator.addEventListener('click', (e) => {
-  console.log(e)
   $header.classList.add('activate__header')
   $headerActivator.classList.remove('header__activators')
 })
 
 $headerCloser.addEventListener('click', (e) => {
-  console.log(e)
   $header.classList.remove('activate__header')
   $headerActivator.classList.add('header__activators')
 })

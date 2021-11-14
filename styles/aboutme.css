@@ -1,23 +1,17 @@
 .aboutme {
-  padding: 70px 50px 10px;
+  padding: 40px 50px;
   font-family: "Open Sans", sans-serif;
-  display: flex;
 }
 .aboutme h2 {
-  border-left: 3px solid #1c99fa;
-  height: 35px;
-  display: flex;
-  align-items: center;
+  text-align: center;
   font-size: 2.6rem;
-  padding-left: 10px;
   letter-spacing: 1px;
   color: #34343480;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
 }
 .aboutme__description {
-  padding-right: 50px;
   line-height: 1.7rem;
-  width: 50%;
   color: #767676;
   opacity: 0;
   transform: translateX(-300px);

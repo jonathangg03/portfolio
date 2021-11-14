@@ -174,7 +174,7 @@
 }
 .aboutme__description {
   width: 100%;
-  padding: 20px 15px 0;
+  padding: 30px 15px 0;
 }
 .aboutme__description ul {
   padding: 0;
@@ -184,22 +184,10 @@
   line-height: 2.3rem;
   margin: 15px 0;
 }
-.aboutme__description ul a {
+.aboutme__description ul li a {
   display: block;
   width: 180px;
   text-align: center;
-}
-.aboutme__objectives {
-  width: 100%;
-  padding: 30px 15px 0;
-  margin: 0;
-}
-.aboutme__objectives ul {
-  padding: 0;
-}
-.aboutme__objectives ul li {
-  font-size: 1.3rem;
-  line-height: 2.3rem;
 }
 
 /*_______________Habilities________________*/
@@ -223,6 +211,9 @@
 }
 .habilities ul .d {
   transition-delay: 1.5s;
+}
+.habilities ul .e {
+  transition-delay: 2s;
 }
 
 /*_______________Proyects________________*/
