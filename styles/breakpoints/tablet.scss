@@ -27,6 +27,7 @@
   width: 100%;
   top: -100vh;
   height: 100vh;
+  max-height: none;
   display: grid;
   z-index: 10;
   grid-template-rows: 170px 1fr 0;
