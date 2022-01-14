@@ -3,11 +3,9 @@
 .header {
   height: 100vh;
   padding: 25px;
-  /* background-color: #1c1c1cdb; */
-  background-color: rgba(0, 0, 0, 0.849);
-  // position: relative;
+  background-color: rgb(0 0 0 / 11%);
   color: white;
-  max-height: 620px;
+  max-height: 450px;
   &__top {
     height: 60px;
     display: flex;
@@ -54,7 +52,8 @@
         }
         a:hover {
           font-size: 2.1rem;
-          color: $main;
+          // color: $main;
+          text-shadow: -3px 2px 12px white;
         }
       }
     }
@@ -69,7 +68,8 @@
     z-index: -1;
     opacity: 0;
     height: 100vh;
-    max-height: 620px;
+    max-height: 450px;
+    object-fit: cover;
   }
 
   &__hero {
@@ -88,6 +88,7 @@
       margin-bottom: 15px;
       margin-top: -55px;
       object-fit: cover;
+      border: 4px solid white;
     }
 
     h1 {

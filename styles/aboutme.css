@@ -1,6 +1,8 @@
 .aboutme {
-  padding: 40px 50px;
+  padding: 65px 50px 40px;
   font-family: "Open Sans", sans-serif;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 .aboutme h2 {
   text-align: center;

@@ -1,5 +1,7 @@
 .projects {
   padding: 40px 50px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 .projects h2 {
   text-align: center;
