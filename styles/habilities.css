@@ -1,5 +1,5 @@
 .habilities {
-  padding: 40px 50px;
+  padding: 90px 50px 0;
   max-width: 1500px;
   margin: 0 auto;
 }
@@ -11,7 +11,7 @@
 }
 .habilities ul {
   display: grid;
-  margin-top: 30px;
+  margin-top: 45px;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   list-style: none;
@@ -32,7 +32,7 @@
 }
 .habilities__item div {
   font-size: 2rem;
-  background-color: #1c99fa;
+  background-color: #ffaf52;
   color: white;
   border-radius: 50%;
   width: 68px;
@@ -57,7 +57,7 @@
 .habilities .habilities__item::before {
   content: "";
   height: 3px;
-  background-color: #1c99fa;
+  background-color: #ffaf52;
   width: 20px;
   position: absolute;
   top: 0;

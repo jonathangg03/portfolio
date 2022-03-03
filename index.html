@@ -8,7 +8,7 @@
       href="/your-path-to-fontawesome/css/fontawesome.css"
       rel="stylesheet"
     />
-    <link rel="icon" href="./assets/icon.png" type="image/png" />
+    <link rel="icon" href="./assets/icon-orange.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,7 +37,7 @@
       href="./styles/breakpoints/tablet.css"
       rel="stylesheet"
       type="text/css"
-      media="screen and (max-width: 768px)"
+      media="screen and (max-width: 850px)"
     />
     <link
       href="./styles/breakpoints/sm-tablet.css"
@@ -60,14 +60,16 @@
   <body>
     <div class="container" id="main">
       <div class="responsive-title">
-        <img src="./assets/icon.png" alt="" />
+        <img src="./assets/icon-orange.png" alt="" />
         <a href="/">DAVDEV</a>
       </div>
       <header class="header">
         <div class="header__top">
           <div class="header__top-title">
             <a href="/"
-              ><img src="./assets/icon.png" alt="" /><span>DAVDEV</span></a
+              ><img src="./assets/icon-orange.png" alt="" /><span
+                >DAVDEV</span
+              ></a
             >
           </div>
           <nav id="nav" class="nav">
@@ -89,19 +91,27 @@
               <li class="nav__list-item">
                 <a class="nav__list-item-link" href="#contact">Contacto</a>
               </li>
+              <li class="nav__list-item">
+                <a
+                  class="nav__list-item-link"
+                  href="./assets/curriculum.pdf"
+                  target="_blank"
+                  ><span>Curriculum</span></a
+                >
+              </li>
             </ul>
           </nav>
         </div>
         <div class="header__hero">
           <div class="header__hero-img">
-            <img src="./assets/me.jpg" />
+            <img src="./assets/profile.jpg" />
           </div>
           <div class="header__hero-description">
             <h1>Jonathan David García González</h1>
-            <p>Desarrollador web frontend</p>
+            <p>Desarrollador web.</p>
           </div>
         </div>
-        <img src="./assets/hero.jpg" class="header__image--bg" alt="" />
+        <img src="./assets/hero-test2.jpg" class="header__image--bg" alt="" />
         <div class="header__closer">
           <i class="fas fa-chevron-up"></i>
         </div>
@@ -112,85 +122,71 @@
           <article class="aboutme__personal">
             <ul>
               <li>
-                Mi nombre es Jonathan García González. Soy desarrollador web
-                frontend junior, y estudiante de Ingeniería en sistemas.
+                Mi nombre es Jonathan David García González. Soy desarrollador
+                web y backend, especializado en la creación de aplicaciones con
+                React.js y de APIs REST con Node.js. Además, soy estudiante de
+                Inglés y de Ingeniería de sistemas.
               </li>
               <li>
-                Me especializo en la creación de interfaces, principalmente con
-                React.js, pero también tengo conocimientos en backend,
-                despliegue de aplicaciones y un poco de bases de datos no
-                relacionales, como MongoDB.
+                Me apasiona todo lo relacionado con la tecnología, la
+                programación, crear y el aprendizaje de cosas nuevas. Por eso
+                decidí estudiar esta carrera, ya que tengo grandes proyectos en
+                mente que deseo desarrollar a lo largo de mi vida.
               </li>
               <li>
-                Mi objetivo principal al ingresar a la programación es llegar a
-                crear una aplicación que tenga un gran impacto en la sociedad, y
-                que sea de gran ayuda para esta.
+                Más allá de la programación, me encanta hacer actividad física,
+                viajar, los videojuegos y la música.
               </li>
               <li>
-                Tengo muchas ganas de contribuir con todo lo aprendido durante
-                este tiempo, mientras sigo en crecimiento constante.
-              </li>
-              <li>
-                Espero también, en algún momento, poder enseñar a futuros
-                desarrolladores, para que no pasen por los problemas de
-                entendimiento que yo y muchos pasamos.
-              </li>
-              <li>
-                Abajo dejo mi curriculum, para que puedas conocerme mejor a
-                nivel profesional, así como una sección de contacto más
-                adelante.
-              </li>
-              <li>
-                <a
-                  class="nav__list-item-link"
-                  href="./assets/curriculum.pdf"
-                  target="_blank"
-                  ><span>Ver Curriculum</span></a
-                >
+                Al final de esta página dejo un formulario de contacto, siéntete
+                libre de usarlo en caso de que desees que forme parte de tu
+                equipo, o para lo que necesites; así como de visitar mis redes
+                sociales.
               </li>
             </ul>
           </article>
         </div>
       </section>
       <section class="habilities" id="habilities">
-        <h2 class="habilities__title">HABILIDADES TÉCNICAS</h2>
+        <h2 class="habilities__title">HABILIDADES</h2>
         <ul class="habilities__container">
           <li class="habilities__item a">
             <div><i class="fas fa-laptop-code"></i></div>
             <h3>Crear landing pages</h3>
-            <p>
-              Creación de landing pages con HTML, CSS/SASS y JavaScript, así
-              como estilizarlas con librerías de CSS como Bootstrap o NextUI.
-            </p>
+            <p>Creación de landing pages con HTML, CSS/SASS y JavaScript.</p>
           </li>
           <li class="habilities__item b">
             <div><i class="fab fa-react icon-big"></i></div>
             <h3>SPA con React.js</h3>
             <p>
-              Desarrollo de Single Page Applications tanto con React.js como con
-              Next.js.
+              Desarrollo de Single Page Applications y PWA tanto con React.js
+              como con Next.js.
             </p>
           </li>
           <li class="habilities__item c">
             <div><i class="fab fa-node-js icon-big"></i></div>
             <h3>REST API con Node.js</h3>
-            <p>
-              Programación de distintas APIs con Node.js y Express.js.
-              Almacenando los datos en MongoDB.
-            </p>
+            <p>Programación de APIs REST con Node.js y Express.js.</p>
           </li>
           <li class="habilities__item d">
+            <div><i class="fas fa-solid fa-check icon-big"></i></div>
+            <h3>Pruebas unitarias</h3>
+            <p>Pruebas unitarias con Jest.</p>
+          </li>
+          <li class="habilities__item a">
             <div><i class="fas fa-terminal"></i></div>
             <h3>Despliegue de aplicaciones</h3>
             <p>
-              Desplegar APIs en Heroku, así como las aplicaciones de React.js en
-              Vercel, Firebase, y también en Heroku.
+              Desplegar aplicaciones en plataformas como Heroku, Vercel, o
+              Github Pages.
             </p>
           </li>
-          <li class="habilities__item a e">
+          <li class="habilities__item b e">
             <div><i class="fab fa-git-alt icon-big"></i></div>
             <h3>Control de versiones</h3>
-            <p>Control de versiones con Git y Github</p>
+            <p>
+              Control de versiones con Git y manejo de repositorios con Github.
+            </p>
           </li>
         </ul>
       </section>
@@ -202,11 +198,8 @@
               <h3>Chat</h3>
               <h4>Aplicación de chat en tiempo real.</h4>
               <p>
-                Un chat básico, donde podremos enviar y recibir mensajes en
-                tiempo real gracias a los Web Sockets. Para probarlo debemos
-                crear un usuario o ingresamos con alguno ya creado, y escogemos
-                la persona de los restantes usuarios con la que queremos
-                chatear.
+                Un chat, donde podremos enviar y recibir mensajes en tiempo real
+                gracias a los WebSockets.
               </p>
               <div class="projects__item-description-buttons">
                 <a href="https://megabyte-chat.vercel.app/" target="_blank"
@@ -235,9 +228,8 @@
               <h3>Galería</h3>
               <h4>Galería de imágenes.</h4>
               <p>
-                Una aplicación de galería donde podremos subir imágenes con una
-                descripción, verlas en pantalla completa y eliminarlas. Estas se
-                almacenan en Cloudinary, y para los estilos usamos NextUI.
+                Una aplicación de galería donde podremos subir las imágenes que
+                queramos. Estilizada con la librería NextUI.
               </p>
               <div class="projects__item-description-buttons">
                 <a
@@ -295,11 +287,9 @@
               <h3>Miriio</h3>
               <h4>Red social</h4>
               <p>
-                Miriio es una pequeña red social donde los usuarios pueden hacer
-                sus publicaciones, seguir usuarios para ver las de ellos,
-                indicar si les gustan, entre otras cosas. Cuenta con una ventana
-                de ingreso y registro, y puedes personalizar tu perfil. Además,
-                es una PWA.
+                Miriio es una red social para publicar texto e imágenes. Se
+                puede seguir usuarios y dar like a sus publicaciones. Es además
+                una PWA.
               </p>
               <div class="projects__item-description-buttons">
                 <a href="https://miriio.vercel.app" target="_blank"

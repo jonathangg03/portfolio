@@ -28,13 +28,37 @@
   left: 10px;
 }
 
+.habilities {
+  padding: 40px 20px 0;
+}
+.habilities h2 {
+  font-size: 2.2rem;
+}
+.habilities ul {
+  grid-template-columns: repeat(1, 1fr);
+}
+.habilities ul .a {
+  transition-delay: 0s;
+}
+.habilities ul .b {
+  transition-delay: 0.5s;
+}
+.habilities ul .c {
+  transition-delay: 1s;
+}
+.habilities ul .d {
+  transition-delay: 1.5s;
+}
+.habilities ul .e {
+  transition-delay: 2s;
+}
+
 /*________________________Contact____________________*/
 .contact {
-  padding: 40px 30px 10px;
+  padding: 40px 30px 40px;
 }
 .contact button {
   width: 200px;
-  height: 45px;
   margin: 0 auto;
   display: block;
 }

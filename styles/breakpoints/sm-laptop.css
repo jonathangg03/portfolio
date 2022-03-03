@@ -1,5 +1,5 @@
 .habilities ul {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .habilities ul__item {
   padding: 20px 15px;
@@ -29,10 +29,6 @@
 .projects__item-description p {
   font-size: 1.3rem;
   line-height: 2rem;
-}
-.projects__item-description-buttons a {
-  padding: 15px;
-  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=sm-laptop.css.map */

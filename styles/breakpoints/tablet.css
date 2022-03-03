@@ -110,7 +110,7 @@
   font-size: 1.3rem;
 }
 .header__activators {
-  background-color: #1c99faa6;
+  background-color: #ffaf52a6;
   width: 70px;
   height: 70px;
   position: fixed;
@@ -136,7 +136,7 @@
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: #1c99fa;
+  background-color: #ffaf52;
   justify-content: flex-end;
   width: 70px;
   height: 70px;
@@ -203,7 +203,7 @@
   font-size: 2.2rem;
 }
 .habilities ul {
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 .habilities ul .a {
   transition-delay: 0s;
@@ -249,6 +249,7 @@
 .projects__item-description p {
   font-size: 1.5rem;
   line-height: 2.5rem;
+  text-align: center;
 }
 .projects__item-description a {
   font-size: 1.5rem;

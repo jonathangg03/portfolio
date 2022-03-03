@@ -1,0 +1,78 @@
+.header__hero {
+  padding-left: 15px;
+  &-description {
+    padding-left: 15px;
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+    }
+  }
+}
+
+.header__top {
+  .nav__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+.description-initial {
+  h3 {
+    font-size: 2rem;
+  }
+  a {
+    padding: 9px 12px;
+    font-size: 1rem;
+  }
+
+  i {
+    left: 10px;
+  }
+}
+
+.habilities {
+  padding: 40px 20px 0;
+  h2 {
+    font-size: 2.2rem;
+  }
+  ul {
+    grid-template-columns: repeat(1, 1fr);
+    .a {
+      transition-delay: 0s;
+    }
+
+    .b {
+      transition-delay: 0.5s;
+    }
+
+    .c {
+      transition-delay: 1s;
+    }
+
+    .d {
+      transition-delay: 1.5s;
+    }
+
+    .e {
+      transition-delay: 2s;
+    }
+  }
+}
+
+/*________________________Contact____________________*/
+
+.contact {
+  padding: 40px 30px 40px;
+  button {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  ul {
+    margin: 30px auto 0;
+  }
+}
