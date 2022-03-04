@@ -31,7 +31,7 @@
   font-size: 2.2rem;
 }
 .habilities ul {
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
 }
 .habilities ul .a {
   transition-delay: 0s;
@@ -47,6 +47,9 @@
 }
 .habilities ul .e {
   transition-delay: 2s;
+}
+.habilities ul .f {
+  transition-delay: 2.5s;
 }
 
 /*________________________Contact____________________*/

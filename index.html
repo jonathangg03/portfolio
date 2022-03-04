@@ -59,10 +59,6 @@
   </head>
   <body>
     <div class="container" id="main">
-      <!-- <div class="responsive-title">
-        <img src="./assets/icon-orange.png" alt="" />
-        <a href="/">DAVDEV</a>
-      </div> -->
       <header class="header">
         <div class="header__top">
           <div class="header__top-title">
@@ -72,7 +68,7 @@
               ></a
             >
           </div>
-          <nav id="nav" class="nav">
+          <nav class="nav">
             <ul class="nav__list">
               <li class="nav__list-item">
                 <a class="nav__list-item-link" href="#main">Inicio</a>
@@ -116,6 +112,7 @@
           <i class="fas fa-chevron-up"></i>
         </div>
       </header>
+
       <section class="aboutme" id="aboutme">
         <div class="aboutme__description">
           <h2>SOBRE MÍ</h2>
@@ -173,7 +170,7 @@
             <h3>Pruebas unitarias</h3>
             <p>Pruebas unitarias con Jest.</p>
           </li>
-          <li class="habilities__item a">
+          <li class="habilities__item a e">
             <div><i class="fas fa-terminal"></i></div>
             <h3>Despliegue de aplicaciones</h3>
             <p>
@@ -181,7 +178,7 @@
               Github Pages.
             </p>
           </li>
-          <li class="habilities__item b e">
+          <li class="habilities__item b f">
             <div><i class="fab fa-git-alt icon-big"></i></div>
             <h3>Control de versiones</h3>
             <p>
@@ -250,9 +247,8 @@
               <h3>Autenticación</h3>
               <h4>Diferentes métodos de autenticación.</h4>
               <p>
-                Una aplicación en la cual probamos estrategias de autenticación
-                de Google, Facebook, Twitter y la estrategia básica. Al ingresar
-                veremos nuestra información.
+                Una aplicación para pobar estrategias de autenticación de
+                Google, Facebook, Twitter y la estrategia básica.
               </p>
               <div class="projects__item-description-buttons">
                 <a
@@ -360,6 +356,49 @@
       </section>
       <div class="header__activators header__activator" id="header__activator">
         <i class="fas fa-bars"></i>
+      </div>
+      <nav id="nav" class="nav-responsive">
+        <ul class="nav-responsive__list">
+          <li class="nav-responsive__list-item">
+            <a class="nav-responsive__list-item-link" href="#main">Inicio</a>
+          </li>
+          <li class="nav-responsive__list-item">
+            <a class="nav-responsive__list-item-link" href="#aboutme"
+              >Sobre mí</a
+            >
+          </li>
+          <li class="nav-responsive__list-item">
+            <a class="nav-responsive__list-item-link" href="#habilities"
+              >Habilidades</a
+            >
+          </li>
+          <li class="nav-responsive__list-item">
+            <a class="nav-responsive__list-item-link" href="#projects"
+              >Proyectos</a
+            >
+          </li>
+          <li class="nav-responsive__list-item">
+            <a class="nav-responsive__list-item-link" href="#contact"
+              >Contacto</a
+            >
+          </li>
+          <li class="nav-responsive__list-item">
+            <a
+              class="nav-responsive__list-item-link"
+              href="./assets/curriculum.pdf"
+              target="_blank"
+              ><span>Curriculum</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="sendedMessage">
+        <div class="sendedMessage__content">
+          <div class="sendedMessage__content-icon">
+            <i class="fas fa-solid fa-check"></i>
+          </div>
+          <span>Mensaje enviado correctamente!</span>
+        </div>
       </div>
     </div>
     <script src="./intersections.js"></script>

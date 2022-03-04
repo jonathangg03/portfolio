@@ -1,4 +1,5 @@
 const $form = document.querySelector('#form')
+const $message = document.querySelector('.sendedMessage')
 $form.addEventListener('submit', handleSubmit)
 
 async function handleSubmit(event) {
@@ -13,8 +14,9 @@ async function handleSubmit(event) {
   })
   if (response.ok) {
     this.reset()
-    alert(
-      'Mensaje enviado. Gracias por tomarme en cuenta, te estare contactando pronto.'
-    )
+    $message.classList.add('show')
+    setTimeout(() => {
+      $message.classList.remove('show')
+    }, 5000)
   }
 }

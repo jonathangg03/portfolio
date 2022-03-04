@@ -108,6 +108,10 @@
   display: none;
 }
 
+.nav-responsive {
+  display: none;
+}
+
 .opacity-img {
   opacity: 1;
   transition: 0.4s;

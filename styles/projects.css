@@ -57,7 +57,7 @@
   overflow: hidden;
   color: white;
   font-weight: 400;
-  background-color: #ffaf52;
+  background-color: #ffa500;
   margin-right: 5px;
   font-size: 1.5rem;
   padding: 15px 25px;
@@ -74,15 +74,16 @@
   z-index: 2;
 }
 .projects__item-description-buttons a::after {
+  content: "";
   position: absolute;
   left: 0;
-  top: -100%;
-  content: "";
-  background-color: #ffa500;
+  top: -300%;
+  background-color: #ffaf52;
   width: 100%;
-  height: 100%;
+  height: 300%;
   z-index: 1;
-  transition: 0.4s ease all;
+  transition: 0.4s ease-in-out all;
+  border-radius: 0 0 300px 300px;
 }
 .projects__item-description a:hover::after {
   top: 0;

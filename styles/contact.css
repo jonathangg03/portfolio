@@ -45,14 +45,14 @@
 }
 .contact label input:focus,
 .contact label textarea:focus {
-  border-bottom: 1px solid #ffaf52;
+  border-bottom: 1px solid #ffa500;
 }
 .contact button {
   position: relative;
   overflow: hidden;
   color: white;
   font-weight: 400;
-  background-color: #ffaf52;
+  background-color: #ffa500;
   margin-right: 5px;
   font-size: 1.5rem;
   padding: 15px 25px;
@@ -79,15 +79,16 @@
   z-index: 2;
 }
 .contact button::after {
+  content: "";
   position: absolute;
   left: 0;
-  top: -100%;
-  content: "";
-  background-color: #ffa500;
+  top: -300%;
+  background-color: #ffaf52;
   width: 100%;
-  height: 100%;
+  height: 300%;
   z-index: 1;
-  transition: 0.4s ease all;
+  transition: 0.4s ease-in-out all;
+  border-radius: 0 0 300px 300px;
 }
 .contact button:hover::after {
   top: 0;
@@ -95,7 +96,7 @@
 .contact ul {
   list-style: none;
   display: flex;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 220px;
   display: flex;
   justify-content: space-between;
@@ -105,7 +106,7 @@
   width: 32px;
 }
 .contact li i {
-  font-size: 3rem;
+  font-size: 3.5rem;
   transition: 0.4s;
 }
 .contact li a {
@@ -113,7 +114,40 @@
 }
 .contact li:hover i {
   font-size: 3.8rem;
-  color: #ffaf52;
+  color: #ffa500;
+}
+
+.sendedMessage {
+  opacity: 0;
+  top: 0;
+  color: white;
+  top: -100%;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  transition: 1s ease;
+}
+.sendedMessage__content {
+  margin: 0 auto;
+  width: 240px;
+  border-radius: 5px;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+  background-color: #ffa500;
+}
+.sendedMessage__content-icon {
+  font-size: 2.5rem;
+}
+.sendedMessage__content span {
+  text-align: center;
+}
+
+.sendedMessage.show {
+  opacity: 1;
+  top: 20px;
 }
 
 /*# sourceMappingURL=contact.css.map */
