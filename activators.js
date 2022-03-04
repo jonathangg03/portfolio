@@ -1,6 +1,6 @@
 const $headerActivator = document.getElementById('header__activator')
 const $headerCloser = document.querySelector('.header__closer')
-const $header = document.querySelector('header')
+const $header = document.getElementById('nav')
 const $headerImage = document.querySelector('.header__image--bg')
 const $navList = document.querySelector('.nav__list')
 

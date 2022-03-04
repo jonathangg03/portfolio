@@ -1,113 +1,44 @@
-.responsive-title {
-  display: flex;
-  background-color: #000000e0;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.responsive-title img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-.responsive-title a {
-  color: white;
-  font-size: 2.5rem;
-  font-family: "Raleway", sans-serif;
-  text-decoration: none;
-  letter-spacing: 0.7rem;
-}
-
 .header {
-  transition: 0.5s;
-  position: fixed;
-  width: 100%;
-  top: -100vh;
-  height: 100vh;
-  max-height: none;
-  display: grid;
-  z-index: 10;
-  grid-template-rows: 170px 1fr 0;
   padding: 0;
-  background-color: #f7f7f7;
+  max-height: 500px;
 }
 .header__top {
-  height: auto;
-  width: 100%;
-  transform: initial;
-  opacity: 1;
+  /*
+  !EL INTERSECTION OBERVER SIGUE AFECTANDO AL NAV, POR LO QUE NO SE MUESTRA SI AL
+  !INICIO ESTAMOS EN OTRA SECCION
+  */
 }
 .header__top .nav {
-  height: 100%;
+  transition: 0.5s;
+  background-color: red;
+  position: fixed;
+  left: 0;
+  top: -280px;
   width: 100%;
+  height: 280px;
+  display: flex;
 }
 .header__top .nav__list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100%;
-  padding: 20px;
+  width: 100%;
+  border: 1px solid green;
 }
 .header__top .nav__list-item {
-  font-size: 1.6rem;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-color: #1c1c1c;
-  border-radius: 20px;
-}
-.header__top .nav__list-item a {
-  color: white;
-  display: block;
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 1.8rem;
+  height: 16.67%;
 }
 .header__top-title {
-  display: none;
-}
-.header__hero {
-  padding-left: 30px;
-  height: auto;
-  grid-row: 1/span 1;
-  height: auto;
-  display: grid;
-  grid-template-columns: 80px 1fr;
-  grid-template-rows: 1fr;
-  background-color: rgba(0, 0, 0, 0.11);
-  transform: initial;
-  opacity: 1;
-}
-.header__hero-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-.header__hero-img img {
-  width: 85px;
-  height: 90px;
-  margin: 0;
-}
-.header__hero-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  padding-left: 25px;
+  margin: 0 auto;
 }
 .header__hero-description h1 {
-  font-size: 2.3rem;
+  font-size: 3rem;
 }
 .header__hero-description p {
-  text-align: left;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 .header__activators {
   background-color: #ffaf52a6;
@@ -127,42 +58,14 @@
   box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
 }
-.header .nav__list a a:hover {
-  color: white;
-}
-.header__closer {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: #ffaf52;
-  justify-content: flex-end;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100px;
-  font-size: 3rem;
-}
-.header__closer div {
-  margin-right: 20px;
-  color: white;
-  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.28);
-}
-
-.activate__header {
+.header .activate__header {
   top: 0;
 }
 
 .header__image--bg {
   /* display: none; */
-  position: absolute;
-  object-fit: cover;
-  height: 170px;
+  max-height: 500px;
+  min-height: 360px;
 }
 
 /*_______________About me________________*/

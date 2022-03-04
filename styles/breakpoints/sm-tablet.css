@@ -1,14 +1,10 @@
-.header__hero {
-  padding-left: 15px;
-}
-.header__hero-description {
-  padding-left: 15px;
-}
 .header__hero-description h1 {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
+  text-align: center;
 }
 .header__hero-description p {
-  font-size: 1.1rem;
+  padding-top: 10px;
+  font-size: 1.7rem;
   line-height: 1.6rem;
 }
 

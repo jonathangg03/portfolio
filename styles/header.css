@@ -1,7 +1,7 @@
 .header {
   height: 100vh;
   padding: 25px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
   max-height: 636px;
   min-height: 360px;
@@ -18,7 +18,7 @@
   transform: translateX(-300px);
   transition: 1s ease-in-out all;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.75);
   z-index: 2;
   padding: 35px 25px;
 }
