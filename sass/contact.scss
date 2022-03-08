@@ -45,6 +45,28 @@
       height: 100px;
       resize: none;
       font-family: $fontMain;
+      overflow: auto;
+    }
+
+    textarea::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    textarea::-webkit-scrollbar-track {
+      background: #404040;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    textarea::-webkit-scrollbar-thumb {
+      background: #c5c5c5;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    textarea::-webkit-scrollbar-thumb:hover {
+      background: $main;
     }
 
     input:focus,
