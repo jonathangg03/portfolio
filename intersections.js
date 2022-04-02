@@ -11,6 +11,7 @@ const intersections = () => {
     enters.forEach((enter) => {
       if (enter.isIntersecting) {
         if (enter.target.className === 'header') {
+          $headerTop.classList.remove('change_ht')
           $hero.classList.add('moveHero')
           $headerTop.classList.add('moveHeaderTop')
         }
@@ -27,6 +28,11 @@ const intersections = () => {
 
         if (enter.target.className === 'projects__item') {
           enter.target.classList.add('moveProject')
+        }
+      }
+      if (!enter.isIntersecting) {
+        if (enter.target.className === 'header') {
+          $headerTop.classList.add('change_ht')
         }
       }
     })

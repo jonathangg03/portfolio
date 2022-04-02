@@ -61,18 +61,18 @@
   border-radius: 10px;
 }
 .contact label textarea::-webkit-scrollbar-thumb:hover {
-  background: #ffa500;
+  background: #26c6da;
 }
 .contact label input:focus,
 .contact label textarea:focus {
-  border-bottom: 1px solid #ffa500;
+  border-bottom: 1px solid #26c6da;
 }
 .contact button {
   position: relative;
   overflow: hidden;
   color: white;
   font-weight: 400;
-  background-color: #ffa500;
+  background-color: #26c6da;
   margin-right: 5px;
   font-size: 1.5rem;
   padding: 15px 25px;
@@ -134,7 +134,7 @@
 }
 .contact li:hover i {
   font-size: 3.8rem;
-  color: #ffa500;
+  color: #26c6da;
 }
 
 .sendedMessage {
@@ -156,7 +156,7 @@
   align-items: center;
   padding: 10px 20px;
   display: flex;
-  background-color: #ffa500;
+  background-color: #26c6da;
 }
 .sendedMessage__content-icon {
   font-size: 2.5rem;
