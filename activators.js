@@ -6,7 +6,7 @@ const $navList = document.querySelector('.nav-responsive__list')
 
 $headerActivator.addEventListener('click', (e) => {
   $header.classList.toggle('activate__nav')
-  // $headerActivator.classList.remove('header__activators')
+  $headerActivator.classList.toggle('active__activator')
 })
 
 $headerCloser.addEventListener('click', (e) => {

@@ -77,10 +77,10 @@
   content: "";
   position: absolute;
   left: 0;
-  top: -300%;
+  top: -370%;
   background-color: #ffaf52;
   width: 100%;
-  height: 300%;
+  height: 370%;
   z-index: 1;
   transition: 0.4s ease-in-out all;
   border-radius: 0 0 300px 300px;
@@ -96,6 +96,20 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.projects__cta {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #767676;
+}
+.projects__cta a {
+  color: #26c6da;
+  transition: 0.3s;
+}
+.projects__cta a:hover {
+  color: #ffaf52;
 }
 
 /*# sourceMappingURL=projects.css.map */

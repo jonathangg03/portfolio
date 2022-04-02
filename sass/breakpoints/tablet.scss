@@ -38,7 +38,7 @@
     }
   }
 
-  &__activators {
+  &__activator {
     background-color: #26c6daa6;
     width: 70px;
     height: 70px;
@@ -52,7 +52,12 @@
     justify-content: center;
     border-radius: 100%;
     opacity: 1;
+    cursor: pointer;
     @include darkShadow();
+  }
+
+  .active__activator {
+    background-color: #ffaf52cc;
   }
 }
 
@@ -229,4 +234,8 @@
     display: block;
     margin: 0 auto;
   }
+}
+
+.active__activator {
+  background-color: #ffaf52a6;
 }

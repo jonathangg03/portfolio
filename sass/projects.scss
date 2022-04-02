@@ -77,4 +77,19 @@
       }
     }
   }
+
+  &__cta {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: $texts;
+    a {
+      color: $main;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: $selections;
+    }
+  }
 }
