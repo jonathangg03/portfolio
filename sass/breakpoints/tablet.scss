@@ -59,6 +59,10 @@
   .active__activator {
     background-color: #ffaf52cc;
   }
+
+  .change_ht {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
 }
 
 .nav-responsive {
@@ -216,7 +220,6 @@
 
 /*_______________Contact________________*/
 .contact {
-  margin-top: 40px;
   padding: 40px 30px;
 
   h2 {

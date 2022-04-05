@@ -54,6 +54,9 @@
 .header .active__activator {
   background-color: #ffaf52cc;
 }
+.header .change_ht {
+  background-color: rgba(0, 0, 0, 0.75);
+}
 
 .nav-responsive {
   transition: 0.5s;
@@ -202,7 +205,6 @@
 
 /*_______________Contact________________*/
 .contact {
-  margin-top: 40px;
   padding: 40px 30px;
 }
 .contact h2 {
