@@ -139,7 +139,6 @@
 
 .sendedMessage {
   opacity: 0;
-  top: 0;
   color: white;
   top: -100%;
   width: 100%;
@@ -167,7 +166,7 @@
 
 .sendedMessage.show {
   opacity: 1;
-  top: 20px;
+  top: 100px;
 }
 
 /*# sourceMappingURL=contact.css.map */

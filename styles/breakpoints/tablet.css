@@ -225,4 +225,9 @@
   background-color: #ffaf52a6;
 }
 
+.sendedMessage.show {
+  opacity: 1;
+  top: 30px;
+}
+
 /*# sourceMappingURL=tablet.css.map */

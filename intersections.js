@@ -32,6 +32,7 @@ const intersections = () => {
       }
       if (!enter.isIntersecting) {
         if (enter.target.className === 'header') {
+          $headerTop.classList.add('moveHeaderTop')
           $headerTop.classList.add('change_ht')
         }
       }
