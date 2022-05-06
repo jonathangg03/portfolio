@@ -433,6 +433,7 @@ h4 {
 }
 .projects__cta a {
   color: #26c6da;
+  text-decoration: none;
   transition: 0.3s;
 }
 .projects__cta a:hover {
@@ -608,6 +609,40 @@ h4 {
 .sendedMessage.show {
   opacity: 1;
   top: 100px;
+}
+
+.videos {
+  padding: 90px 50px 40px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.videos h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  color: #34343480;
+}
+.videos P {
+  color: #767676;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #767676;
+  padding: 10px 0 40px;
+}
+.videos P a {
+  color: #26c6da;
+  text-decoration: none;
+}
+.videos ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.videos iframe {
+  width: 100%;
 }
 
 .moveHeaderTop {

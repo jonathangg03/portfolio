@@ -247,3 +247,11 @@
   opacity: 1;
   top: 30px;
 }
+
+.videos {
+  padding: 50px 50px 40px;
+
+  ul {
+    grid-template-columns: 1fr;
+  }
+}

@@ -110,6 +110,7 @@
 }
 .projects__cta a {
   color: #26c6da;
+  text-decoration: none;
   transition: 0.3s;
 }
 .projects__cta a:hover {

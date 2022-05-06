@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+.videos {
+  padding: 90px 50px 40px;
+  max-width: 1500px;
+  margin: 0 auto;
+  h2 {
+    @include titles();
+  }
+
+  P {
+    color: $texts;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: $texts;
+    padding: 10px 0 40px;
+    a {
+      color: $main;
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    // border: 3px solid black;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}

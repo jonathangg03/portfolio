@@ -230,4 +230,11 @@
   top: 30px;
 }
 
+.videos {
+  padding: 50px 50px 40px;
+}
+.videos ul {
+  grid-template-columns: 1fr;
+}
+
 /*# sourceMappingURL=tablet.css.map */
