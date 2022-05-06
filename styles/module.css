@@ -558,16 +558,16 @@ h4 {
   list-style: none;
   display: flex;
   margin-top: 40px;
-  width: 220px;
+  width: 280px;
   display: flex;
   justify-content: space-between;
 }
 .contact li {
-  margin-right: 15px;
   width: 32px;
+  text-align: center;
 }
 .contact li i {
-  font-size: 3.5rem;
+  font-size: 3rem;
   transition: 0.4s;
 }
 .contact li a {

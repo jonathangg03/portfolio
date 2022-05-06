@@ -5,21 +5,12 @@
   font-size: 1.1rem;
   display: none;
 }
-.contact button {
-  width: 220px;
-}
 .contact label p {
   font-size: 1.2rem;
 }
 .contact label input,
 .contact label textarea {
   font-size: 1rem;
-}
-.contact li i {
-  font-size: 2.4rem;
-}
-.contact li:hover i {
-  font-size: 3.2rem;
 }
 
 /*# sourceMappingURL=mobile-l.css.map */
