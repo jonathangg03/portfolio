@@ -1,3 +1,7 @@
+.header .nav__list-item {
+  font-size: 1.4rem;
+}
+
 .habilities ul {
   grid-template-columns: repeat(3, 1fr);
 }

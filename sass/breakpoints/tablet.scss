@@ -39,13 +39,13 @@
   }
 
   &__activator {
-    background-color: #26c6daa6;
+    background-color: #1c1c1ceb;
     width: 70px;
     height: 70px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    color: white;
+    color: $main;
     font-size: 3rem;
     display: flex;
     align-items: center;
@@ -240,7 +240,7 @@
 }
 
 .active__activator {
-  background-color: #ffaf52a6;
+  color: $selections;
 }
 
 .sendedMessage.show {
