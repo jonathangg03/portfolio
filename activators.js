@@ -21,6 +21,6 @@ window.addEventListener('load', (e) => {
 $navList.addEventListener('click', (e) => {
   if (e.target.tagName === 'A') {
     $header.classList.remove('activate__nav')
-    $headerActivator.classList.add('header__activators')
+    $headerActivator.classList.toggle('active__activator')
   }
 })
