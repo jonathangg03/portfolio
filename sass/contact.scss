@@ -3,7 +3,7 @@
 .contact {
   background-color: #000000e0;
   color: white;
-  padding: 90px 50px 20px;
+  padding: 50px 50px 50px;
   h2 {
     @include titles();
     color: white;
@@ -13,9 +13,12 @@
     margin: 15px 25px 0;
     font-size: 1.5rem;
   }
-  form {
-    max-width: 1200px;
-    margin: 40px auto 0;
+
+  p {
+    font-family: $fontMain;
+    font-size: 1.4rem;
+    font-style: italic;
+    color: gray;
   }
 
   label {
@@ -75,6 +78,13 @@
     }
   }
 
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
   button {
     @include blueButton();
     font-weight: 600;
@@ -103,7 +113,6 @@
   ul {
     list-style: none;
     display: flex;
-    margin-top: 40px;
     width: 280px;
     display: flex;
     justify-content: space-between;
@@ -128,36 +137,4 @@
       color: $selections;
     }
   }
-}
-
-.sendedMessage {
-  opacity: 0;
-  color: white;
-  top: -100%;
-  width: 100%;
-  position: fixed;
-  background-color: transparent;
-  transition: 1s ease;
-  &__content {
-    margin: 0 auto;
-    width: 240px;
-    border-radius: 5px;
-    justify-content: space-between;
-    font-size: 1.7rem;
-    align-items: center;
-    padding: 10px 20px;
-    display: flex;
-    background-color: $main;
-    &-icon {
-      font-size: 2.5rem;
-    }
-    span {
-      text-align: center;
-    }
-  }
-}
-
-.sendedMessage.show {
-  opacity: 1;
-  top: 100px;
 }

@@ -237,6 +237,16 @@
     display: block;
     margin: 0 auto;
   }
+
+  &__social {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  p {
+    margin-top: 20px;
+  }
 }
 
 .active__activator {

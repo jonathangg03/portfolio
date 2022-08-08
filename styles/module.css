@@ -443,7 +443,7 @@ h4 {
 .contact {
   background-color: #000000e0;
   color: white;
-  padding: 90px 50px 20px;
+  padding: 50px 50px 50px;
 }
 .contact h2 {
   text-align: center;
@@ -456,9 +456,11 @@ h4 {
   margin: 15px 25px 0;
   font-size: 1.5rem;
 }
-.contact form {
-  max-width: 1200px;
-  margin: 40px auto 0;
+.contact p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: gray;
 }
 .contact label {
   /* Track */
@@ -509,6 +511,12 @@ h4 {
 .contact label textarea:focus {
   border-bottom: 1px solid #26c6da;
 }
+.contact__social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
 .contact button {
   position: relative;
   overflow: hidden;
@@ -558,7 +566,6 @@ h4 {
 .contact ul {
   list-style: none;
   display: flex;
-  margin-top: 40px;
   width: 280px;
   display: flex;
   justify-content: space-between;
@@ -577,38 +584,6 @@ h4 {
 .contact li:hover i {
   font-size: 3.8rem;
   color: #ffaf52;
-}
-
-.sendedMessage {
-  opacity: 0;
-  color: white;
-  top: -100%;
-  width: 100%;
-  position: fixed;
-  background-color: transparent;
-  transition: 1s ease;
-}
-.sendedMessage__content {
-  margin: 0 auto;
-  width: 240px;
-  border-radius: 5px;
-  justify-content: space-between;
-  font-size: 1.7rem;
-  align-items: center;
-  padding: 10px 20px;
-  display: flex;
-  background-color: #26c6da;
-}
-.sendedMessage__content-icon {
-  font-size: 2.5rem;
-}
-.sendedMessage__content span {
-  text-align: center;
-}
-
-.sendedMessage.show {
-  opacity: 1;
-  top: 100px;
 }
 
 .videos {

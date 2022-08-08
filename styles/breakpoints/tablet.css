@@ -220,6 +220,14 @@
   display: block;
   margin: 0 auto;
 }
+.contact__social {
+  margin-top: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact p {
+  margin-top: 20px;
+}
 
 .active__activator {
   color: #ffaf52;
